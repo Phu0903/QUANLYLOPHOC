@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUDWebAPI.AddStudent">
+    
+<ContentPage.Content>
+       
+           
+                
+                 
+            <StackLayout Padding="1">
+            <Label Text="Name" TextColor="Black" FontSize="Small"/>
+            <Entry Text="{Binding Name}" HorizontalOptions="FillAndExpand" Placeholder="Name"/>
+            
+            <Label Text="Address" TextColor="Black" FontSize="Small"/>
+            <Entry Text="{Binding Address}" HorizontalOptions="FillAndExpand" Placeholder="Address"/>
+            
+            <Label Text="Phone" TextColor="Black" FontSize="Small"/>
+            <Entry Text="{Binding Phone}" HorizontalOptions="FillAndExpand" Placeholder="Phone"/>
+
+            <Label Text="ID_Class" TextColor="Black" FontSize="Small"/>
+            <Entry Text="{Binding ID_Class}" HorizontalOptions="FillAndExpand" Placeholder="ID_Class"/>
+
+            <Label Text="Birthday" TextColor="Black" FontSize="Small"/>
+            <Entry Text="{Binding Birthday}" HorizontalOptions="FillAndExpand" Placeholder="Birthday"/>
+
+            <Label Text="RegisterDay" TextColor="Black" FontSize="Small"/>
+            <Entry Text="{Binding RegisterDay}" HorizontalOptions="FillAndExpand" Placeholder="RegisterDay"/>
+
+            <Label Text="Gender" TextColor="Black" FontSize="Small"/>
+            <Entry Text="{Binding Gender}" HorizontalOptions="FillAndExpand" Placeholder="Gender"/>
+
+            <Button Text="Save" Command="{Binding SaveStudent}"/>
+            <Button Text="Delete" Command="{Binding DeleteStudent}" BackgroundColor="Red" TextColor="White"
+                    IsVisible="{Binding IsVisibleDeleteBtn}"/>
+        </StackLayout>
+                  
+               
+                           
+            
+        
+    </ContentPage.Content>
+</ContentPage>

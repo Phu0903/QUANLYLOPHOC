@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CRUDWebAPI"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="CRUDWebAPI.MainPage">
+
+    <StackLayout>
+        <Button Text="Add Employee" Command="{Binding AddStudent}"/>
+        <ListView ItemsSource="{Binding Student}" HasUnevenRows="True" IsPullToRefreshEnabled="True" 
+                  IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshData}" SelectedItem="{Binding SelectedStudent,Mode=TwoWay}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="4">
+                            <Label Text="{Binding Name,StringFormat='Name: {0:F0)}'}" TextColor="Black"  
+                                   FontAttributes="Bold" FontSize="Medium"/>
+                            <Label Text="{Binding Address,StringFormat='Address: {0:F0)}'}" TextColor="Blue"  FontSize="Medium"/>
+                            <Label Text="{Binding PhoneNumber,StringFormat='Phone: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+                            <Label Text="{Binding Birthday,StringFormat='Birthday: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+                            <Label Text="{Binding ID_Class,StringFormat='ID_Class: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+                            <Label Text="{Binding RegisterDay,StringFormat='RegisterDay: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+                            <Label Text="{Binding Gender,StringFormat='Gender: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+                            
+                          
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

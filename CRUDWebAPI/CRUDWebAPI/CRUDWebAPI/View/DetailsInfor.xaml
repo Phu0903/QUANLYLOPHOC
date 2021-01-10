@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="CRUDWebAPI.View.DetailsInfor">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+                <Image Source="harvard.jpg"/>
+                <Image Source="person.jpg" Aspect="AspectFit" 
+              Margin="0,-50,0,0"
+               HeightRequest="100"/>
+                <Label Text="ThS Nguyễn Duy Phú" FontAttributes="Bold" FontSize="25" HorizontalOptions="Center" 
+               
+               TextColor="Red"/>
+
+                <Grid Margin="0,20,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="1"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="1"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="1"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Image Source="mail.jpg" Grid.Column="0" Grid.Row="0" HeightRequest="10"/>
+                    <Label Text="nguyenduyphu@gmail.com" FontSize="15" Grid.Column="1" Grid.Row="0" Padding="0,10,0,0"/>
+                    <BoxView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="Gray"
+                     HeightRequest="0.5" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
+                    <Image Source="phone.jpg" Grid.Column="0" Grid.Row="2" HeightRequest="10"/>
+                    <Label Text="0971037601" FontSize="15" Grid.Column="1" Grid.Row="2" Padding="0,10,0,0"/>
+                    <BoxView Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="Gray"
+                     HeightRequest="0.5" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
+                    <Image Source="addresss.jpg" Grid.Column="0" Grid.Row="4" HeightRequest="10"/>
+                    <Label Text="210/2 Hoàng Diệu 2, phường Linh Chiểu, quận Thủ Đức, TP HCM" FontSize="15" Grid.Column="1" Grid.Row="4" Margin="0,0,10,0"/>
+                    <BoxView Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="Gray"
+                     HeightRequest="0.5" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
+                </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
