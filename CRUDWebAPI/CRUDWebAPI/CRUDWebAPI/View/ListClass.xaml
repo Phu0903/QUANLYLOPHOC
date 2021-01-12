@@ -6,7 +6,7 @@
 
         <StackLayout BackgroundColor="White">
         <ListView ItemsSource="{Binding Student}" HasUnevenRows="True" IsPullToRefreshEnabled="True"
-                      IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshData}">
+                      IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshData}" SelectedItem="{Binding SelectedStudent,Mode=TwoWay}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell Height="200" >

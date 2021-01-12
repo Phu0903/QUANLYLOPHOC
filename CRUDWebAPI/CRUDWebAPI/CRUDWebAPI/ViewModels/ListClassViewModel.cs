@@ -42,8 +42,25 @@ namespace CRUDWebAPI.ViewModels
                 OnPropertyChanged();
             }
         }
-        
-        
+        ClassStudent _selectedStudent;
+        public ClassStudent SelectedStudent
+        {
+            get
+            {
+                return _selectedStudent;
+            }
+            set
+            {
+                _selectedStudent = value;
+                if (value != null)
+                {
+                    Navigation.PushAsync(new MainPage(SelectedStudent));
+                }
+                OnPropertyChanged();
+            }
+        }
+
+
         ObservableCollection<ClassStudent> _student;
         public ObservableCollection<ClassStudent> Student
         {

@@ -14,18 +14,22 @@ namespace CRUDWebAPI.ViewModels
     public class MainPageViewModel : INotifyPropertyChanged
     {
         public INavigation Navigation { get; set; }
-        public MainPageViewModel(INavigation _navigation)
+        ClassStudent _classStudent;
+        public MainPageViewModel(INavigation _navigation, ClassStudent classStudent)
         {
             Navigation = _navigation;
-            
+            _classStudent = classStudent;
+
+
         }
         
         public async void GetStudents()
         {
+            var temp = _classStudent.ID_CLass;
             using (var client = new HttpClient())
             {
                 // send a GET request  
-                var uri = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/GetStudent";
+                var uri = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/getStudent?ID_Class="+temp.ToString();
                 var result = await client.GetStringAsync(uri);
                 var StudentList = JsonConvert.DeserializeObject<List<Student>>(result);
                 Student = new ObservableCollection<Student>(StudentList);

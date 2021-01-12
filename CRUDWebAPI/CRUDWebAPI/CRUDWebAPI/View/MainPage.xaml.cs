@@ -10,13 +10,13 @@ namespace CRUDWebAPI
 {
     public partial class MainPage : ContentPage
     {
-        public MainPage()
+        public MainPage(ClassStudent classStudent)
         {
             InitializeComponent();
-            BindingContext = new MainPageViewModel(Navigation);
+            BindingContext = new MainPageViewModel(Navigation, classStudent);
             
         }
-        protected override void OnAppearing()
+       protected override void OnAppearing()
         {
             (this.BindingContext as MainPageViewModel).GetStudents();
         }

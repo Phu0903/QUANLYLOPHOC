@@ -12,11 +12,11 @@
                 <tabbedbottom1:ListClass></tabbedbottom1:ListClass>
             </x:Arguments>
         </NavigationPage>
-        <NavigationPage Title="DS học sinh" IconImageSource="group">
+        <!--<NavigationPage Title="DS học sinh" IconImageSource="group">
             <x:Arguments>
                 <tabbedbottom:MainPage></tabbedbottom:MainPage>
             </x:Arguments>
-        </NavigationPage>
+        </NavigationPage>-->
 
         <NavigationPage Title="Cá nhân" IconImageSource="user.png">
             <x:Arguments>
