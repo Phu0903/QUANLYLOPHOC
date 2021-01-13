@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace CRUDWebAPI.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class DetailsInfor : ContentPage
+    public partial class AnnouncePage : ContentPage
     {
-        public DetailsInfor()
+        public AnnouncePage()
         {
             InitializeComponent();
-        }
-
-        private void ToolbarItem_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new AnnouncePage());
         }
     }
 }

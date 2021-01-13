@@ -1,4 +1,5 @@
-﻿using CRUDWebAPI.ViewModels;
+﻿using CRUDWebAPI.View;
+using CRUDWebAPI.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,11 @@ namespace CRUDWebAPI
        protected override void OnAppearing()
         {
             (this.BindingContext as MainPageViewModel).GetStudents();
+        }
+
+        private void ToolbarItem_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AnnouncePage());
         }
     }
 }
