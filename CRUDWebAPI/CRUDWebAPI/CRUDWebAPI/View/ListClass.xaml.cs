@@ -22,9 +22,11 @@ namespace CRUDWebAPI.View
         {
             (this.BindingContext as ListClassViewModel).GetClassStudent();
         }
-        
 
-
+        private void ToolbarItem_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AnnouncePage());
+        }
     }
     
 }

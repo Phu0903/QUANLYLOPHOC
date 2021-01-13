@@ -17,16 +17,16 @@
                 <Label Text="ĐĂNG NHẬP" TextColor="Black" FontSize="25" FontAttributes="Bold"/>
                 <StackLayout Spacing="10">
                     <Grid WidthRequest="160" Padding="10,0" BackgroundColor="#F6F6F6" HorizontalOptions="Start">
-                        <Entry Placeholder="Username" FontSize="12" x:Name="username" Text = "{Binding username}"/>
+                        <Entry Placeholder="Username" FontSize="20" x:Name="username" Text = "{Binding username}"/>
                     </Grid>
                     <Grid WidthRequest="160" Padding="10,0" BackgroundColor="#F6F6F6" HorizontalOptions="Start">
-                        <Entry Placeholder="Password" FontSize="12" x:Name="password" Text = "{Binding password}"/>
+                        <Entry Placeholder="Password" FontSize="20" x:Name="password" Text = "{Binding password}"/>
                     </Grid>
                 </StackLayout>
                 <Grid HorizontalOptions="Start" HeightRequest="40" WidthRequest="100">
                   
-                    <Button Text="Đăng nhập" TextColor="White"  
-                    FontAttributes="Bold" FontSize="10" HorizontalOptions="FillAndExpand"  
+                    <Button Text="Đăng nhập" TextColor="White"  Padding="0"
+                    FontAttributes="Bold" FontSize="15" HorizontalOptions="FillAndExpand"  
                     BackgroundColor="#088da5" 
                    Command="{Binding SubmitCommand}"/>
                 </Grid>

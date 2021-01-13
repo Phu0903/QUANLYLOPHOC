@@ -2,11 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:CRUDWebAPI"
-             NavigationPage.HasNavigationBar="False"
              x:Class="CRUDWebAPI.MainPage">
-
+    <NavigationPage.TitleView>
+        <Label Text="List student" TextColor="White" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" FontSize="20"/>
+    </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="bell.png" Clicked="ToolbarItem_Clicked" />
+    </ContentPage.ToolbarItems>
     <StackLayout>
-        <Button Text="Add Employee" Command="{Binding AddStudent}"/>
+        <Button Text="Add Student" Command="{Binding AddStudent}"/>
         <ListView ItemsSource="{Binding Student}" HasUnevenRows="True" IsPullToRefreshEnabled="True" 
                   IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshData}" SelectedItem="{Binding SelectedStudent,Mode=TwoWay}">
             <ListView.ItemTemplate>

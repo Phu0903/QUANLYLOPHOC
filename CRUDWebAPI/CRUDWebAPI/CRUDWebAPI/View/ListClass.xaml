@@ -1,33 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             NavigationPage.HasNavigationBar="False"
              x:Class="CRUDWebAPI.View.ListClass">
-
-        <StackLayout BackgroundColor="White">
+    <NavigationPage.TitleView>
+        <Label Text="List Class" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" FontSize="20"/>
+    </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="bell.png" Clicked="ToolbarItem_Clicked" />
+    </ContentPage.ToolbarItems>
+        <StackLayout BackgroundColor="White" Padding="10">
         <ListView ItemsSource="{Binding Student}" HasUnevenRows="True" IsPullToRefreshEnabled="True"
                       IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshData}" SelectedItem="{Binding SelectedStudent,Mode=TwoWay}">
-                <ListView.ItemTemplate>
+                <ListView.ItemTemplate >
                     <DataTemplate>
-                        <ViewCell Height="200" >
+                        <ViewCell Height="120">
                             <Grid>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="3*"/>
-                                    <RowDefinition Height="*"/>
-                                    <RowDefinition Height="*"/>
-                                    <RowDefinition Height="*"/>
-                                    <RowDefinition Height="*"/>
-                                </Grid.RowDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="2*"/>
                                 </Grid.ColumnDefinitions>
 
-                                <Image Source="{Binding Image}" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"/>
-                            <Label Text="{Binding ID_CLass ,StringFormat='ID_CLass: {0:F0)}'}" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" FontSize="20" TextColor="Black" FontAttributes="Bold"/>
-                            <Label Text="{Binding NameClass,StringFormat='NameClass: {0:F0)}'}" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" FontSize="20" TextColor="Black" FontAttributes="Bold"/>
-                            <Label Text="{Binding StartDay,StringFormat='StartDay: {0:F0)}'}" Grid.Column="0" Grid.Row="3"/>
-                            <Label Text="{Binding LeavingDay,StringFormat='LeavingDay: {0:F0)}'}" Grid.Column="0" Grid.Row="4"/>
+                                <Image Source="{Binding Image}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="4"/>
+                                <Label Text="{Binding ID_CLass ,StringFormat='ID_CLass: {0:F0)}'}" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" FontSize="20" TextColor="Black" FontAttributes="Bold"/>
+                                <Label Text="{Binding NameClass,StringFormat='NameClass: {0:F0)}'}" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" FontSize="20" TextColor="Black" FontAttributes="Bold"/>
+                                <Label Text="{Binding StartDay,StringFormat='StartDay: {0:F0)}'}" Grid.Column="1" Grid.Row="2"/>
+                                <Label Text="{Binding LeavingDay,StringFormat='LeavingDay: {0:F0)}'}" Grid.Column="1" Grid.Row="3"/>
                             </Grid>
                         </ViewCell>
                     </DataTemplate>
