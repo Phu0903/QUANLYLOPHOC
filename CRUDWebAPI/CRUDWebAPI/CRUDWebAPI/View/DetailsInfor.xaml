@@ -1,15 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             NavigationPage.HasNavigationBar="False"
              x:Class="CRUDWebAPI.View.DetailsInfor">
+    <NavigationPage.TitleView>
+        <Label Text="Information" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" FontSize="20"/>
+    </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="bell.png" Clicked="ToolbarItem_Clicked" />
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout BackgroundColor="White">
                 <Image Source="harvard.jpg"/>
                 <Image Source="person.jpg" Aspect="AspectFit" 
               Margin="0,-50,0,0"
                HeightRequest="100"/>
-                <Label Text="ThS Nguyễn Duy Phú" FontAttributes="Bold" FontSize="25" HorizontalOptions="Center" 
+                <Label Text="ThS Nguyễn Anh Khang" FontAttributes="Bold" FontSize="25" HorizontalOptions="Center" 
                
                TextColor="Red"/>
 
