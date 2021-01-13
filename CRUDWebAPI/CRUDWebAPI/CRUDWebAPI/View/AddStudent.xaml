@@ -2,12 +2,6 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CRUDWebAPI.AddStudent">
-<<<<<<< HEAD
-    
-<ContentPage.Content>
-        <ScrollView>
-            <StackLayout Padding="1">
-=======
     <NavigationPage.TitleView>
         <Label Text="Add student" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" FontSize="20"/>
     </NavigationPage.TitleView>
@@ -16,7 +10,6 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout Padding="1" Margin="10">
->>>>>>> c53529cf4099d3bcb3818ffb1d88d41883ee52ad
             <Label Text="Name" TextColor="Black" FontSize="Small"/>
             <Entry Text="{Binding Name}" HorizontalOptions="FillAndExpand" Placeholder="Name"/>
             
@@ -42,10 +35,10 @@
             <Button Text="Delete" Command="{Binding DeleteStudent}" BackgroundColor="Red" TextColor="White"
                     IsVisible="{Binding IsVisibleDeleteBtn}"/>
         </StackLayout>
-
-
-
-        </ScrollView>
-
+                  
+               
+                           
+            
+        
     </ContentPage.Content>
 </ContentPage>
