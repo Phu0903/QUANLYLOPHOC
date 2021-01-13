@@ -4,10 +4,7 @@
              x:Class="CRUDWebAPI.AddStudent">
     
 <ContentPage.Content>
-       
-           
-                
-                 
+        <ScrollView>
             <StackLayout Padding="1">
             <Label Text="Name" TextColor="Black" FontSize="Small"/>
             <Entry Text="{Binding Name}" HorizontalOptions="FillAndExpand" Placeholder="Name"/>
@@ -34,10 +31,10 @@
             <Button Text="Delete" Command="{Binding DeleteStudent}" BackgroundColor="Red" TextColor="White"
                     IsVisible="{Binding IsVisibleDeleteBtn}"/>
         </StackLayout>
-                  
-               
-                           
-            
-        
+
+
+
+        </ScrollView>
+
     </ContentPage.Content>
 </ContentPage>
