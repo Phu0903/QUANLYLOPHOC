@@ -27,4 +27,12 @@ namespace CRUDWebAPI
     public string LeavingDay { get; set; }
     public string Image { get; set; }
     }   
+
+    public class Thongbao
+    {
+        public int Id_thongbao { get; set; }
+        public string Tieude { get; set; }
+        public string NoiDung { get; set; }
+        public DateTime Time { get; set; }
+    }
 }

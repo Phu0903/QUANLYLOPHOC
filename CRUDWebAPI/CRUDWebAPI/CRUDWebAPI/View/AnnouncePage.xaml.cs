@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CRUDWebAPI.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,11 @@ namespace CRUDWebAPI.View
         public AnnouncePage()
         {
             InitializeComponent();
+            BindingContext = new ThongbaoViewModel(Navigation);
+        }
+        protected override void OnAppearing()
+        {
+            (this.BindingContext as ThongbaoViewModel).GetAnnounce();
         }
     }
 }
