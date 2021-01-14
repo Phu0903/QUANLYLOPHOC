@@ -20,8 +20,8 @@
             <Label Text="Điện thoại" TextColor="Black" FontSize="Small"/>
                 <Entry Text="{Binding Phone}" HorizontalOptions="FillAndExpand" Placeholder="Điện thoại"/>
 
-            <Label Text="ID_Class" TextColor="Black" FontSize="Small"/>
-            <Entry Text="{Binding ID_Class}" HorizontalOptions="FillAndExpand" Placeholder="ID_Class"/>
+            <Label Text="Mã lớp" TextColor="Black" FontSize="Small"/>
+            <Entry Text="{Binding ID_Class}" HorizontalOptions="FillAndExpand" Placeholder="Mã lớp"/>
 
             <Label Text="Sinh nhật" TextColor="Black" FontSize="Small"/>
             <Entry Text="{Binding Birthday}" HorizontalOptions="FillAndExpand" Placeholder="Sinh nhật"/>
