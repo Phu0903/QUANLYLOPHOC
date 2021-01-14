@@ -7,6 +7,7 @@
     </NavigationPage.TitleView>
     <ContentPage.Content>
         <StackLayout BackgroundColor="White" Padding="10">
+            <Button Text="Thêm thông báo " Command="{Binding AddAnnounce}"/>
             <ListView ItemsSource="{Binding Thongbao}" HasUnevenRows="True" IsPullToRefreshEnabled="True"
                       IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshData}">
                 <ListView.ItemTemplate >

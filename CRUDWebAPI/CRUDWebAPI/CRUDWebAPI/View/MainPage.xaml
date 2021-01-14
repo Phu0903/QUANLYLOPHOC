@@ -4,27 +4,27 @@
              xmlns:local="clr-namespace:CRUDWebAPI"
              x:Class="CRUDWebAPI.MainPage">
     <NavigationPage.TitleView>
-        <Label Text="List student" TextColor="White" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" FontSize="20"/>
+        <Label Text="Danh sách sinh viên" TextColor="White" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" FontSize="20"/>
     </NavigationPage.TitleView>
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="bell.png" Clicked="ToolbarItem_Clicked" />
     </ContentPage.ToolbarItems>
     <StackLayout>
-        <Button Text="Add Student" Command="{Binding AddStudent}"/>
+        <Button Text="Thêm Sinh Viên" Command="{Binding AddStudent}"/>
         <ListView ItemsSource="{Binding Student}" HasUnevenRows="True" IsPullToRefreshEnabled="True" 
                   IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshData}" SelectedItem="{Binding SelectedStudent,Mode=TwoWay}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Padding="4">
-                            <Label Text="{Binding Name,StringFormat='Name: {0:F0)}'}" TextColor="Black"  
+                            <Label Text="{Binding Name,StringFormat='Tên: {0:F0)}'}" TextColor="Black"  
                                    FontAttributes="Bold" FontSize="Medium"/>
-                            <Label Text="{Binding Address,StringFormat='Address: {0:F0)}'}" TextColor="Blue"  FontSize="Medium"/>
-                            <Label Text="{Binding PhoneNumber,StringFormat='Phone: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
-                            <Label Text="{Binding Birthday,StringFormat='Birthday: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+                            <Label Text="{Binding Address,StringFormat='Địa chỉ: {0:F0)}'}" TextColor="Blue"  FontSize="Medium"/>
+                            <Label Text="{Binding PhoneNumber,StringFormat='Điện Thoại: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+                            <Label Text="{Binding Birthday,StringFormat='Sinh Nhật: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
                             <Label Text="{Binding ID_Class,StringFormat='ID_Class: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
-                            <Label Text="{Binding RegisterDay,StringFormat='RegisterDay: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
-                            <Label Text="{Binding Gender,StringFormat='Gender: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+                            <Label Text="{Binding RegisterDay,StringFormat='Ngày Đăng ký: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+                            <Label Text="{Binding Gender,StringFormat='Giới tính: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
                             
                           
                         </StackLayout>

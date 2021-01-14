@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using CRUDWebAPI.View;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -13,9 +14,11 @@ namespace CRUDWebAPI.ViewModels
     public class ThongbaoViewModel : INotifyPropertyChanged
     {
         public INavigation Navigation { get; set; }
+       
         public ThongbaoViewModel(INavigation _navigation)
         {
             Navigation = _navigation;
+           
         }
         public async void GetAnnounce()
         {
@@ -27,6 +30,16 @@ namespace CRUDWebAPI.ViewModels
                 var ThongbaoList = JsonConvert.DeserializeObject<List<Thongbao>>(result);
                 Thongbao = new ObservableCollection<Thongbao>(ThongbaoList);
                 IsRefreshing = false;
+            }
+        }
+        public Command AddAnnounce
+        {
+            get
+            {
+                return new Command(() =>
+                {
+                    Navigation.PushAsync(new Addannounce(null));
+                });
             }
         }
         bool _isRefreshing;

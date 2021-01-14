@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CRUDWebAPI.View.ListClass">
     <NavigationPage.TitleView>
-        <Label Text="List Class" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" FontSize="20"/>
+        <Label Text="Danh sách lớp" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" FontSize="20"/>
     </NavigationPage.TitleView>
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="bell.png" Clicked="ToolbarItem_Clicked" />
@@ -28,9 +28,9 @@
 
                                 <Image Source="{Binding Image}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="4"/>
                                 <Label Text="{Binding ID_CLass ,StringFormat='ID_CLass: {0:F0)}'}" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" FontSize="20" TextColor="Black" FontAttributes="Bold"/>
-                                <Label Text="{Binding NameClass,StringFormat='NameClass: {0:F0)}'}" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" FontSize="20" TextColor="Black" FontAttributes="Bold"/>
-                                <Label Text="{Binding StartDay,StringFormat='StartDay: {0:F0)}'}" Grid.Column="1" Grid.Row="2"/>
-                                <Label Text="{Binding LeavingDay,StringFormat='LeavingDay: {0:F0)}'}" Grid.Column="1" Grid.Row="3"/>
+                                <Label Text="{Binding NameClass,StringFormat='Tên Lớp: {0:F0)}'}" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" FontSize="20" TextColor="Black" FontAttributes="Bold"/>
+                                <Label Text="{Binding StartDay,StringFormat='Ngày bắt đầu: {0:F0)}'}" Grid.Column="1" Grid.Row="2"/>
+                                <Label Text="{Binding LeavingDay,StringFormat='Ngày kết thúc: {0:F0)}'}" Grid.Column="1" Grid.Row="3"/>
                             </Grid>
                         </ViewCell>
                     </DataTemplate>

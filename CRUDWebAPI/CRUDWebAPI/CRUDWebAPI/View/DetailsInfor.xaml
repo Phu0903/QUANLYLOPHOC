@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CRUDWebAPI.View.DetailsInfor">
     <NavigationPage.TitleView>
-        <Label Text="Information" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" FontSize="20"/>
+        <Label Text="Cá nhân" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" FontSize="20"/>
     </NavigationPage.TitleView>
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="bell.png" Clicked="ToolbarItem_Clicked" />

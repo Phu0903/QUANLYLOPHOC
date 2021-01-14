@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CRUDWebAPI.AddStudent">
     <NavigationPage.TitleView>
-        <Label Text="Add student" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" FontSize="20"/>
+        <Label Text="Thêm sinh viên" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" FontSize="20"/>
     </NavigationPage.TitleView>
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="bell.png" Clicked="ToolbarItem_Clicked" />
@@ -11,29 +11,29 @@
     <ContentPage.Content>
         <ScrollView>
         <StackLayout Padding="1" Margin="10">
-            <Label Text="Name" TextColor="Black" FontSize="Small"/>
-            <Entry Text="{Binding Name}" HorizontalOptions="FillAndExpand" Placeholder="Name"/>
+            <Label Text="Tên" TextColor="Black" FontSize="Small"/>
+            <Entry Text="{Binding Name}" HorizontalOptions="FillAndExpand" Placeholder="Tên"/>
             
-            <Label Text="Address" TextColor="Black" FontSize="Small"/>
-            <Entry Text="{Binding Address}" HorizontalOptions="FillAndExpand" Placeholder="Address"/>
+            <Label Text="Địa chỉ" TextColor="Black" FontSize="Small"/>
+            <Entry Text="{Binding Address}" HorizontalOptions="FillAndExpand" Placeholder="Địa chỉ"/>
             
-            <Label Text="Phone" TextColor="Black" FontSize="Small"/>
-            <Entry Text="{Binding Phone}" HorizontalOptions="FillAndExpand" Placeholder="Phone"/>
+            <Label Text="Điện thoại" TextColor="Black" FontSize="Small"/>
+                <Entry Text="{Binding Phone}" HorizontalOptions="FillAndExpand" Placeholder="Điện thoại"/>
 
             <Label Text="ID_Class" TextColor="Black" FontSize="Small"/>
             <Entry Text="{Binding ID_Class}" HorizontalOptions="FillAndExpand" Placeholder="ID_Class"/>
 
-            <Label Text="Birthday" TextColor="Black" FontSize="Small"/>
-            <Entry Text="{Binding Birthday}" HorizontalOptions="FillAndExpand" Placeholder="Birthday"/>
+            <Label Text="Sinh nhật" TextColor="Black" FontSize="Small"/>
+            <Entry Text="{Binding Birthday}" HorizontalOptions="FillAndExpand" Placeholder="Sinh nhật"/>
 
-            <Label Text="RegisterDay" TextColor="Black" FontSize="Small"/>
-            <Entry Text="{Binding RegisterDay}" HorizontalOptions="FillAndExpand" Placeholder="RegisterDay"/>
+            <Label Text="Ngày đăng ký" TextColor="Black" FontSize="Small"/>
+            <Entry Text="{Binding RegisterDay}" HorizontalOptions="FillAndExpand" Placeholder="Ngày đăng ký"/>
 
-            <Label Text="Gender" TextColor="Black" FontSize="Small"/>
-            <Entry Text="{Binding Gender}" HorizontalOptions="FillAndExpand" Placeholder="Gender"/>
+            <Label Text="Giới tính" TextColor="Black" FontSize="Small"/>
+            <Entry Text="{Binding Gender}" HorizontalOptions="FillAndExpand" Placeholder="Giới tính"/>
 
-            <Button Text="Save" Command="{Binding SaveStudent}"/>
-            <Button Text="Delete" Command="{Binding DeleteStudent}" BackgroundColor="Red" TextColor="White"
+            <Button Text="Lưu" Command="{Binding SaveStudent}"/>
+            <Button Text="Xóa" Command="{Binding DeleteStudent}" BackgroundColor="Red" TextColor="White"
                     IsVisible="{Binding IsVisibleDeleteBtn}"/>
         </StackLayout>
 
