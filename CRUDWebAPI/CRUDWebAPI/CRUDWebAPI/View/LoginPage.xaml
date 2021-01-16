@@ -20,7 +20,7 @@
                         <Entry Placeholder="Username" FontSize="20" x:Name="username" Text = "{Binding username}"/>
                     </Grid>
                     <Grid WidthRequest="160" Padding="10,0" BackgroundColor="#F6F6F6" HorizontalOptions="Start">
-                        <Entry Placeholder="Password" FontSize="20" x:Name="password" Text = "{Binding password}"/>
+                        <Entry Placeholder="Password" FontSize="20" IsPassword="True" x:Name="password" Text = "{Binding password}"/>
                     </Grid>
                 </StackLayout>
                 <Grid HorizontalOptions="Start" HeightRequest="40" WidthRequest="100">
