@@ -8896,22 +8896,25 @@ namespace CRUDWebAPI.Droid
 			public const int phone = 2131165510;
 			
 			// aapt resource value: 0x7F070147
-			public const int presentation = 2131165511;
+			public const int plus16 = 2131165511;
 			
 			// aapt resource value: 0x7F070148
-			public const int python = 2131165512;
+			public const int presentation = 2131165512;
 			
 			// aapt resource value: 0x7F070149
-			public const int tooltip_frame_dark = 2131165513;
+			public const int python = 2131165513;
 			
 			// aapt resource value: 0x7F07014A
-			public const int tooltip_frame_light = 2131165514;
+			public const int tooltip_frame_dark = 2131165514;
 			
 			// aapt resource value: 0x7F07014B
-			public const int user = 2131165515;
+			public const int tooltip_frame_light = 2131165515;
 			
 			// aapt resource value: 0x7F07014C
-			public const int usericon = 2131165516;
+			public const int user = 2131165516;
+			
+			// aapt resource value: 0x7F07014D
+			public const int usericon = 2131165517;
 			
 			static Drawable()
 			{

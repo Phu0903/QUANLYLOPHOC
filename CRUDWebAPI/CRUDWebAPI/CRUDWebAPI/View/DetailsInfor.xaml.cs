@@ -21,5 +21,10 @@ namespace CRUDWebAPI.View
         {
             Navigation.PushAsync(new AnnouncePage());
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PopModalAsync();
+        }
     }
 }

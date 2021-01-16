@@ -3,13 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CRUDWebAPI.View.DetailsInfor">
     <NavigationPage.TitleView>
-        <Label Text="Thông tin cá nhân" TextColor="White" FontAttributes="Bold" Margin="100,0,0,0" FontSize="20"/>
+        <Label Text="Thông tin cá nhân" TextColor="White" FontAttributes="Bold" Margin="110,0,0,0" FontSize="20"/>
     </NavigationPage.TitleView>
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="bell.png" Clicked="ToolbarItem_Clicked" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <StackLayout BackgroundColor="White">
+        <ScrollView>
+            <StackLayout BackgroundColor="White">
                 <Image Source="harvard.jpg"/>
                 <Image Source="person.jpg" Aspect="AspectFit" 
               Margin="0,-50,0,0"
@@ -45,6 +46,13 @@
                     <BoxView Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="Gray"
                      HeightRequest="0.5" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
                 </Grid>
-        </StackLayout>
+                <Button Text="Log out" Clicked="Button_Clicked" Margin="10" CornerRadius="5" 
+                    TextColor="White"
+                    FontFamily="Arial"
+                    BackgroundColor="Red"
+                    BorderWidth="0" 
+                    FontSize="20"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

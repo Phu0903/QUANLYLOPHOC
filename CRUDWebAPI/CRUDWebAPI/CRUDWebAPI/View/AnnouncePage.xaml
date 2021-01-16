@@ -12,7 +12,7 @@
                       IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshData}">
                 <ListView.ItemTemplate >
                     <DataTemplate>
-                        <ViewCell Height="90">
+                        <ViewCell Height="100">
                             <Grid>
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="*"/>

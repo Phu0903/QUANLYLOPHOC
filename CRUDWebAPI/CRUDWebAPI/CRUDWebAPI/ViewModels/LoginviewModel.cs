@@ -56,7 +56,7 @@ namespace CRUDWebAPI
             else
             {
 
-                await Navigation.PushAsync(new TabbedPage1());
+                await Navigation.PushModalAsync(new TabbedPage1());
             }
         }
 
