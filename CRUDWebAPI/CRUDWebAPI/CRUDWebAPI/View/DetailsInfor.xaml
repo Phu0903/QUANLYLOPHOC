@@ -15,7 +15,11 @@
                 <Image Source="harvard.jpg"/>
                 <custom:CircleImage x:Name="resultImage" Margin="0,-50,0,0"
                                 WidthRequest="100" HeightRequest="100" Aspect="AspectFill" 
-                                VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
+                                VerticalOptions="Start" HorizontalOptions="CenterAndExpand">
+                    <custom:CircleImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </custom:CircleImage.GestureRecognizers>
+                </custom:CircleImage>
                 <Label Text="ThS Nguyễn Anh Khang" FontAttributes="Bold" FontSize="25" HorizontalOptions="Center" 
                
                TextColor="Red"/>
