@@ -15,8 +15,11 @@ namespace CRUDWebAPI.View
         public DetailsInfor()
         {
             InitializeComponent();
-        }
 
+            resultImage.Source = "hecthor.jpg";
+        }
+        
+        
         private void ToolbarItem_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new AnnouncePage());
@@ -29,9 +32,9 @@ namespace CRUDWebAPI.View
 
         async private void ToolbarItem_Clicked_1(object sender, EventArgs e)
         {
-            bool answer = await DisplayAlert("Thông báo", "Đổi ảnh đại diện bằng ?", "Camera", "Chọn ảnh");
+            string answer = await DisplayActionSheet("Đổi ảnh đại diện bằng ?", "Hủy", null ,"Camera", "Chọn ảnh");
 
-            if (answer == false)
+            if (answer == "Chọn ảnh")
             {
 
                 var result = await MediaPicker.PickPhotoAsync(new MediaPickerOptions
@@ -44,7 +47,39 @@ namespace CRUDWebAPI.View
                     resultImage.Source = ImageSource.FromStream(() => stream);
                 }
             }
-            else
+            else if (answer == "Camera")
+            {
+                var result = await MediaPicker.CapturePhotoAsync(new MediaPickerOptions
+                {
+                    Title = "Please pick a photo"
+                });
+
+                if (result != null)
+                {
+                    var stream = await result.OpenReadAsync();
+                    resultImage.Source = ImageSource.FromStream(() => stream);
+                }
+            }
+        }
+
+        async private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            string answer = await DisplayActionSheet("Đổi ảnh đại diện bằng ?", "Hủy", null, "Camera", "Chọn ảnh");
+
+            if (answer == "Chọn ảnh")
+            {
+
+                var result = await MediaPicker.PickPhotoAsync(new MediaPickerOptions
+                {
+                    Title = "Please pick a photo"
+                });
+                if (result != null)
+                {
+                    var stream = await result.OpenReadAsync();
+                    resultImage.Source = ImageSource.FromStream(() => stream);
+                }
+            }
+            else if (answer == "Camera")
             {
                 var result = await MediaPicker.CapturePhotoAsync(new MediaPickerOptions
                 {
