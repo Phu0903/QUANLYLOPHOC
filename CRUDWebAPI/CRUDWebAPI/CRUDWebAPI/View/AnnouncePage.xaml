@@ -5,9 +5,12 @@
     <NavigationPage.TitleView>
         <Label Text="Thông báo" TextColor="White" FontAttributes="Bold" Margin="90,0,0,0" FontSize="20"/>
     </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="addbell512.png" Command="{Binding AddAnnounce}" />
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout BackgroundColor="White" Padding="10">
-            <Button Text="Thêm thông báo " Command="{Binding AddAnnounce}"/>
+           
             <ListView ItemsSource="{Binding Thongbao}" HasUnevenRows="True" IsPullToRefreshEnabled="True"
                       IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshData}">
                 <ListView.ItemTemplate >

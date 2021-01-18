@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CRUDWebAPI.View.Addannounce">
+    
     <NavigationPage.TitleView>
         <Label Text="Thêm thông báo" TextColor="White" FontAttributes="Bold" Margin="70,0,0,0" FontSize="20"/>
     </NavigationPage.TitleView>
