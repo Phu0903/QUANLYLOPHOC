@@ -15,7 +15,7 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout Padding="4">
+                        <StackLayout Padding="10">
                             <Label Text="{Binding Name,StringFormat='Tên: {0:F0)}'}" TextColor="Black"  
                                    FontAttributes="Bold" FontSize="Medium"/>
                             <Label Text="{Binding Address,StringFormat='Địa chỉ: {0:F0)}'}" TextColor="Blue"  FontSize="Medium"/>
