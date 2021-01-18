@@ -1,1 +1,1 @@
-Về sớm nha phú
+Management student Project with Xamarin
