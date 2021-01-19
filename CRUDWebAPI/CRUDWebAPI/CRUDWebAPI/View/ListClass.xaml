@@ -8,7 +8,8 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="bell.png" Clicked="ToolbarItem_Clicked" />
     </ContentPage.ToolbarItems>
-        <StackLayout BackgroundColor="White" Padding="10">
+
+    <StackLayout BackgroundColor="White" Padding="10">
         <ListView ItemsSource="{Binding Student}" HasUnevenRows="True" IsPullToRefreshEnabled="True"
                       IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshData}" SelectedItem="{Binding SelectedStudent,Mode=TwoWay}">
                 <ListView.ItemTemplate >

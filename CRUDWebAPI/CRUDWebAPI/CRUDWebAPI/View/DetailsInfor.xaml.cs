@@ -27,7 +27,9 @@ namespace CRUDWebAPI.View
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Navigation.PopModalAsync();
+            // Navigation.PopModalAsync();
+            Navigation.PushAsync(new LoginPage());
+
         }
 
         async private void ToolbarItem_Clicked_1(object sender, EventArgs e)
