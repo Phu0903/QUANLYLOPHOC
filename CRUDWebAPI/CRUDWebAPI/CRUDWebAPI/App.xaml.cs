@@ -13,7 +13,7 @@ namespace CRUDWebAPI
         {
             InitializeComponent();
             Device.SetFlags(new[] { "Shapes_Experimental", "MediaElement_Experimental" });
-            MainPage = new NavigationPage(new LoginWithSocialIconPage());
+            MainPage = new NavigationPage(new TeacherOrAdmin());
         }
 
         protected override void OnStart()

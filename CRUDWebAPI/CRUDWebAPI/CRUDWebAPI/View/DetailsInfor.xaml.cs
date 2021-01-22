@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CRUDWebAPI.Views.Forms;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,7 +29,7 @@ namespace CRUDWebAPI.View
         private void Button_Clicked(object sender, EventArgs e)
         {
             // Navigation.PopModalAsync();
-            Navigation.PushAsync(new LoginPage());
+            Navigation.PushAsync(new LoginWithSocialIconPage());
 
         }
 

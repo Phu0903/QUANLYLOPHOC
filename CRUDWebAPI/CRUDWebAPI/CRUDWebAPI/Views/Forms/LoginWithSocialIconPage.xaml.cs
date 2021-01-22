@@ -39,7 +39,7 @@ namespace CRUDWebAPI.Views.Forms
             }
             else
             {
-                Navigation.PushAsync(new TeacherOrAdmin());
+                Navigation.PushAsync(new TabbedPage1());
             }
         }
     }
