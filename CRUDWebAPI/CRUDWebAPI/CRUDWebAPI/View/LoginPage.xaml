@@ -24,14 +24,13 @@
                     </Grid>
                 </StackLayout>
                 <Grid HorizontalOptions="Start" HeightRequest="40" WidthRequest="100">
-                  
+
                     <Button Text="Đăng nhập" TextColor="White"  Padding="0"
                     FontAttributes="Bold" FontSize="15" HorizontalOptions="FillAndExpand"  
                     BackgroundColor="#088da5" 
                    Command="{Binding SubmitCommand}"/>
                 </Grid>
             </StackLayout>
-
         </Grid>
     </Grid>
 </ContentPage>

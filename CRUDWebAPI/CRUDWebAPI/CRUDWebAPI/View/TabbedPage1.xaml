@@ -8,16 +8,19 @@
   <!--Pages can be added as references or inline-->
 
     <TabbedPage.Children>
+
+        <NavigationPage Title="DS Giáo viên" IconImageSource="group">
+            <x:Arguments>
+                <tabbedbottom1:ListTeacher></tabbedbottom1:ListTeacher>
+            </x:Arguments>
+        </NavigationPage>
+
         <NavigationPage Title="DS lớp học" IconImageSource="presentation">
             <x:Arguments>
                 <tabbedbottom1:ListClass></tabbedbottom1:ListClass>
             </x:Arguments>
         </NavigationPage>
-        <!--<NavigationPage Title="DS học sinh" IconImageSource="group">
-            <x:Arguments>
-                <tabbedbottom:MainPage></tabbedbottom:MainPage>
-            </x:Arguments>
-        </NavigationPage>-->
+        
 
         <NavigationPage Title="Cá nhân" IconImageSource="user.png">
             <x:Arguments>

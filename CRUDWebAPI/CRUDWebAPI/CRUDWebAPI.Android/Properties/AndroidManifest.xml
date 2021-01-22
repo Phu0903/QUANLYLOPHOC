@@ -4,5 +4,10 @@
 	<uses-permission android:name="android.permission.CAMERA" />
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-	<application android:label="CRUDWebAPI.Android"></application>
+	<application android:label="CRUDWebAPI.Android" android:usesCleartextTraffic="True">
+		<uses-library
+			 android:name="org.apache.http.legacy"
+			 android:required="false" />
+
+	</application>
 </manifest>

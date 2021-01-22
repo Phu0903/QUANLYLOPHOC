@@ -1,4 +1,7 @@
-﻿using Newtonsoft.Json;
+﻿using Xamarin.Forms.Internals;
+
+
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -10,10 +13,16 @@ using Xamarin.Forms;
 using System.Threading.Tasks;
 using CRUDWebAPI.View;
 
-namespace CRUDWebAPI
+
+namespace CRUDWebAPI.ViewModels.Forms
 {
-    public class LoginviewModel : INotifyPropertyChanged
+    /// <summary>
+    /// ViewModel for login with social icon page.
+    /// </summary>
+    [Preserve(AllMembers = true)]
+    public class LoginWithSocialIconViewModel : INotifyPropertyChanged
     {
+     
         public INavigation Navigation { get; set; }
 
 
@@ -40,11 +49,11 @@ namespace CRUDWebAPI
             }
         }
         public Command SubmitCommand { protected set; get; }
-        public LoginviewModel(INavigation navigation)
+        public LoginWithSocialIconViewModel(INavigation navigation)
         {
             this.Navigation = navigation;
             this.SubmitCommand = new Command(async () => await OnSubmit());
-            
+
         }
         public async Task OnSubmit()
         {
@@ -52,13 +61,11 @@ namespace CRUDWebAPI
             {
                 DisplayInvalidLoginPrompt();
             }
-            
+
             else
             {
-
                 await Navigation.PushModalAsync(new TabbedPage1());
             }
         }
-
     }
 }

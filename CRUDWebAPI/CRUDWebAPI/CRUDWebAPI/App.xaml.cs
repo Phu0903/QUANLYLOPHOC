@@ -1,4 +1,5 @@
 ﻿using CRUDWebAPI.View;
+using CRUDWebAPI.Views.Forms;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -12,7 +13,7 @@ namespace CRUDWebAPI
         {
             InitializeComponent();
             Device.SetFlags(new[] { "Shapes_Experimental", "MediaElement_Experimental" });
-            MainPage = new NavigationPage(new LoginPage());
+            MainPage = new NavigationPage(new LoginWithSocialIconPage());
         }
 
         protected override void OnStart()

@@ -45,7 +45,7 @@ namespace CRUDWebAPI
                         _thongbao.Tieude = Tieude;
                         _thongbao.NoiDung = NoiDung;
                     }
-                    string url = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/SaveThongbao";
+                    string url = "http://quanlylophoc.somee.com/api/Masters/SaveThongbao";
                     HttpClient client = new HttpClient();
                     string jsonData = JsonConvert.SerializeObject(_thongbao);
                     StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
