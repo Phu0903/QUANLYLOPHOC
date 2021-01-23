@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUDWebAPI.View.Teacher.ListClassTeacher">
+    <NavigationPage.TitleView>
+        <Label Text="Danh sách lớp" TextColor="White" FontAttributes="Bold" Margin="120,0,0,0" FontSize="20"/>
+    </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="bell.png" Clicked="ToolbarItem_Clicked" />
+    </ContentPage.ToolbarItems>
+
+    <StackLayout BackgroundColor="White" Padding="10">
+        <ListView ItemsSource="{Binding }" HasUnevenRows="True" IsPullToRefreshEnabled="True"
+                      IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshData}" SelectedItem="{Binding SelectedStudent,Mode=TwoWay}">
+            <ListView.ItemTemplate >
+                <DataTemplate>
+                    <ViewCell Height="120">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Source="{Binding Image}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="4"/>
+                            <Label Text="{Binding ID_CLass ,StringFormat='Mã lớp: {0:F0)}'}" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" FontSize="20" TextColor="Black" FontAttributes="Bold"/>
+                            <Label Text="{Binding NameClass,StringFormat='Tên Lớp: {0:F0)}'}" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" FontSize="20" TextColor="Black" FontAttributes="Bold"/>
+                            <Label Text="{Binding StartDay,StringFormat='Ngày bắt đầu: {0:F0)}'}" Grid.Column="1" Grid.Row="2"/>
+                            <Label Text="{Binding LeavingDay,StringFormat='Ngày kết thúc: {0:F0)}'}" Grid.Column="1" Grid.Row="3"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

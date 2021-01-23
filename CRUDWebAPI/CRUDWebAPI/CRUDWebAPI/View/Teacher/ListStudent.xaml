@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUDWebAPI.View.Teacher.ListStudent">
+    <NavigationPage.TitleView>
+        <Label Text="Danh sách sinh viên" TextColor="White" FontAttributes="Bold" Margin="40,0,0,0"  FontSize="20"/>
+    </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="plus16.png" Command="{Binding AddStudent}"/>
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <ListView ItemsSource="{Binding Student}" HasUnevenRows="True" IsPullToRefreshEnabled="True" 
+                  IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshData}" SelectedItem="{Binding SelectedStudent,Mode=TwoWay}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10">
+                            <Label Text="{Binding Name,StringFormat='Tên: {0:F0)}'}" TextColor="Black"  
+                                   FontAttributes="Bold" FontSize="Medium"/>
+                            <Label Text="{Binding Address,StringFormat='Địa chỉ: {0:F0)}'}" TextColor="Blue"  FontSize="Medium"/>
+                            <Label Text="{Binding PhoneNumber,StringFormat='Điện Thoại: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+                            <Label Text="{Binding Birthday,StringFormat='Sinh Nhật: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+                            <Label Text="{Binding ID_Class,StringFormat='Mã lớp: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+                            <Label Text="{Binding RegisterDay,StringFormat='Ngày Đăng ký: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+                            <Label Text="{Binding Gender,StringFormat='Giới tính: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+
+
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
