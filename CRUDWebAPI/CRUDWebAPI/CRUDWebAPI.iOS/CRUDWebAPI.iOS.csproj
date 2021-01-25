@@ -163,7 +163,13 @@
     <PackageReference Include="Syncfusion.Xamarin.Core">
       <Version>18.4.0.35</Version>
     </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfAutoComplete">
+      <Version>18.4.0.35</Version>
+    </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfComboBox">
+      <Version>18.4.0.35</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfListView">
       <Version>18.4.0.35</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfRating">

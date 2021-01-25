@@ -113,6 +113,2620 @@ namespace CRUDWebAPI.Droid
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::CRUDWebAPI.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::CRUDWebAPI.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.clear_button_icon = global::CRUDWebAPI.Droid.Resource.Drawable.clear_button_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_fade_in = global::CRUDWebAPI.Droid.Resource.Animation.abc_fade_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_fade_out = global::CRUDWebAPI.Droid.Resource.Animation.abc_fade_out;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::CRUDWebAPI.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_popup_enter = global::CRUDWebAPI.Droid.Resource.Animation.abc_popup_enter;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_popup_exit = global::CRUDWebAPI.Droid.Resource.Animation.abc_popup_exit;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::CRUDWebAPI.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_slide_in_bottom = global::CRUDWebAPI.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_slide_in_top = global::CRUDWebAPI.Droid.Resource.Animation.abc_slide_in_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_slide_out_bottom = global::CRUDWebAPI.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_slide_out_top = global::CRUDWebAPI.Droid.Resource.Animation.abc_slide_out_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_tooltip_enter = global::CRUDWebAPI.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.abc_tooltip_exit = global::CRUDWebAPI.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::CRUDWebAPI.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::CRUDWebAPI.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.design_snackbar_in = global::CRUDWebAPI.Droid.Resource.Animation.design_snackbar_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.design_snackbar_out = global::CRUDWebAPI.Droid.Resource.Animation.design_snackbar_out;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.EnterFromLeft = global::CRUDWebAPI.Droid.Resource.Animation.EnterFromLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.EnterFromRight = global::CRUDWebAPI.Droid.Resource.Animation.EnterFromRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.ExitToLeft = global::CRUDWebAPI.Droid.Resource.Animation.ExitToLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.ExitToRight = global::CRUDWebAPI.Droid.Resource.Animation.ExitToRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.design_appbar_state_list_animator = global::CRUDWebAPI.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.design_fab_hide_motion_spec = global::CRUDWebAPI.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.design_fab_show_motion_spec = global::CRUDWebAPI.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_btn_state_list_anim = global::CRUDWebAPI.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::CRUDWebAPI.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_chip_state_list_anim = global::CRUDWebAPI.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_fab_hide_motion_spec = global::CRUDWebAPI.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_fab_show_motion_spec = global::CRUDWebAPI.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::CRUDWebAPI.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::CRUDWebAPI.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarDivider = global::CRUDWebAPI.Droid.Resource.Attribute.actionBarDivider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarItemBackground = global::CRUDWebAPI.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarPopupTheme = global::CRUDWebAPI.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarSize = global::CRUDWebAPI.Droid.Resource.Attribute.actionBarSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarSplitStyle = global::CRUDWebAPI.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarStyle = global::CRUDWebAPI.Droid.Resource.Attribute.actionBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarTabBarStyle = global::CRUDWebAPI.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarTabStyle = global::CRUDWebAPI.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarTabTextStyle = global::CRUDWebAPI.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarTheme = global::CRUDWebAPI.Droid.Resource.Attribute.actionBarTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionBarWidgetTheme = global::CRUDWebAPI.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionButtonStyle = global::CRUDWebAPI.Droid.Resource.Attribute.actionButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionDropDownStyle = global::CRUDWebAPI.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionLayout = global::CRUDWebAPI.Droid.Resource.Attribute.actionLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionMenuTextAppearance = global::CRUDWebAPI.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionMenuTextColor = global::CRUDWebAPI.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeBackground = global::CRUDWebAPI.Droid.Resource.Attribute.actionModeBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::CRUDWebAPI.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeCloseDrawable = global::CRUDWebAPI.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeCopyDrawable = global::CRUDWebAPI.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeCutDrawable = global::CRUDWebAPI.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeFindDrawable = global::CRUDWebAPI.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModePasteDrawable = global::CRUDWebAPI.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModePopupWindowStyle = global::CRUDWebAPI.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::CRUDWebAPI.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeShareDrawable = global::CRUDWebAPI.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeSplitBackground = global::CRUDWebAPI.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeStyle = global::CRUDWebAPI.Droid.Resource.Attribute.actionModeStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::CRUDWebAPI.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionOverflowButtonStyle = global::CRUDWebAPI.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionOverflowMenuStyle = global::CRUDWebAPI.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionProviderClass = global::CRUDWebAPI.Droid.Resource.Attribute.actionProviderClass;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionViewClass = global::CRUDWebAPI.Droid.Resource.Attribute.actionViewClass;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.activityChooserViewStyle = global::CRUDWebAPI.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::CRUDWebAPI.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.alertDialogCenterButtons = global::CRUDWebAPI.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.alertDialogStyle = global::CRUDWebAPI.Droid.Resource.Attribute.alertDialogStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.alertDialogTheme = global::CRUDWebAPI.Droid.Resource.Attribute.alertDialogTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.allowStacking = global::CRUDWebAPI.Droid.Resource.Attribute.allowStacking;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.alpha = global::CRUDWebAPI.Droid.Resource.Attribute.alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.alphabeticModifiers = global::CRUDWebAPI.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.arrowHeadLength = global::CRUDWebAPI.Droid.Resource.Attribute.arrowHeadLength;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.arrowShaftLength = global::CRUDWebAPI.Droid.Resource.Attribute.arrowShaftLength;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::CRUDWebAPI.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.autoSizeMaxTextSize = global::CRUDWebAPI.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.autoSizeMinTextSize = global::CRUDWebAPI.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.autoSizePresetSizes = global::CRUDWebAPI.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.autoSizeStepGranularity = global::CRUDWebAPI.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.autoSizeTextType = global::CRUDWebAPI.Droid.Resource.Attribute.autoSizeTextType;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.background = global::CRUDWebAPI.Droid.Resource.Attribute.background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundSplit = global::CRUDWebAPI.Droid.Resource.Attribute.backgroundSplit;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundStacked = global::CRUDWebAPI.Droid.Resource.Attribute.backgroundStacked;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundTint = global::CRUDWebAPI.Droid.Resource.Attribute.backgroundTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundTintMode = global::CRUDWebAPI.Droid.Resource.Attribute.backgroundTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.barLength = global::CRUDWebAPI.Droid.Resource.Attribute.barLength;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_autoHide = global::CRUDWebAPI.Droid.Resource.Attribute.behavior_autoHide;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_fitToContents = global::CRUDWebAPI.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_hideable = global::CRUDWebAPI.Droid.Resource.Attribute.behavior_hideable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_overlapTop = global::CRUDWebAPI.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_peekHeight = global::CRUDWebAPI.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_skipCollapsed = global::CRUDWebAPI.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.borderWidth = global::CRUDWebAPI.Droid.Resource.Attribute.borderWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.borderlessButtonStyle = global::CRUDWebAPI.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.bottomAppBarStyle = global::CRUDWebAPI.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.bottomNavigationStyle = global::CRUDWebAPI.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.bottomSheetDialogTheme = global::CRUDWebAPI.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.bottomSheetStyle = global::CRUDWebAPI.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxBackgroundColor = global::CRUDWebAPI.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxBackgroundMode = global::CRUDWebAPI.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxCollapsedPaddingTop = global::CRUDWebAPI.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxCornerRadiusBottomEnd = global::CRUDWebAPI.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxCornerRadiusBottomStart = global::CRUDWebAPI.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxCornerRadiusTopEnd = global::CRUDWebAPI.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxCornerRadiusTopStart = global::CRUDWebAPI.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxStrokeColor = global::CRUDWebAPI.Droid.Resource.Attribute.boxStrokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxStrokeWidth = global::CRUDWebAPI.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonBarButtonStyle = global::CRUDWebAPI.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::CRUDWebAPI.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::CRUDWebAPI.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::CRUDWebAPI.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonBarStyle = global::CRUDWebAPI.Droid.Resource.Attribute.buttonBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonGravity = global::CRUDWebAPI.Droid.Resource.Attribute.buttonGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonIconDimen = global::CRUDWebAPI.Droid.Resource.Attribute.buttonIconDimen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonPanelSideLayout = global::CRUDWebAPI.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonStyle = global::CRUDWebAPI.Droid.Resource.Attribute.buttonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonStyleSmall = global::CRUDWebAPI.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonTint = global::CRUDWebAPI.Droid.Resource.Attribute.buttonTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonTintMode = global::CRUDWebAPI.Droid.Resource.Attribute.buttonTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardBackgroundColor = global::CRUDWebAPI.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardCornerRadius = global::CRUDWebAPI.Droid.Resource.Attribute.cardCornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardElevation = global::CRUDWebAPI.Droid.Resource.Attribute.cardElevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardMaxElevation = global::CRUDWebAPI.Droid.Resource.Attribute.cardMaxElevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardPreventCornerOverlap = global::CRUDWebAPI.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardUseCompatPadding = global::CRUDWebAPI.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardViewStyle = global::CRUDWebAPI.Droid.Resource.Attribute.cardViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkboxStyle = global::CRUDWebAPI.Droid.Resource.Attribute.checkboxStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedChip = global::CRUDWebAPI.Droid.Resource.Attribute.checkedChip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedIcon = global::CRUDWebAPI.Droid.Resource.Attribute.checkedIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedIconEnabled = global::CRUDWebAPI.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedIconVisible = global::CRUDWebAPI.Droid.Resource.Attribute.checkedIconVisible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedTextViewStyle = global::CRUDWebAPI.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipBackgroundColor = global::CRUDWebAPI.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipCornerRadius = global::CRUDWebAPI.Droid.Resource.Attribute.chipCornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipEndPadding = global::CRUDWebAPI.Droid.Resource.Attribute.chipEndPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipGroupStyle = global::CRUDWebAPI.Droid.Resource.Attribute.chipGroupStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipIcon = global::CRUDWebAPI.Droid.Resource.Attribute.chipIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipIconEnabled = global::CRUDWebAPI.Droid.Resource.Attribute.chipIconEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipIconSize = global::CRUDWebAPI.Droid.Resource.Attribute.chipIconSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipIconTint = global::CRUDWebAPI.Droid.Resource.Attribute.chipIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipIconVisible = global::CRUDWebAPI.Droid.Resource.Attribute.chipIconVisible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipMinHeight = global::CRUDWebAPI.Droid.Resource.Attribute.chipMinHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipSpacing = global::CRUDWebAPI.Droid.Resource.Attribute.chipSpacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipSpacingHorizontal = global::CRUDWebAPI.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipSpacingVertical = global::CRUDWebAPI.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipStandaloneStyle = global::CRUDWebAPI.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipStartPadding = global::CRUDWebAPI.Droid.Resource.Attribute.chipStartPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipStrokeColor = global::CRUDWebAPI.Droid.Resource.Attribute.chipStrokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipStrokeWidth = global::CRUDWebAPI.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipStyle = global::CRUDWebAPI.Droid.Resource.Attribute.chipStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeIcon = global::CRUDWebAPI.Droid.Resource.Attribute.closeIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeIconEnabled = global::CRUDWebAPI.Droid.Resource.Attribute.closeIconEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeIconEndPadding = global::CRUDWebAPI.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeIconSize = global::CRUDWebAPI.Droid.Resource.Attribute.closeIconSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeIconStartPadding = global::CRUDWebAPI.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeIconTint = global::CRUDWebAPI.Droid.Resource.Attribute.closeIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeIconVisible = global::CRUDWebAPI.Droid.Resource.Attribute.closeIconVisible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeItemLayout = global::CRUDWebAPI.Droid.Resource.Attribute.closeItemLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.collapseContentDescription = global::CRUDWebAPI.Droid.Resource.Attribute.collapseContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.collapseIcon = global::CRUDWebAPI.Droid.Resource.Attribute.collapseIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.collapsedTitleGravity = global::CRUDWebAPI.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::CRUDWebAPI.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.color = global::CRUDWebAPI.Droid.Resource.Attribute.color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorAccent = global::CRUDWebAPI.Droid.Resource.Attribute.colorAccent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorBackgroundFloating = global::CRUDWebAPI.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorButtonNormal = global::CRUDWebAPI.Droid.Resource.Attribute.colorButtonNormal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorControlActivated = global::CRUDWebAPI.Droid.Resource.Attribute.colorControlActivated;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorControlHighlight = global::CRUDWebAPI.Droid.Resource.Attribute.colorControlHighlight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorControlNormal = global::CRUDWebAPI.Droid.Resource.Attribute.colorControlNormal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorError = global::CRUDWebAPI.Droid.Resource.Attribute.colorError;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorPrimary = global::CRUDWebAPI.Droid.Resource.Attribute.colorPrimary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorPrimaryDark = global::CRUDWebAPI.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorSecondary = global::CRUDWebAPI.Droid.Resource.Attribute.colorSecondary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorSwitchThumbNormal = global::CRUDWebAPI.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.commitIcon = global::CRUDWebAPI.Droid.Resource.Attribute.commitIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentDescription = global::CRUDWebAPI.Droid.Resource.Attribute.contentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentInsetEnd = global::CRUDWebAPI.Droid.Resource.Attribute.contentInsetEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentInsetEndWithActions = global::CRUDWebAPI.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentInsetLeft = global::CRUDWebAPI.Droid.Resource.Attribute.contentInsetLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentInsetRight = global::CRUDWebAPI.Droid.Resource.Attribute.contentInsetRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentInsetStart = global::CRUDWebAPI.Droid.Resource.Attribute.contentInsetStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::CRUDWebAPI.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentPadding = global::CRUDWebAPI.Droid.Resource.Attribute.contentPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentPaddingBottom = global::CRUDWebAPI.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentPaddingLeft = global::CRUDWebAPI.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentPaddingRight = global::CRUDWebAPI.Droid.Resource.Attribute.contentPaddingRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentPaddingTop = global::CRUDWebAPI.Droid.Resource.Attribute.contentPaddingTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentScrim = global::CRUDWebAPI.Droid.Resource.Attribute.contentScrim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.controlBackground = global::CRUDWebAPI.Droid.Resource.Attribute.controlBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.coordinatorLayoutStyle = global::CRUDWebAPI.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerRadius = global::CRUDWebAPI.Droid.Resource.Attribute.cornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.counterEnabled = global::CRUDWebAPI.Droid.Resource.Attribute.counterEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.counterMaxLength = global::CRUDWebAPI.Droid.Resource.Attribute.counterMaxLength;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.counterOverflowTextAppearance = global::CRUDWebAPI.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.counterTextAppearance = global::CRUDWebAPI.Droid.Resource.Attribute.counterTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.customNavigationLayout = global::CRUDWebAPI.Droid.Resource.Attribute.customNavigationLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.defaultQueryHint = global::CRUDWebAPI.Droid.Resource.Attribute.defaultQueryHint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dialogCornerRadius = global::CRUDWebAPI.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dialogPreferredPadding = global::CRUDWebAPI.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dialogTheme = global::CRUDWebAPI.Droid.Resource.Attribute.dialogTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.displayOptions = global::CRUDWebAPI.Droid.Resource.Attribute.displayOptions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.divider = global::CRUDWebAPI.Droid.Resource.Attribute.divider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dividerHorizontal = global::CRUDWebAPI.Droid.Resource.Attribute.dividerHorizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dividerPadding = global::CRUDWebAPI.Droid.Resource.Attribute.dividerPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dividerVertical = global::CRUDWebAPI.Droid.Resource.Attribute.dividerVertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.drawableSize = global::CRUDWebAPI.Droid.Resource.Attribute.drawableSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.drawerArrowStyle = global::CRUDWebAPI.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dropDownListViewStyle = global::CRUDWebAPI.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::CRUDWebAPI.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.editTextBackground = global::CRUDWebAPI.Droid.Resource.Attribute.editTextBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.editTextColor = global::CRUDWebAPI.Droid.Resource.Attribute.editTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.editTextStyle = global::CRUDWebAPI.Droid.Resource.Attribute.editTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.elevation = global::CRUDWebAPI.Droid.Resource.Attribute.elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.enforceMaterialTheme = global::CRUDWebAPI.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.enforceTextAppearance = global::CRUDWebAPI.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.errorEnabled = global::CRUDWebAPI.Droid.Resource.Attribute.errorEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.errorTextAppearance = global::CRUDWebAPI.Droid.Resource.Attribute.errorTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::CRUDWebAPI.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expanded = global::CRUDWebAPI.Droid.Resource.Attribute.expanded;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandedTitleGravity = global::CRUDWebAPI.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandedTitleMargin = global::CRUDWebAPI.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandedTitleMarginBottom = global::CRUDWebAPI.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandedTitleMarginEnd = global::CRUDWebAPI.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandedTitleMarginStart = global::CRUDWebAPI.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandedTitleMarginTop = global::CRUDWebAPI.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandedTitleTextAppearance = global::CRUDWebAPI.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fabAlignmentMode = global::CRUDWebAPI.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fabCradleMargin = global::CRUDWebAPI.Droid.Resource.Attribute.fabCradleMargin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fabCradleRoundedCornerRadius = global::CRUDWebAPI.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fabCradleVerticalOffset = global::CRUDWebAPI.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fabCustomSize = global::CRUDWebAPI.Droid.Resource.Attribute.fabCustomSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fabSize = global::CRUDWebAPI.Droid.Resource.Attribute.fabSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fastScrollEnabled = global::CRUDWebAPI.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::CRUDWebAPI.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::CRUDWebAPI.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::CRUDWebAPI.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::CRUDWebAPI.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.firstBaselineToTopHeight = global::CRUDWebAPI.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.floatingActionButtonStyle = global::CRUDWebAPI.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.font = global::CRUDWebAPI.Droid.Resource.Attribute.font;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontFamily = global::CRUDWebAPI.Droid.Resource.Attribute.fontFamily;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontProviderAuthority = global::CRUDWebAPI.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontProviderCerts = global::CRUDWebAPI.Droid.Resource.Attribute.fontProviderCerts;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontProviderFetchStrategy = global::CRUDWebAPI.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontProviderFetchTimeout = global::CRUDWebAPI.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontProviderPackage = global::CRUDWebAPI.Droid.Resource.Attribute.fontProviderPackage;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontProviderQuery = global::CRUDWebAPI.Droid.Resource.Attribute.fontProviderQuery;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontStyle = global::CRUDWebAPI.Droid.Resource.Attribute.fontStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontVariationSettings = global::CRUDWebAPI.Droid.Resource.Attribute.fontVariationSettings;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontWeight = global::CRUDWebAPI.Droid.Resource.Attribute.fontWeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.foregroundInsidePadding = global::CRUDWebAPI.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.gapBetweenBars = global::CRUDWebAPI.Droid.Resource.Attribute.gapBetweenBars;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.goIcon = global::CRUDWebAPI.Droid.Resource.Attribute.goIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.headerLayout = global::CRUDWebAPI.Droid.Resource.Attribute.headerLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.height = global::CRUDWebAPI.Droid.Resource.Attribute.height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.helperText = global::CRUDWebAPI.Droid.Resource.Attribute.helperText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.helperTextEnabled = global::CRUDWebAPI.Droid.Resource.Attribute.helperTextEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.helperTextTextAppearance = global::CRUDWebAPI.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hideMotionSpec = global::CRUDWebAPI.Droid.Resource.Attribute.hideMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hideOnContentScroll = global::CRUDWebAPI.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hideOnScroll = global::CRUDWebAPI.Droid.Resource.Attribute.hideOnScroll;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hintAnimationEnabled = global::CRUDWebAPI.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hintEnabled = global::CRUDWebAPI.Droid.Resource.Attribute.hintEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hintTextAppearance = global::CRUDWebAPI.Droid.Resource.Attribute.hintTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.homeAsUpIndicator = global::CRUDWebAPI.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.homeLayout = global::CRUDWebAPI.Droid.Resource.Attribute.homeLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hoveredFocusedTranslationZ = global::CRUDWebAPI.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.icon = global::CRUDWebAPI.Droid.Resource.Attribute.icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.iconEndPadding = global::CRUDWebAPI.Droid.Resource.Attribute.iconEndPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.iconGravity = global::CRUDWebAPI.Droid.Resource.Attribute.iconGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.iconPadding = global::CRUDWebAPI.Droid.Resource.Attribute.iconPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.iconSize = global::CRUDWebAPI.Droid.Resource.Attribute.iconSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.iconStartPadding = global::CRUDWebAPI.Droid.Resource.Attribute.iconStartPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.iconTint = global::CRUDWebAPI.Droid.Resource.Attribute.iconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.iconTintMode = global::CRUDWebAPI.Droid.Resource.Attribute.iconTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.iconifiedByDefault = global::CRUDWebAPI.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.imageButtonStyle = global::CRUDWebAPI.Droid.Resource.Attribute.imageButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.indeterminateProgressStyle = global::CRUDWebAPI.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.initialActivityCount = global::CRUDWebAPI.Droid.Resource.Attribute.initialActivityCount;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.insetForeground = global::CRUDWebAPI.Droid.Resource.Attribute.insetForeground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.isLightTheme = global::CRUDWebAPI.Droid.Resource.Attribute.isLightTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemBackground = global::CRUDWebAPI.Droid.Resource.Attribute.itemBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemHorizontalPadding = global::CRUDWebAPI.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemHorizontalTranslationEnabled = global::CRUDWebAPI.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemIconPadding = global::CRUDWebAPI.Droid.Resource.Attribute.itemIconPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemIconSize = global::CRUDWebAPI.Droid.Resource.Attribute.itemIconSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemIconTint = global::CRUDWebAPI.Droid.Resource.Attribute.itemIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemPadding = global::CRUDWebAPI.Droid.Resource.Attribute.itemPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemSpacing = global::CRUDWebAPI.Droid.Resource.Attribute.itemSpacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemTextAppearance = global::CRUDWebAPI.Droid.Resource.Attribute.itemTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemTextAppearanceActive = global::CRUDWebAPI.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemTextAppearanceInactive = global::CRUDWebAPI.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemTextColor = global::CRUDWebAPI.Droid.Resource.Attribute.itemTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.keylines = global::CRUDWebAPI.Droid.Resource.Attribute.keylines;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.labelVisibilityMode = global::CRUDWebAPI.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::CRUDWebAPI.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout = global::CRUDWebAPI.Droid.Resource.Attribute.layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layoutManager = global::CRUDWebAPI.Droid.Resource.Attribute.layoutManager;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_anchor = global::CRUDWebAPI.Droid.Resource.Attribute.layout_anchor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_anchorGravity = global::CRUDWebAPI.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_behavior = global::CRUDWebAPI.Droid.Resource.Attribute.layout_behavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_collapseMode = global::CRUDWebAPI.Droid.Resource.Attribute.layout_collapseMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::CRUDWebAPI.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::CRUDWebAPI.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_insetEdge = global::CRUDWebAPI.Droid.Resource.Attribute.layout_insetEdge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_keyline = global::CRUDWebAPI.Droid.Resource.Attribute.layout_keyline;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_scrollFlags = global::CRUDWebAPI.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_scrollInterpolator = global::CRUDWebAPI.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.liftOnScroll = global::CRUDWebAPI.Droid.Resource.Attribute.liftOnScroll;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.lineHeight = global::CRUDWebAPI.Droid.Resource.Attribute.lineHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.lineSpacing = global::CRUDWebAPI.Droid.Resource.Attribute.lineSpacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::CRUDWebAPI.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listDividerAlertDialog = global::CRUDWebAPI.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listItemLayout = global::CRUDWebAPI.Droid.Resource.Attribute.listItemLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listLayout = global::CRUDWebAPI.Droid.Resource.Attribute.listLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listMenuViewStyle = global::CRUDWebAPI.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listPopupWindowStyle = global::CRUDWebAPI.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listPreferredItemHeight = global::CRUDWebAPI.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::CRUDWebAPI.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::CRUDWebAPI.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::CRUDWebAPI.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::CRUDWebAPI.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.logo = global::CRUDWebAPI.Droid.Resource.Attribute.logo;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.logoDescription = global::CRUDWebAPI.Droid.Resource.Attribute.logoDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialButtonStyle = global::CRUDWebAPI.Droid.Resource.Attribute.materialButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCardViewStyle = global::CRUDWebAPI.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.maxActionInlineWidth = global::CRUDWebAPI.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.maxButtonHeight = global::CRUDWebAPI.Droid.Resource.Attribute.maxButtonHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.maxImageSize = global::CRUDWebAPI.Droid.Resource.Attribute.maxImageSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.measureWithLargestChild = global::CRUDWebAPI.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.menu = global::CRUDWebAPI.Droid.Resource.Attribute.menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.multiChoiceItemLayout = global::CRUDWebAPI.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.navigationContentDescription = global::CRUDWebAPI.Droid.Resource.Attribute.navigationContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.navigationIcon = global::CRUDWebAPI.Droid.Resource.Attribute.navigationIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.navigationMode = global::CRUDWebAPI.Droid.Resource.Attribute.navigationMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.navigationViewStyle = global::CRUDWebAPI.Droid.Resource.Attribute.navigationViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.numericModifiers = global::CRUDWebAPI.Droid.Resource.Attribute.numericModifiers;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.overlapAnchor = global::CRUDWebAPI.Droid.Resource.Attribute.overlapAnchor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.paddingBottomNoButtons = global::CRUDWebAPI.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.paddingEnd = global::CRUDWebAPI.Droid.Resource.Attribute.paddingEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.paddingStart = global::CRUDWebAPI.Droid.Resource.Attribute.paddingStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.paddingTopNoTitle = global::CRUDWebAPI.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.panelBackground = global::CRUDWebAPI.Droid.Resource.Attribute.panelBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.panelMenuListTheme = global::CRUDWebAPI.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.panelMenuListWidth = global::CRUDWebAPI.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.passwordToggleContentDescription = global::CRUDWebAPI.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.passwordToggleDrawable = global::CRUDWebAPI.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.passwordToggleEnabled = global::CRUDWebAPI.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.passwordToggleTint = global::CRUDWebAPI.Droid.Resource.Attribute.passwordToggleTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.passwordToggleTintMode = global::CRUDWebAPI.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.popupMenuStyle = global::CRUDWebAPI.Droid.Resource.Attribute.popupMenuStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.popupTheme = global::CRUDWebAPI.Droid.Resource.Attribute.popupTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.popupWindowStyle = global::CRUDWebAPI.Droid.Resource.Attribute.popupWindowStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.preserveIconSpacing = global::CRUDWebAPI.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.pressedTranslationZ = global::CRUDWebAPI.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.progressBarPadding = global::CRUDWebAPI.Droid.Resource.Attribute.progressBarPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.progressBarStyle = global::CRUDWebAPI.Droid.Resource.Attribute.progressBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.queryBackground = global::CRUDWebAPI.Droid.Resource.Attribute.queryBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.queryHint = global::CRUDWebAPI.Droid.Resource.Attribute.queryHint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.radioButtonStyle = global::CRUDWebAPI.Droid.Resource.Attribute.radioButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.ratingBarStyle = global::CRUDWebAPI.Droid.Resource.Attribute.ratingBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.ratingBarStyleIndicator = global::CRUDWebAPI.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.ratingBarStyleSmall = global::CRUDWebAPI.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.reverseLayout = global::CRUDWebAPI.Droid.Resource.Attribute.reverseLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.rippleColor = global::CRUDWebAPI.Droid.Resource.Attribute.rippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.scrimAnimationDuration = global::CRUDWebAPI.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.scrimBackground = global::CRUDWebAPI.Droid.Resource.Attribute.scrimBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::CRUDWebAPI.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.searchHintIcon = global::CRUDWebAPI.Droid.Resource.Attribute.searchHintIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.searchIcon = global::CRUDWebAPI.Droid.Resource.Attribute.searchIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.searchViewStyle = global::CRUDWebAPI.Droid.Resource.Attribute.searchViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.seekBarStyle = global::CRUDWebAPI.Droid.Resource.Attribute.seekBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.selectableItemBackground = global::CRUDWebAPI.Droid.Resource.Attribute.selectableItemBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::CRUDWebAPI.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.showAsAction = global::CRUDWebAPI.Droid.Resource.Attribute.showAsAction;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.showDividers = global::CRUDWebAPI.Droid.Resource.Attribute.showDividers;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.showMotionSpec = global::CRUDWebAPI.Droid.Resource.Attribute.showMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.showText = global::CRUDWebAPI.Droid.Resource.Attribute.showText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.showTitle = global::CRUDWebAPI.Droid.Resource.Attribute.showTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.singleChoiceItemLayout = global::CRUDWebAPI.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.singleLine = global::CRUDWebAPI.Droid.Resource.Attribute.singleLine;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.singleSelection = global::CRUDWebAPI.Droid.Resource.Attribute.singleSelection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.snackbarButtonStyle = global::CRUDWebAPI.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.snackbarStyle = global::CRUDWebAPI.Droid.Resource.Attribute.snackbarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.spanCount = global::CRUDWebAPI.Droid.Resource.Attribute.spanCount;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.spinBars = global::CRUDWebAPI.Droid.Resource.Attribute.spinBars;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::CRUDWebAPI.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.spinnerStyle = global::CRUDWebAPI.Droid.Resource.Attribute.spinnerStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.splitTrack = global::CRUDWebAPI.Droid.Resource.Attribute.splitTrack;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.srcCompat = global::CRUDWebAPI.Droid.Resource.Attribute.srcCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.stackFromEnd = global::CRUDWebAPI.Droid.Resource.Attribute.stackFromEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.state_above_anchor = global::CRUDWebAPI.Droid.Resource.Attribute.state_above_anchor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.state_collapsed = global::CRUDWebAPI.Droid.Resource.Attribute.state_collapsed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.state_collapsible = global::CRUDWebAPI.Droid.Resource.Attribute.state_collapsible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.state_liftable = global::CRUDWebAPI.Droid.Resource.Attribute.state_liftable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.state_lifted = global::CRUDWebAPI.Droid.Resource.Attribute.state_lifted;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.statusBarBackground = global::CRUDWebAPI.Droid.Resource.Attribute.statusBarBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.statusBarScrim = global::CRUDWebAPI.Droid.Resource.Attribute.statusBarScrim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.strokeColor = global::CRUDWebAPI.Droid.Resource.Attribute.strokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.strokeWidth = global::CRUDWebAPI.Droid.Resource.Attribute.strokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.subMenuArrow = global::CRUDWebAPI.Droid.Resource.Attribute.subMenuArrow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.submitBackground = global::CRUDWebAPI.Droid.Resource.Attribute.submitBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.subtitle = global::CRUDWebAPI.Droid.Resource.Attribute.subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.subtitleTextAppearance = global::CRUDWebAPI.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.subtitleTextColor = global::CRUDWebAPI.Droid.Resource.Attribute.subtitleTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.subtitleTextStyle = global::CRUDWebAPI.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.suggestionRowLayout = global::CRUDWebAPI.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.switchMinWidth = global::CRUDWebAPI.Droid.Resource.Attribute.switchMinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.switchPadding = global::CRUDWebAPI.Droid.Resource.Attribute.switchPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.switchStyle = global::CRUDWebAPI.Droid.Resource.Attribute.switchStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.switchTextAppearance = global::CRUDWebAPI.Droid.Resource.Attribute.switchTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabBackground = global::CRUDWebAPI.Droid.Resource.Attribute.tabBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabContentStart = global::CRUDWebAPI.Droid.Resource.Attribute.tabContentStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabGravity = global::CRUDWebAPI.Droid.Resource.Attribute.tabGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabIconTint = global::CRUDWebAPI.Droid.Resource.Attribute.tabIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabIconTintMode = global::CRUDWebAPI.Droid.Resource.Attribute.tabIconTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabIndicator = global::CRUDWebAPI.Droid.Resource.Attribute.tabIndicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabIndicatorAnimationDuration = global::CRUDWebAPI.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabIndicatorColor = global::CRUDWebAPI.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabIndicatorFullWidth = global::CRUDWebAPI.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabIndicatorGravity = global::CRUDWebAPI.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabIndicatorHeight = global::CRUDWebAPI.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabInlineLabel = global::CRUDWebAPI.Droid.Resource.Attribute.tabInlineLabel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabMaxWidth = global::CRUDWebAPI.Droid.Resource.Attribute.tabMaxWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabMinWidth = global::CRUDWebAPI.Droid.Resource.Attribute.tabMinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabMode = global::CRUDWebAPI.Droid.Resource.Attribute.tabMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabPadding = global::CRUDWebAPI.Droid.Resource.Attribute.tabPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabPaddingBottom = global::CRUDWebAPI.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabPaddingEnd = global::CRUDWebAPI.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabPaddingStart = global::CRUDWebAPI.Droid.Resource.Attribute.tabPaddingStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabPaddingTop = global::CRUDWebAPI.Droid.Resource.Attribute.tabPaddingTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabRippleColor = global::CRUDWebAPI.Droid.Resource.Attribute.tabRippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabSelectedTextColor = global::CRUDWebAPI.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabStyle = global::CRUDWebAPI.Droid.Resource.Attribute.tabStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabTextAppearance = global::CRUDWebAPI.Droid.Resource.Attribute.tabTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabTextColor = global::CRUDWebAPI.Droid.Resource.Attribute.tabTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tabUnboundedRipple = global::CRUDWebAPI.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAllCaps = global::CRUDWebAPI.Droid.Resource.Attribute.textAllCaps;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceBody1 = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceBody2 = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceButton = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceCaption = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceHeadline1 = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceHeadline2 = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceHeadline3 = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceHeadline4 = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceHeadline5 = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceHeadline6 = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceListItem = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceListItemSmall = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceOverline = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceSubtitle1 = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceSubtitle2 = global::CRUDWebAPI.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textColorAlertDialogListItem = global::CRUDWebAPI.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textColorSearchUrl = global::CRUDWebAPI.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textEndPadding = global::CRUDWebAPI.Droid.Resource.Attribute.textEndPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textInputStyle = global::CRUDWebAPI.Droid.Resource.Attribute.textInputStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textStartPadding = global::CRUDWebAPI.Droid.Resource.Attribute.textStartPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.theme = global::CRUDWebAPI.Droid.Resource.Attribute.theme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.thickness = global::CRUDWebAPI.Droid.Resource.Attribute.thickness;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.thumbTextPadding = global::CRUDWebAPI.Droid.Resource.Attribute.thumbTextPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.thumbTint = global::CRUDWebAPI.Droid.Resource.Attribute.thumbTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.thumbTintMode = global::CRUDWebAPI.Droid.Resource.Attribute.thumbTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tickMark = global::CRUDWebAPI.Droid.Resource.Attribute.tickMark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tickMarkTint = global::CRUDWebAPI.Droid.Resource.Attribute.tickMarkTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tickMarkTintMode = global::CRUDWebAPI.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tint = global::CRUDWebAPI.Droid.Resource.Attribute.tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tintMode = global::CRUDWebAPI.Droid.Resource.Attribute.tintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.title = global::CRUDWebAPI.Droid.Resource.Attribute.title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleEnabled = global::CRUDWebAPI.Droid.Resource.Attribute.titleEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleMargin = global::CRUDWebAPI.Droid.Resource.Attribute.titleMargin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleMarginBottom = global::CRUDWebAPI.Droid.Resource.Attribute.titleMarginBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleMarginEnd = global::CRUDWebAPI.Droid.Resource.Attribute.titleMarginEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleMarginStart = global::CRUDWebAPI.Droid.Resource.Attribute.titleMarginStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleMarginTop = global::CRUDWebAPI.Droid.Resource.Attribute.titleMarginTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleMargins = global::CRUDWebAPI.Droid.Resource.Attribute.titleMargins;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleTextAppearance = global::CRUDWebAPI.Droid.Resource.Attribute.titleTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleTextColor = global::CRUDWebAPI.Droid.Resource.Attribute.titleTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.titleTextStyle = global::CRUDWebAPI.Droid.Resource.Attribute.titleTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.toolbarId = global::CRUDWebAPI.Droid.Resource.Attribute.toolbarId;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::CRUDWebAPI.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.toolbarStyle = global::CRUDWebAPI.Droid.Resource.Attribute.toolbarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tooltipForegroundColor = global::CRUDWebAPI.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tooltipFrameBackground = global::CRUDWebAPI.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tooltipText = global::CRUDWebAPI.Droid.Resource.Attribute.tooltipText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.track = global::CRUDWebAPI.Droid.Resource.Attribute.track;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.trackTint = global::CRUDWebAPI.Droid.Resource.Attribute.trackTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.trackTintMode = global::CRUDWebAPI.Droid.Resource.Attribute.trackTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.ttcIndex = global::CRUDWebAPI.Droid.Resource.Attribute.ttcIndex;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.useCompatPadding = global::CRUDWebAPI.Droid.Resource.Attribute.useCompatPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.viewInflaterClass = global::CRUDWebAPI.Droid.Resource.Attribute.viewInflaterClass;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.voiceIcon = global::CRUDWebAPI.Droid.Resource.Attribute.voiceIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowActionBar = global::CRUDWebAPI.Droid.Resource.Attribute.windowActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowActionBarOverlay = global::CRUDWebAPI.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowActionModeOverlay = global::CRUDWebAPI.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowFixedHeightMajor = global::CRUDWebAPI.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowFixedHeightMinor = global::CRUDWebAPI.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowFixedWidthMajor = global::CRUDWebAPI.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowFixedWidthMinor = global::CRUDWebAPI.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowMinWidthMajor = global::CRUDWebAPI.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowMinWidthMinor = global::CRUDWebAPI.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowNoTitle = global::CRUDWebAPI.Droid.Resource.Attribute.windowNoTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::CRUDWebAPI.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::CRUDWebAPI.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::CRUDWebAPI.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::CRUDWebAPI.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::CRUDWebAPI.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::CRUDWebAPI.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::CRUDWebAPI.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_btn_colored_text_material = global::CRUDWebAPI.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_color_highlight_material = global::CRUDWebAPI.Droid.Resource.Color.abc_color_highlight_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_hint_foreground_material_dark = global::CRUDWebAPI.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_hint_foreground_material_light = global::CRUDWebAPI.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_input_method_navigation_guard = global::CRUDWebAPI.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::CRUDWebAPI.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::CRUDWebAPI.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_primary_text_material_dark = global::CRUDWebAPI.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_primary_text_material_light = global::CRUDWebAPI.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_search_url_text = global::CRUDWebAPI.Droid.Resource.Color.abc_search_url_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_search_url_text_normal = global::CRUDWebAPI.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_search_url_text_pressed = global::CRUDWebAPI.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_search_url_text_selected = global::CRUDWebAPI.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_secondary_text_material_dark = global::CRUDWebAPI.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_secondary_text_material_light = global::CRUDWebAPI.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_tint_btn_checkable = global::CRUDWebAPI.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_tint_default = global::CRUDWebAPI.Droid.Resource.Color.abc_tint_default;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_tint_edittext = global::CRUDWebAPI.Droid.Resource.Color.abc_tint_edittext;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_tint_seek_thumb = global::CRUDWebAPI.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_tint_spinner = global::CRUDWebAPI.Droid.Resource.Color.abc_tint_spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_tint_switch_track = global::CRUDWebAPI.Droid.Resource.Color.abc_tint_switch_track;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.accent_material_dark = global::CRUDWebAPI.Droid.Resource.Color.accent_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.accent_material_light = global::CRUDWebAPI.Droid.Resource.Color.accent_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.background_floating_material_dark = global::CRUDWebAPI.Droid.Resource.Color.background_floating_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.background_floating_material_light = global::CRUDWebAPI.Droid.Resource.Color.background_floating_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.background_material_dark = global::CRUDWebAPI.Droid.Resource.Color.background_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.background_material_light = global::CRUDWebAPI.Droid.Resource.Color.background_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::CRUDWebAPI.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.bright_foreground_disabled_material_light = global::CRUDWebAPI.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::CRUDWebAPI.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.bright_foreground_inverse_material_light = global::CRUDWebAPI.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.bright_foreground_material_dark = global::CRUDWebAPI.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.bright_foreground_material_light = global::CRUDWebAPI.Droid.Resource.Color.bright_foreground_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.browser_actions_bg_grey = global::CRUDWebAPI.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.browser_actions_divider_color = global::CRUDWebAPI.Droid.Resource.Color.browser_actions_divider_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.browser_actions_text_color = global::CRUDWebAPI.Droid.Resource.Color.browser_actions_text_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.browser_actions_title_color = global::CRUDWebAPI.Droid.Resource.Color.browser_actions_title_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.button_material_dark = global::CRUDWebAPI.Droid.Resource.Color.button_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.button_material_light = global::CRUDWebAPI.Droid.Resource.Color.button_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.cardview_dark_background = global::CRUDWebAPI.Droid.Resource.Color.cardview_dark_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.cardview_light_background = global::CRUDWebAPI.Droid.Resource.Color.cardview_light_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.cardview_shadow_end_color = global::CRUDWebAPI.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.cardview_shadow_start_color = global::CRUDWebAPI.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::CRUDWebAPI.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_primary = global::CRUDWebAPI.Droid.Resource.Color.design_default_color_primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_primary_dark = global::CRUDWebAPI.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_error = global::CRUDWebAPI.Droid.Resource.Color.design_error;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_shadow_end_color = global::CRUDWebAPI.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_shadow_mid_color = global::CRUDWebAPI.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_shadow_start_color = global::CRUDWebAPI.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::CRUDWebAPI.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::CRUDWebAPI.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::CRUDWebAPI.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::CRUDWebAPI.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_snackbar_background_color = global::CRUDWebAPI.Droid.Resource.Color.design_snackbar_background_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_tint_password_toggle = global::CRUDWebAPI.Droid.Resource.Color.design_tint_password_toggle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::CRUDWebAPI.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.dim_foreground_disabled_material_light = global::CRUDWebAPI.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.dim_foreground_material_dark = global::CRUDWebAPI.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.dim_foreground_material_light = global::CRUDWebAPI.Droid.Resource.Color.dim_foreground_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.error_color_material_dark = global::CRUDWebAPI.Droid.Resource.Color.error_color_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.error_color_material_light = global::CRUDWebAPI.Droid.Resource.Color.error_color_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.foreground_material_dark = global::CRUDWebAPI.Droid.Resource.Color.foreground_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.foreground_material_light = global::CRUDWebAPI.Droid.Resource.Color.foreground_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.highlighted_text_material_dark = global::CRUDWebAPI.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.highlighted_text_material_light = global::CRUDWebAPI.Droid.Resource.Color.highlighted_text_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_blue_grey_800 = global::CRUDWebAPI.Droid.Resource.Color.material_blue_grey_800;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_blue_grey_900 = global::CRUDWebAPI.Droid.Resource.Color.material_blue_grey_900;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_blue_grey_950 = global::CRUDWebAPI.Droid.Resource.Color.material_blue_grey_950;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_deep_teal_200 = global::CRUDWebAPI.Droid.Resource.Color.material_deep_teal_200;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_deep_teal_500 = global::CRUDWebAPI.Droid.Resource.Color.material_deep_teal_500;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_grey_100 = global::CRUDWebAPI.Droid.Resource.Color.material_grey_100;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_grey_300 = global::CRUDWebAPI.Droid.Resource.Color.material_grey_300;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_grey_50 = global::CRUDWebAPI.Droid.Resource.Color.material_grey_50;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_grey_600 = global::CRUDWebAPI.Droid.Resource.Color.material_grey_600;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_grey_800 = global::CRUDWebAPI.Droid.Resource.Color.material_grey_800;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_grey_850 = global::CRUDWebAPI.Droid.Resource.Color.material_grey_850;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_grey_900 = global::CRUDWebAPI.Droid.Resource.Color.material_grey_900;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::CRUDWebAPI.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_bottom_nav_item_tint = global::CRUDWebAPI.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_bg_color_disabled = global::CRUDWebAPI.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_bg_color_selector = global::CRUDWebAPI.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_ripple_color = global::CRUDWebAPI.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_stroke_color_selector = global::CRUDWebAPI.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color = global::CRUDWebAPI.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_text_color_disabled = global::CRUDWebAPI.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_text_color_selector = global::CRUDWebAPI.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_transparent_bg_color = global::CRUDWebAPI.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_chip_background_color = global::CRUDWebAPI.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_chip_close_icon_tint = global::CRUDWebAPI.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_chip_ripple_color = global::CRUDWebAPI.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_chip_text_color = global::CRUDWebAPI.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_fab_ripple_color = global::CRUDWebAPI.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_scrim_color = global::CRUDWebAPI.Droid.Resource.Color.mtrl_scrim_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_tabs_colored_ripple_color = global::CRUDWebAPI.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_tabs_icon_color_selector = global::CRUDWebAPI.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::CRUDWebAPI.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::CRUDWebAPI.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_tabs_ripple_color = global::CRUDWebAPI.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_text_btn_text_color_selector = global::CRUDWebAPI.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color = global::CRUDWebAPI.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_textinput_disabled_color = global::CRUDWebAPI.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::CRUDWebAPI.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::CRUDWebAPI.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.notification_action_color_filter = global::CRUDWebAPI.Droid.Resource.Color.notification_action_color_filter;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.notification_icon_bg_color = global::CRUDWebAPI.Droid.Resource.Color.notification_icon_bg_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.notification_material_background_media_default_color = global::CRUDWebAPI.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_dark_material_dark = global::CRUDWebAPI.Droid.Resource.Color.primary_dark_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_dark_material_light = global::CRUDWebAPI.Droid.Resource.Color.primary_dark_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_material_dark = global::CRUDWebAPI.Droid.Resource.Color.primary_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_material_light = global::CRUDWebAPI.Droid.Resource.Color.primary_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_text_default_material_dark = global::CRUDWebAPI.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_text_default_material_light = global::CRUDWebAPI.Droid.Resource.Color.primary_text_default_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_text_disabled_material_dark = global::CRUDWebAPI.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_text_disabled_material_light = global::CRUDWebAPI.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.ripple_material_dark = global::CRUDWebAPI.Droid.Resource.Color.ripple_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.ripple_material_light = global::CRUDWebAPI.Droid.Resource.Color.ripple_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.secondary_text_default_material_dark = global::CRUDWebAPI.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.secondary_text_default_material_light = global::CRUDWebAPI.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.secondary_text_disabled_material_dark = global::CRUDWebAPI.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.secondary_text_disabled_material_light = global::CRUDWebAPI.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::CRUDWebAPI.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.switch_thumb_disabled_material_light = global::CRUDWebAPI.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.switch_thumb_material_dark = global::CRUDWebAPI.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.switch_thumb_material_light = global::CRUDWebAPI.Droid.Resource.Color.switch_thumb_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.switch_thumb_normal_material_dark = global::CRUDWebAPI.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.switch_thumb_normal_material_light = global::CRUDWebAPI.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.tooltip_background_dark = global::CRUDWebAPI.Droid.Resource.Color.tooltip_background_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.tooltip_background_light = global::CRUDWebAPI.Droid.Resource.Color.tooltip_background_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::CRUDWebAPI.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::CRUDWebAPI.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::CRUDWebAPI.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_button_min_height_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_button_min_width_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::CRUDWebAPI.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_alert_dialog_button_dimen = global::CRUDWebAPI.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::CRUDWebAPI.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::CRUDWebAPI.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_control_corner_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_control_inset_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_control_padding_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_corner_radius_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::CRUDWebAPI.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::CRUDWebAPI.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::CRUDWebAPI.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::CRUDWebAPI.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::CRUDWebAPI.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::CRUDWebAPI.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_min_width_major = global::CRUDWebAPI.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::CRUDWebAPI.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_padding_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::CRUDWebAPI.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::CRUDWebAPI.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::CRUDWebAPI.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::CRUDWebAPI.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::CRUDWebAPI.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_floating_window_z = global::CRUDWebAPI.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_panel_menu_list_width = global::CRUDWebAPI.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_progress_bar_height_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_search_view_preferred_height = global::CRUDWebAPI.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_search_view_preferred_width = global::CRUDWebAPI.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_switch_padding = global::CRUDWebAPI.Droid.Resource.Dimension.abc_switch_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_body_1_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_body_2_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_button_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_caption_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_display_1_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_display_2_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_display_3_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_display_4_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_headline_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_large_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_medium_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_menu_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_small_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_subhead_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::CRUDWebAPI.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_title_material = global::CRUDWebAPI.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::CRUDWebAPI.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.browser_actions_context_menu_max_width = global::CRUDWebAPI.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.browser_actions_context_menu_min_padding = global::CRUDWebAPI.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::CRUDWebAPI.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.cardview_default_elevation = global::CRUDWebAPI.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.cardview_default_radius = global::CRUDWebAPI.Droid.Resource.Dimension.cardview_default_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::CRUDWebAPI.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::CRUDWebAPI.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::CRUDWebAPI.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::CRUDWebAPI.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.compat_control_corner_material = global::CRUDWebAPI.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::CRUDWebAPI.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::CRUDWebAPI.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_appbar_elevation = global::CRUDWebAPI.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::CRUDWebAPI.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::CRUDWebAPI.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::CRUDWebAPI.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::CRUDWebAPI.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_height = global::CRUDWebAPI.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_icon_size = global::CRUDWebAPI.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::CRUDWebAPI.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::CRUDWebAPI.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_margin = global::CRUDWebAPI.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::CRUDWebAPI.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::CRUDWebAPI.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::CRUDWebAPI.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::CRUDWebAPI.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_fab_border_width = global::CRUDWebAPI.Droid.Resource.Dimension.design_fab_border_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_fab_elevation = global::CRUDWebAPI.Droid.Resource.Dimension.design_fab_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_fab_image_size = global::CRUDWebAPI.Droid.Resource.Dimension.design_fab_image_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_fab_size_mini = global::CRUDWebAPI.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_fab_size_normal = global::CRUDWebAPI.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused = global::CRUDWebAPI.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::CRUDWebAPI.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_navigation_elevation = global::CRUDWebAPI.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_navigation_icon_padding = global::CRUDWebAPI.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_navigation_icon_size = global::CRUDWebAPI.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_navigation_item_horizontal_padding = global::CRUDWebAPI.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_navigation_item_icon_padding = global::CRUDWebAPI.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_navigation_max_width = global::CRUDWebAPI.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_navigation_padding_bottom = global::CRUDWebAPI.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::CRUDWebAPI.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::CRUDWebAPI.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::CRUDWebAPI.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_elevation = global::CRUDWebAPI.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::CRUDWebAPI.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_max_width = global::CRUDWebAPI.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_min_width = global::CRUDWebAPI.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::CRUDWebAPI.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::CRUDWebAPI.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::CRUDWebAPI.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_text_size = global::CRUDWebAPI.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_tab_max_width = global::CRUDWebAPI.Droid.Resource.Dimension.design_tab_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::CRUDWebAPI.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_tab_text_size = global::CRUDWebAPI.Droid.Resource.Dimension.design_tab_text_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_tab_text_size_2line = global::CRUDWebAPI.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_textinput_caption_translate_y = global::CRUDWebAPI.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.disabled_alpha_material_dark = global::CRUDWebAPI.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.disabled_alpha_material_light = global::CRUDWebAPI.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.fastscroll_default_thickness = global::CRUDWebAPI.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.fastscroll_margin = global::CRUDWebAPI.Droid.Resource.Dimension.fastscroll_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.fastscroll_minimum_range = global::CRUDWebAPI.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.highlight_alpha_material_colored = global::CRUDWebAPI.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.highlight_alpha_material_dark = global::CRUDWebAPI.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.highlight_alpha_material_light = global::CRUDWebAPI.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.hint_alpha_material_dark = global::CRUDWebAPI.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.hint_alpha_material_light = global::CRUDWebAPI.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::CRUDWebAPI.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::CRUDWebAPI.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::CRUDWebAPI.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::CRUDWebAPI.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::CRUDWebAPI.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_height = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_corner_radius = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_disabled_elevation = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_disabled_z = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_elevation = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_focused_z = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_hovered_z = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_icon_padding = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_inset = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_letter_spacing = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_padding_bottom = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_padding_left = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_padding_right = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_padding_top = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_pressed_z = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_stroke_size = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_text_size = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_z = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_card_elevation = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_card_spacing = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_chip_text_size = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_fab_elevation = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_navigation_elevation = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_snackbar_margin = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_box_padding_end = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_toolbar_default_height = global::CRUDWebAPI.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_action_icon_size = global::CRUDWebAPI.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_action_text_size = global::CRUDWebAPI.Droid.Resource.Dimension.notification_action_text_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_big_circle_margin = global::CRUDWebAPI.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_content_margin_start = global::CRUDWebAPI.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_large_icon_height = global::CRUDWebAPI.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_large_icon_width = global::CRUDWebAPI.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_main_column_padding_top = global::CRUDWebAPI.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_media_narrow_margin = global::CRUDWebAPI.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_right_icon_size = global::CRUDWebAPI.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_right_side_padding_top = global::CRUDWebAPI.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_small_icon_background_padding = global::CRUDWebAPI.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::CRUDWebAPI.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_subtext_size = global::CRUDWebAPI.Droid.Resource.Dimension.notification_subtext_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_top_pad = global::CRUDWebAPI.Droid.Resource.Dimension.notification_top_pad;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_top_pad_large_text = global::CRUDWebAPI.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.subtitle_corner_radius = global::CRUDWebAPI.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.subtitle_outline_width = global::CRUDWebAPI.Droid.Resource.Dimension.subtitle_outline_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.subtitle_shadow_offset = global::CRUDWebAPI.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.subtitle_shadow_radius = global::CRUDWebAPI.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_corner_radius = global::CRUDWebAPI.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_horizontal_padding = global::CRUDWebAPI.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_margin = global::CRUDWebAPI.Droid.Resource.Dimension.tooltip_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::CRUDWebAPI.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::CRUDWebAPI.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_vertical_padding = global::CRUDWebAPI.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::CRUDWebAPI.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_y_offset_touch = global::CRUDWebAPI.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_borderless_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_check_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::CRUDWebAPI.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::CRUDWebAPI.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_colored_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::CRUDWebAPI.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_radio_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::CRUDWebAPI.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::CRUDWebAPI.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::CRUDWebAPI.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::CRUDWebAPI.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::CRUDWebAPI.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_cab_background_top_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_control_background_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_control_background_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_dialog_material_background = global::CRUDWebAPI.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_edit_text_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_ab_back_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_clear_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_search_api_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_item_background_holo_dark = global::CRUDWebAPI.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_item_background_holo_light = global::CRUDWebAPI.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_divider_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_focused_holo = global::CRUDWebAPI.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_longpressed_holo = global::CRUDWebAPI.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::CRUDWebAPI.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::CRUDWebAPI.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::CRUDWebAPI.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::CRUDWebAPI.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::CRUDWebAPI.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::CRUDWebAPI.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::CRUDWebAPI.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_list_selector_holo_light = global::CRUDWebAPI.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::CRUDWebAPI.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::CRUDWebAPI.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ratingbar_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_ratingbar_small_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::CRUDWebAPI.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::CRUDWebAPI.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_seekbar_track_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_switch_thumb_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_tab_indicator_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_text_cursor_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::CRUDWebAPI.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::CRUDWebAPI.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::CRUDWebAPI.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::CRUDWebAPI.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::CRUDWebAPI.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::CRUDWebAPI.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::CRUDWebAPI.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_textfield_search_material = global::CRUDWebAPI.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.abc_vector_test = global::CRUDWebAPI.Droid.Resource.Drawable.abc_vector_test;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar1 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar10 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar10;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar11 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar11;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar12 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar12;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar13 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar13;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar14 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar14;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar15 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar15;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar16 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar16;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar17 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar17;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar18 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar18;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar19 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar19;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar2 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar20 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar20;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar21 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar21;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar22 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar22;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar23 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar23;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar24 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar24;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar25 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar25;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar26 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar26;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar27 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar27;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar28 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar28;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar29 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar29;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar3 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar3;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar30 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar30;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar4 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar4;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar5 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar5;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar6 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar6;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar7 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar7;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar8 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar8;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.Avatar9 = global::CRUDWebAPI.Droid.Resource.Drawable.Avatar9;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.avd_hide_password = global::CRUDWebAPI.Droid.Resource.Drawable.avd_hide_password;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.avd_show_password = global::CRUDWebAPI.Droid.Resource.Drawable.avd_show_password;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.clear_button_icon = global::CRUDWebAPI.Droid.Resource.Drawable.clear_button_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::CRUDWebAPI.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.design_fab_background = global::CRUDWebAPI.Droid.Resource.Drawable.design_fab_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.design_ic_visibility = global::CRUDWebAPI.Droid.Resource.Drawable.design_ic_visibility;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.design_ic_visibility_off = global::CRUDWebAPI.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.design_password_eye = global::CRUDWebAPI.Droid.Resource.Drawable.design_password_eye;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.design_snackbar_background = global::CRUDWebAPI.Droid.Resource.Drawable.design_snackbar_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.ic_mtrl_chip_checked_black = global::CRUDWebAPI.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle = global::CRUDWebAPI.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.ic_mtrl_chip_close_circle = global::CRUDWebAPI.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.input_layout_drop_down_icon = global::CRUDWebAPI.Droid.Resource.Drawable.input_layout_drop_down_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.inputlayout_togglecollapseicon = global::CRUDWebAPI.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.inputlayout_togglevisibleicon = global::CRUDWebAPI.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_snackbar_background = global::CRUDWebAPI.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_tabs_default_indicator = global::CRUDWebAPI.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.navigation_empty_icon = global::CRUDWebAPI.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_action_background = global::CRUDWebAPI.Droid.Resource.Drawable.notification_action_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_bg = global::CRUDWebAPI.Droid.Resource.Drawable.notification_bg;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_bg_low = global::CRUDWebAPI.Droid.Resource.Drawable.notification_bg_low;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_bg_low_normal = global::CRUDWebAPI.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_bg_low_pressed = global::CRUDWebAPI.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_bg_normal = global::CRUDWebAPI.Droid.Resource.Drawable.notification_bg_normal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_bg_normal_pressed = global::CRUDWebAPI.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_icon_background = global::CRUDWebAPI.Droid.Resource.Drawable.notification_icon_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_template_icon_bg = global::CRUDWebAPI.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_template_icon_low_bg = global::CRUDWebAPI.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_tile_bg = global::CRUDWebAPI.Droid.Resource.Drawable.notification_tile_bg;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::CRUDWebAPI.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.sfclosebutton = global::CRUDWebAPI.Droid.Resource.Drawable.sfclosebutton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.styleinfo = global::CRUDWebAPI.Droid.Resource.Drawable.styleinfo;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.tooltip_frame_dark = global::CRUDWebAPI.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.tooltip_frame_light = global::CRUDWebAPI.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.ALT = global::CRUDWebAPI.Droid.Resource.Id.ALT;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.CTRL = global::CRUDWebAPI.Droid.Resource.Id.CTRL;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.FUNCTION = global::CRUDWebAPI.Droid.Resource.Id.FUNCTION;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.Itemname = global::CRUDWebAPI.Droid.Resource.Id.Itemname;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.META = global::CRUDWebAPI.Droid.Resource.Id.META;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.SHIFT = global::CRUDWebAPI.Droid.Resource.Id.SHIFT;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.SYM = global::CRUDWebAPI.Droid.Resource.Id.SYM;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action0 = global::CRUDWebAPI.Droid.Resource.Id.action0;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_bar = global::CRUDWebAPI.Droid.Resource.Id.action_bar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_bar_activity_content = global::CRUDWebAPI.Droid.Resource.Id.action_bar_activity_content;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_bar_container = global::CRUDWebAPI.Droid.Resource.Id.action_bar_container;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_bar_root = global::CRUDWebAPI.Droid.Resource.Id.action_bar_root;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_bar_spinner = global::CRUDWebAPI.Droid.Resource.Id.action_bar_spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_bar_subtitle = global::CRUDWebAPI.Droid.Resource.Id.action_bar_subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_bar_title = global::CRUDWebAPI.Droid.Resource.Id.action_bar_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_container = global::CRUDWebAPI.Droid.Resource.Id.action_container;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_context_bar = global::CRUDWebAPI.Droid.Resource.Id.action_context_bar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_divider = global::CRUDWebAPI.Droid.Resource.Id.action_divider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_image = global::CRUDWebAPI.Droid.Resource.Id.action_image;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_menu_divider = global::CRUDWebAPI.Droid.Resource.Id.action_menu_divider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_menu_presenter = global::CRUDWebAPI.Droid.Resource.Id.action_menu_presenter;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_mode_bar = global::CRUDWebAPI.Droid.Resource.Id.action_mode_bar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_mode_bar_stub = global::CRUDWebAPI.Droid.Resource.Id.action_mode_bar_stub;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_mode_close_button = global::CRUDWebAPI.Droid.Resource.Id.action_mode_close_button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.action_text = global::CRUDWebAPI.Droid.Resource.Id.action_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.actions = global::CRUDWebAPI.Droid.Resource.Id.actions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.activity_chooser_view_content = global::CRUDWebAPI.Droid.Resource.Id.activity_chooser_view_content;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.add = global::CRUDWebAPI.Droid.Resource.Id.add;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.alertTitle = global::CRUDWebAPI.Droid.Resource.Id.alertTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.all = global::CRUDWebAPI.Droid.Resource.Id.all;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.always = global::CRUDWebAPI.Droid.Resource.Id.always;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.async = global::CRUDWebAPI.Droid.Resource.Id.async;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.auto = global::CRUDWebAPI.Droid.Resource.Id.auto;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.beginning = global::CRUDWebAPI.Droid.Resource.Id.beginning;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.blocking = global::CRUDWebAPI.Droid.Resource.Id.blocking;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.bottom = global::CRUDWebAPI.Droid.Resource.Id.bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.bottomtab_navarea = global::CRUDWebAPI.Droid.Resource.Id.bottomtab_navarea;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.bottomtab_tabbar = global::CRUDWebAPI.Droid.Resource.Id.bottomtab_tabbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.browser_actions_header_text = global::CRUDWebAPI.Droid.Resource.Id.browser_actions_header_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.browser_actions_menu_item_icon = global::CRUDWebAPI.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.browser_actions_menu_item_text = global::CRUDWebAPI.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.browser_actions_menu_items = global::CRUDWebAPI.Droid.Resource.Id.browser_actions_menu_items;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.browser_actions_menu_view = global::CRUDWebAPI.Droid.Resource.Id.browser_actions_menu_view;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.buttonPanel = global::CRUDWebAPI.Droid.Resource.Id.buttonPanel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.cancel_action = global::CRUDWebAPI.Droid.Resource.Id.cancel_action;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.center = global::CRUDWebAPI.Droid.Resource.Id.center;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.center_horizontal = global::CRUDWebAPI.Droid.Resource.Id.center_horizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.center_vertical = global::CRUDWebAPI.Droid.Resource.Id.center_vertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.checkbox = global::CRUDWebAPI.Droid.Resource.Id.checkbox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.chronometer = global::CRUDWebAPI.Droid.Resource.Id.chronometer;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.clip_horizontal = global::CRUDWebAPI.Droid.Resource.Id.clip_horizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.clip_vertical = global::CRUDWebAPI.Droid.Resource.Id.clip_vertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.collapseActionView = global::CRUDWebAPI.Droid.Resource.Id.collapseActionView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.container = global::CRUDWebAPI.Droid.Resource.Id.container;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.content = global::CRUDWebAPI.Droid.Resource.Id.content;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.contentPanel = global::CRUDWebAPI.Droid.Resource.Id.contentPanel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.coordinator = global::CRUDWebAPI.Droid.Resource.Id.coordinator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.custom = global::CRUDWebAPI.Droid.Resource.Id.custom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.customPanel = global::CRUDWebAPI.Droid.Resource.Id.customPanel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.decor_content_parent = global::CRUDWebAPI.Droid.Resource.Id.decor_content_parent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.default_activity_button = global::CRUDWebAPI.Droid.Resource.Id.default_activity_button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.design_bottom_sheet = global::CRUDWebAPI.Droid.Resource.Id.design_bottom_sheet;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.design_menu_item_action_area = global::CRUDWebAPI.Droid.Resource.Id.design_menu_item_action_area;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.design_menu_item_action_area_stub = global::CRUDWebAPI.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.design_menu_item_text = global::CRUDWebAPI.Droid.Resource.Id.design_menu_item_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.design_navigation_view = global::CRUDWebAPI.Droid.Resource.Id.design_navigation_view;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.disableHome = global::CRUDWebAPI.Droid.Resource.Id.disableHome;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.edit_query = global::CRUDWebAPI.Droid.Resource.Id.edit_query;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.end = global::CRUDWebAPI.Droid.Resource.Id.end;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.end_padder = global::CRUDWebAPI.Droid.Resource.Id.end_padder;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.enterAlways = global::CRUDWebAPI.Droid.Resource.Id.enterAlways;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.enterAlwaysCollapsed = global::CRUDWebAPI.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.exitUntilCollapsed = global::CRUDWebAPI.Droid.Resource.Id.exitUntilCollapsed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.expand_activities_button = global::CRUDWebAPI.Droid.Resource.Id.expand_activities_button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.expanded_menu = global::CRUDWebAPI.Droid.Resource.Id.expanded_menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.fill = global::CRUDWebAPI.Droid.Resource.Id.fill;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.fill_horizontal = global::CRUDWebAPI.Droid.Resource.Id.fill_horizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.fill_vertical = global::CRUDWebAPI.Droid.Resource.Id.fill_vertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.filled = global::CRUDWebAPI.Droid.Resource.Id.filled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.@fixed = global::CRUDWebAPI.Droid.Resource.Id.@fixed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.flyoutcontent_appbar = global::CRUDWebAPI.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.flyoutcontent_recycler = global::CRUDWebAPI.Droid.Resource.Id.flyoutcontent_recycler;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.forever = global::CRUDWebAPI.Droid.Resource.Id.forever;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.ghost_view = global::CRUDWebAPI.Droid.Resource.Id.ghost_view;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.group_divider = global::CRUDWebAPI.Droid.Resource.Id.group_divider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.home = global::CRUDWebAPI.Droid.Resource.Id.home;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.homeAsUp = global::CRUDWebAPI.Droid.Resource.Id.homeAsUp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.icon = global::CRUDWebAPI.Droid.Resource.Id.icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.icon_group = global::CRUDWebAPI.Droid.Resource.Id.icon_group;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.ifRoom = global::CRUDWebAPI.Droid.Resource.Id.ifRoom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.image = global::CRUDWebAPI.Droid.Resource.Id.image;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.info = global::CRUDWebAPI.Droid.Resource.Id.info;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.italic = global::CRUDWebAPI.Droid.Resource.Id.italic;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.item_touch_helper_previous_elevation = global::CRUDWebAPI.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.labeled = global::CRUDWebAPI.Droid.Resource.Id.labeled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.largeLabel = global::CRUDWebAPI.Droid.Resource.Id.largeLabel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.left = global::CRUDWebAPI.Droid.Resource.Id.left;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.line1 = global::CRUDWebAPI.Droid.Resource.Id.line1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.line3 = global::CRUDWebAPI.Droid.Resource.Id.line3;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.listMode = global::CRUDWebAPI.Droid.Resource.Id.listMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.list_item = global::CRUDWebAPI.Droid.Resource.Id.list_item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.main_appbar = global::CRUDWebAPI.Droid.Resource.Id.main_appbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.main_tablayout = global::CRUDWebAPI.Droid.Resource.Id.main_tablayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.main_toolbar = global::CRUDWebAPI.Droid.Resource.Id.main_toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.main_viewpager = global::CRUDWebAPI.Droid.Resource.Id.main_viewpager;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.masked = global::CRUDWebAPI.Droid.Resource.Id.masked;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.media_actions = global::CRUDWebAPI.Droid.Resource.Id.media_actions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.message = global::CRUDWebAPI.Droid.Resource.Id.message;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.middle = global::CRUDWebAPI.Droid.Resource.Id.middle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mini = global::CRUDWebAPI.Droid.Resource.Id.mini;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_child_content_container = global::CRUDWebAPI.Droid.Resource.Id.mtrl_child_content_container;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_internal_children_alpha_tag = global::CRUDWebAPI.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.multiply = global::CRUDWebAPI.Droid.Resource.Id.multiply;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.navigation_header_container = global::CRUDWebAPI.Droid.Resource.Id.navigation_header_container;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.never = global::CRUDWebAPI.Droid.Resource.Id.never;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.none = global::CRUDWebAPI.Droid.Resource.Id.none;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.normal = global::CRUDWebAPI.Droid.Resource.Id.normal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.notification_background = global::CRUDWebAPI.Droid.Resource.Id.notification_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.notification_main_column = global::CRUDWebAPI.Droid.Resource.Id.notification_main_column;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.notification_main_column_container = global::CRUDWebAPI.Droid.Resource.Id.notification_main_column_container;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.outline = global::CRUDWebAPI.Droid.Resource.Id.outline;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.parallax = global::CRUDWebAPI.Droid.Resource.Id.parallax;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.parentPanel = global::CRUDWebAPI.Droid.Resource.Id.parentPanel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.parent_matrix = global::CRUDWebAPI.Droid.Resource.Id.parent_matrix;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.pin = global::CRUDWebAPI.Droid.Resource.Id.pin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.progress_circular = global::CRUDWebAPI.Droid.Resource.Id.progress_circular;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.progress_horizontal = global::CRUDWebAPI.Droid.Resource.Id.progress_horizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.radio = global::CRUDWebAPI.Droid.Resource.Id.radio;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.right = global::CRUDWebAPI.Droid.Resource.Id.right;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.right_icon = global::CRUDWebAPI.Droid.Resource.Id.right_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.right_side = global::CRUDWebAPI.Droid.Resource.Id.right_side;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.save_image_matrix = global::CRUDWebAPI.Droid.Resource.Id.save_image_matrix;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.save_non_transition_alpha = global::CRUDWebAPI.Droid.Resource.Id.save_non_transition_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.save_scale_type = global::CRUDWebAPI.Droid.Resource.Id.save_scale_type;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.screen = global::CRUDWebAPI.Droid.Resource.Id.screen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.scroll = global::CRUDWebAPI.Droid.Resource.Id.scroll;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.scrollIndicatorDown = global::CRUDWebAPI.Droid.Resource.Id.scrollIndicatorDown;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.scrollIndicatorUp = global::CRUDWebAPI.Droid.Resource.Id.scrollIndicatorUp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.scrollView = global::CRUDWebAPI.Droid.Resource.Id.scrollView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.scrollable = global::CRUDWebAPI.Droid.Resource.Id.scrollable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_badge = global::CRUDWebAPI.Droid.Resource.Id.search_badge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_bar = global::CRUDWebAPI.Droid.Resource.Id.search_bar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_button = global::CRUDWebAPI.Droid.Resource.Id.search_button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_close_btn = global::CRUDWebAPI.Droid.Resource.Id.search_close_btn;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_edit_frame = global::CRUDWebAPI.Droid.Resource.Id.search_edit_frame;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_go_btn = global::CRUDWebAPI.Droid.Resource.Id.search_go_btn;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_mag_icon = global::CRUDWebAPI.Droid.Resource.Id.search_mag_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_plate = global::CRUDWebAPI.Droid.Resource.Id.search_plate;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_src_text = global::CRUDWebAPI.Droid.Resource.Id.search_src_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.search_voice_btn = global::CRUDWebAPI.Droid.Resource.Id.search_voice_btn;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.select_dialog_listview = global::CRUDWebAPI.Droid.Resource.Id.select_dialog_listview;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.selected = global::CRUDWebAPI.Droid.Resource.Id.selected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.shellcontent_appbar = global::CRUDWebAPI.Droid.Resource.Id.shellcontent_appbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.shellcontent_toolbar = global::CRUDWebAPI.Droid.Resource.Id.shellcontent_toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.shortcut = global::CRUDWebAPI.Droid.Resource.Id.shortcut;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.showCustom = global::CRUDWebAPI.Droid.Resource.Id.showCustom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.showHome = global::CRUDWebAPI.Droid.Resource.Id.showHome;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.showTitle = global::CRUDWebAPI.Droid.Resource.Id.showTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.smallLabel = global::CRUDWebAPI.Droid.Resource.Id.smallLabel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.snackbar_action = global::CRUDWebAPI.Droid.Resource.Id.snackbar_action;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.snackbar_text = global::CRUDWebAPI.Droid.Resource.Id.snackbar_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.snap = global::CRUDWebAPI.Droid.Resource.Id.snap;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.snapMargins = global::CRUDWebAPI.Droid.Resource.Id.snapMargins;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.spacer = global::CRUDWebAPI.Droid.Resource.Id.spacer;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.split_action_bar = global::CRUDWebAPI.Droid.Resource.Id.split_action_bar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.src_atop = global::CRUDWebAPI.Droid.Resource.Id.src_atop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.src_in = global::CRUDWebAPI.Droid.Resource.Id.src_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.src_over = global::CRUDWebAPI.Droid.Resource.Id.src_over;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.start = global::CRUDWebAPI.Droid.Resource.Id.start;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.status_bar_latest_event_content = global::CRUDWebAPI.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.stretch = global::CRUDWebAPI.Droid.Resource.Id.stretch;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.submenuarrow = global::CRUDWebAPI.Droid.Resource.Id.submenuarrow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.submit_area = global::CRUDWebAPI.Droid.Resource.Id.submit_area;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.tabMode = global::CRUDWebAPI.Droid.Resource.Id.tabMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.tag_transition_group = global::CRUDWebAPI.Droid.Resource.Id.tag_transition_group;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.tag_unhandled_key_event_manager = global::CRUDWebAPI.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.tag_unhandled_key_listeners = global::CRUDWebAPI.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.text = global::CRUDWebAPI.Droid.Resource.Id.text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.text2 = global::CRUDWebAPI.Droid.Resource.Id.text2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textSpacerNoButtons = global::CRUDWebAPI.Droid.Resource.Id.textSpacerNoButtons;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textSpacerNoTitle = global::CRUDWebAPI.Droid.Resource.Id.textSpacerNoTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textStart = global::CRUDWebAPI.Droid.Resource.Id.textStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.text_input_password_toggle = global::CRUDWebAPI.Droid.Resource.Id.text_input_password_toggle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textinput_counter = global::CRUDWebAPI.Droid.Resource.Id.textinput_counter;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textinput_error = global::CRUDWebAPI.Droid.Resource.Id.textinput_error;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textinput_helper_text = global::CRUDWebAPI.Droid.Resource.Id.textinput_helper_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.time = global::CRUDWebAPI.Droid.Resource.Id.time;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.title = global::CRUDWebAPI.Droid.Resource.Id.title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.titleDividerNoCustom = global::CRUDWebAPI.Droid.Resource.Id.titleDividerNoCustom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.title_template = global::CRUDWebAPI.Droid.Resource.Id.title_template;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.top = global::CRUDWebAPI.Droid.Resource.Id.top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.topPanel = global::CRUDWebAPI.Droid.Resource.Id.topPanel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.touch_outside = global::CRUDWebAPI.Droid.Resource.Id.touch_outside;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.transition_current_scene = global::CRUDWebAPI.Droid.Resource.Id.transition_current_scene;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.transition_layout_save = global::CRUDWebAPI.Droid.Resource.Id.transition_layout_save;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.transition_position = global::CRUDWebAPI.Droid.Resource.Id.transition_position;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.transition_scene_layoutid_cache = global::CRUDWebAPI.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.transition_transform = global::CRUDWebAPI.Droid.Resource.Id.transition_transform;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.uniform = global::CRUDWebAPI.Droid.Resource.Id.uniform;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.unlabeled = global::CRUDWebAPI.Droid.Resource.Id.unlabeled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.up = global::CRUDWebAPI.Droid.Resource.Id.up;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.useLogo = global::CRUDWebAPI.Droid.Resource.Id.useLogo;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.view_offset_helper = global::CRUDWebAPI.Droid.Resource.Id.view_offset_helper;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.visible = global::CRUDWebAPI.Droid.Resource.Id.visible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.withText = global::CRUDWebAPI.Droid.Resource.Id.withText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.wrap_content = global::CRUDWebAPI.Droid.Resource.Id.wrap_content;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.abc_config_activityDefaultDur = global::CRUDWebAPI.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.abc_config_activityShortDur = global::CRUDWebAPI.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::CRUDWebAPI.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.bottom_sheet_slide_duration = global::CRUDWebAPI.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.cancel_button_image_alpha = global::CRUDWebAPI.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.config_tooltipAnimTime = global::CRUDWebAPI.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.design_snackbar_text_max_lines = global::CRUDWebAPI.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms = global::CRUDWebAPI.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.hide_password_duration = global::CRUDWebAPI.Droid.Resource.Integer.hide_password_duration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_btn_anim_delay_ms = global::CRUDWebAPI.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_btn_anim_duration_ms = global::CRUDWebAPI.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_chip_anim_duration = global::CRUDWebAPI.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::CRUDWebAPI.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.show_password_duration = global::CRUDWebAPI.Droid.Resource.Integer.show_password_duration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::CRUDWebAPI.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Interpolator.mtrl_fast_out_linear_in = global::CRUDWebAPI.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Interpolator.mtrl_fast_out_slow_in = global::CRUDWebAPI.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Interpolator.mtrl_linear = global::CRUDWebAPI.Droid.Resource.Interpolator.mtrl_linear;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Interpolator.mtrl_linear_out_slow_in = global::CRUDWebAPI.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_action_bar_title_item = global::CRUDWebAPI.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_action_bar_up_container = global::CRUDWebAPI.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_action_menu_item_layout = global::CRUDWebAPI.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_action_menu_layout = global::CRUDWebAPI.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_action_mode_bar = global::CRUDWebAPI.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_action_mode_close_item_material = global::CRUDWebAPI.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_activity_chooser_view = global::CRUDWebAPI.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::CRUDWebAPI.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::CRUDWebAPI.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_alert_dialog_material = global::CRUDWebAPI.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_alert_dialog_title_material = global::CRUDWebAPI.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_cascading_menu_item_layout = global::CRUDWebAPI.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_dialog_title_material = global::CRUDWebAPI.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_expanded_menu_layout = global::CRUDWebAPI.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::CRUDWebAPI.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_list_menu_item_icon = global::CRUDWebAPI.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_list_menu_item_layout = global::CRUDWebAPI.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_list_menu_item_radio = global::CRUDWebAPI.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::CRUDWebAPI.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_popup_menu_item_layout = global::CRUDWebAPI.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_screen_content_include = global::CRUDWebAPI.Droid.Resource.Layout.abc_screen_content_include;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_screen_simple = global::CRUDWebAPI.Droid.Resource.Layout.abc_screen_simple;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::CRUDWebAPI.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_screen_toolbar = global::CRUDWebAPI.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::CRUDWebAPI.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_search_view = global::CRUDWebAPI.Droid.Resource.Layout.abc_search_view;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_select_dialog_material = global::CRUDWebAPI.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.abc_tooltip = global::CRUDWebAPI.Droid.Resource.Layout.abc_tooltip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.BottomTabLayout = global::CRUDWebAPI.Droid.Resource.Layout.BottomTabLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.browser_actions_context_menu_page = global::CRUDWebAPI.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.browser_actions_context_menu_row = global::CRUDWebAPI.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.CustomizedView = global::CRUDWebAPI.Droid.Resource.Layout.CustomizedView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.CustomizedView1 = global::CRUDWebAPI.Droid.Resource.Layout.CustomizedView1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_bottom_navigation_item = global::CRUDWebAPI.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_bottom_sheet_dialog = global::CRUDWebAPI.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_layout_snackbar = global::CRUDWebAPI.Droid.Resource.Layout.design_layout_snackbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_layout_snackbar_include = global::CRUDWebAPI.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_layout_tab_icon = global::CRUDWebAPI.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_layout_tab_text = global::CRUDWebAPI.Droid.Resource.Layout.design_layout_tab_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_menu_item_action_area = global::CRUDWebAPI.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_navigation_item = global::CRUDWebAPI.Droid.Resource.Layout.design_navigation_item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_navigation_item_header = global::CRUDWebAPI.Droid.Resource.Layout.design_navigation_item_header;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_navigation_item_separator = global::CRUDWebAPI.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_navigation_item_subheader = global::CRUDWebAPI.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_navigation_menu = global::CRUDWebAPI.Droid.Resource.Layout.design_navigation_menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_navigation_menu_item = global::CRUDWebAPI.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_text_input_password_icon = global::CRUDWebAPI.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.FlyoutContent = global::CRUDWebAPI.Droid.Resource.Layout.FlyoutContent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_layout_snackbar = global::CRUDWebAPI.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_layout_snackbar_include = global::CRUDWebAPI.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_action = global::CRUDWebAPI.Droid.Resource.Layout.notification_action;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_action_tombstone = global::CRUDWebAPI.Droid.Resource.Layout.notification_action_tombstone;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_media_action = global::CRUDWebAPI.Droid.Resource.Layout.notification_media_action;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_media_cancel_action = global::CRUDWebAPI.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_big_media = global::CRUDWebAPI.Droid.Resource.Layout.notification_template_big_media;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_big_media_custom = global::CRUDWebAPI.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_big_media_narrow = global::CRUDWebAPI.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::CRUDWebAPI.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_custom_big = global::CRUDWebAPI.Droid.Resource.Layout.notification_template_custom_big;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_icon_group = global::CRUDWebAPI.Droid.Resource.Layout.notification_template_icon_group;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_lines_media = global::CRUDWebAPI.Droid.Resource.Layout.notification_template_lines_media;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_media = global::CRUDWebAPI.Droid.Resource.Layout.notification_template_media;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_media_custom = global::CRUDWebAPI.Droid.Resource.Layout.notification_template_media_custom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_part_chronometer = global::CRUDWebAPI.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_template_part_time = global::CRUDWebAPI.Droid.Resource.Layout.notification_template_part_time;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.RootLayout = global::CRUDWebAPI.Droid.Resource.Layout.RootLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.select_dialog_item_material = global::CRUDWebAPI.Droid.Resource.Layout.select_dialog_item_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.select_dialog_multichoice_material = global::CRUDWebAPI.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.select_dialog_singlechoice_material = global::CRUDWebAPI.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.sfautocomplete_layout = global::CRUDWebAPI.Droid.Resource.Layout.sfautocomplete_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.ShellContent = global::CRUDWebAPI.Droid.Resource.Layout.ShellContent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::CRUDWebAPI.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_action_bar_home_description = global::CRUDWebAPI.Droid.Resource.String.abc_action_bar_home_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_action_bar_up_description = global::CRUDWebAPI.Droid.Resource.String.abc_action_bar_up_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_action_menu_overflow_description = global::CRUDWebAPI.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_action_mode_done = global::CRUDWebAPI.Droid.Resource.String.abc_action_mode_done;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_activity_chooser_view_see_all = global::CRUDWebAPI.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_activitychooserview_choose_application = global::CRUDWebAPI.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_capital_off = global::CRUDWebAPI.Droid.Resource.String.abc_capital_off;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_capital_on = global::CRUDWebAPI.Droid.Resource.String.abc_capital_on;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_font_family_body_1_material = global::CRUDWebAPI.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_font_family_body_2_material = global::CRUDWebAPI.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_font_family_button_material = global::CRUDWebAPI.Droid.Resource.String.abc_font_family_button_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_font_family_caption_material = global::CRUDWebAPI.Droid.Resource.String.abc_font_family_caption_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_font_family_display_1_material = global::CRUDWebAPI.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_font_family_display_2_material = global::CRUDWebAPI.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_font_family_display_3_material = global::CRUDWebAPI.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_font_family_display_4_material = global::CRUDWebAPI.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_font_family_headline_material = global::CRUDWebAPI.Droid.Resource.String.abc_font_family_headline_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_font_family_menu_material = global::CRUDWebAPI.Droid.Resource.String.abc_font_family_menu_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_font_family_subhead_material = global::CRUDWebAPI.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_font_family_title_material = global::CRUDWebAPI.Droid.Resource.String.abc_font_family_title_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_menu_alt_shortcut_label = global::CRUDWebAPI.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_menu_ctrl_shortcut_label = global::CRUDWebAPI.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_menu_delete_shortcut_label = global::CRUDWebAPI.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_menu_enter_shortcut_label = global::CRUDWebAPI.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_menu_function_shortcut_label = global::CRUDWebAPI.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_menu_meta_shortcut_label = global::CRUDWebAPI.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_menu_shift_shortcut_label = global::CRUDWebAPI.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_menu_space_shortcut_label = global::CRUDWebAPI.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_menu_sym_shortcut_label = global::CRUDWebAPI.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_prepend_shortcut_label = global::CRUDWebAPI.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_search_hint = global::CRUDWebAPI.Droid.Resource.String.abc_search_hint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_searchview_description_clear = global::CRUDWebAPI.Droid.Resource.String.abc_searchview_description_clear;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_searchview_description_query = global::CRUDWebAPI.Droid.Resource.String.abc_searchview_description_query;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_searchview_description_search = global::CRUDWebAPI.Droid.Resource.String.abc_searchview_description_search;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_searchview_description_submit = global::CRUDWebAPI.Droid.Resource.String.abc_searchview_description_submit;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_searchview_description_voice = global::CRUDWebAPI.Droid.Resource.String.abc_searchview_description_voice;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_shareactionprovider_share_with = global::CRUDWebAPI.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::CRUDWebAPI.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_toolbar_collapse_description = global::CRUDWebAPI.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.appbar_scrolling_view_behavior = global::CRUDWebAPI.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.bottom_sheet_behavior = global::CRUDWebAPI.Droid.Resource.String.bottom_sheet_behavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.character_counter_content_description = global::CRUDWebAPI.Droid.Resource.String.character_counter_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.character_counter_pattern = global::CRUDWebAPI.Droid.Resource.String.character_counter_pattern;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.fab_transformation_scrim_behavior = global::CRUDWebAPI.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.fab_transformation_sheet_behavior = global::CRUDWebAPI.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.hide_bottom_view_on_scroll_behavior = global::CRUDWebAPI.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_chip_close_icon_content_description = global::CRUDWebAPI.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.password_toggle_content_description = global::CRUDWebAPI.Droid.Resource.String.password_toggle_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.path_password_eye = global::CRUDWebAPI.Droid.Resource.String.path_password_eye;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.path_password_eye_mask_strike_through = global::CRUDWebAPI.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.path_password_eye_mask_visible = global::CRUDWebAPI.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.path_password_strike_through = global::CRUDWebAPI.Droid.Resource.String.path_password_strike_through;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.search_menu_title = global::CRUDWebAPI.Droid.Resource.String.search_menu_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.status_bar_notification_info_overflow = global::CRUDWebAPI.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.AlertDialog_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::CRUDWebAPI.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Animation_AppCompat_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::CRUDWebAPI.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::CRUDWebAPI.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::CRUDWebAPI.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::CRUDWebAPI.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::CRUDWebAPI.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::CRUDWebAPI.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_CardView = global::CRUDWebAPI.Droid.Resource.Style.Base_CardView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::CRUDWebAPI.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::CRUDWebAPI.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::CRUDWebAPI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::CRUDWebAPI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::CRUDWebAPI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::CRUDWebAPI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::CRUDWebAPI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::CRUDWebAPI.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents = global::CRUDWebAPI.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::CRUDWebAPI.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::CRUDWebAPI.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::CRUDWebAPI.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CRUDWebAPI.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::CRUDWebAPI.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::CRUDWebAPI.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::CRUDWebAPI.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::CRUDWebAPI.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::CRUDWebAPI.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::CRUDWebAPI.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V28_Theme_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light = global::CRUDWebAPI.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::CRUDWebAPI.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::CRUDWebAPI.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::CRUDWebAPI.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::CRUDWebAPI.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::CRUDWebAPI.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.CardView = global::CRUDWebAPI.Droid.Resource.Style.CardView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.CardView_Dark = global::CRUDWebAPI.Droid.Resource.Style.CardView_Dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.CardView_Light = global::CRUDWebAPI.Droid.Resource.Style.CardView_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.Platform_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_AppCompat_Light = global::CRUDWebAPI.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_MaterialComponents = global::CRUDWebAPI.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_MaterialComponents_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_MaterialComponents_Light = global::CRUDWebAPI.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::CRUDWebAPI.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::CRUDWebAPI.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_V21_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::CRUDWebAPI.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_V25_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::CRUDWebAPI.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::CRUDWebAPI.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::CRUDWebAPI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::CRUDWebAPI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::CRUDWebAPI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::CRUDWebAPI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::CRUDWebAPI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::CRUDWebAPI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::CRUDWebAPI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::CRUDWebAPI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::CRUDWebAPI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::CRUDWebAPI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::CRUDWebAPI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::CRUDWebAPI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::CRUDWebAPI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::CRUDWebAPI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::CRUDWebAPI.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::CRUDWebAPI.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Counter = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Error = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_HelperText = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Hint = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Tab = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Button = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::CRUDWebAPI.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Light = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::CRUDWebAPI.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_Design = global::CRUDWebAPI.Droid.Resource.Style.Theme_Design;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::CRUDWebAPI.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_Design_Light = global::CRUDWebAPI.Droid.Resource.Style.Theme_Design_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::CRUDWebAPI.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::CRUDWebAPI.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_Design_NoActionBar = global::CRUDWebAPI.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Bridge = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::CRUDWebAPI.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::CRUDWebAPI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Button = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_EditText = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ListView = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_SearchView = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::CRUDWebAPI.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::CRUDWebAPI.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::CRUDWebAPI.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_AppBarLayout = global::CRUDWebAPI.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::CRUDWebAPI.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::CRUDWebAPI.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::CRUDWebAPI.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::CRUDWebAPI.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_NavigationView = global::CRUDWebAPI.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::CRUDWebAPI.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_Snackbar = global::CRUDWebAPI.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_TabLayout = global::CRUDWebAPI.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_TextInputLayout = global::CRUDWebAPI.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_CardView = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_NavigationView = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Snackbar = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TabLayout = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Toolbar = global::CRUDWebAPI.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Support_CoordinatorLayout = global::CRUDWebAPI.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_background = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_displayOptions = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_divider = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_divider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_elevation = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_height = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_homeLayout = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_icon = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_itemPadding = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_logo = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_logo;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_navigationMode = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_popupTheme = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_subtitle = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_title = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBarLayout = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBarLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::CRUDWebAPI.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMenuItemView = global::CRUDWebAPI.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::CRUDWebAPI.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMenuView = global::CRUDWebAPI.Droid.Resource.Styleable.ActionMenuView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMode = global::CRUDWebAPI.Droid.Resource.Styleable.ActionMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMode_background = global::CRUDWebAPI.Droid.Resource.Styleable.ActionMode_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::CRUDWebAPI.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::CRUDWebAPI.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMode_height = global::CRUDWebAPI.Droid.Resource.Styleable.ActionMode_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::CRUDWebAPI.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::CRUDWebAPI.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActivityChooserView = global::CRUDWebAPI.Droid.Resource.Styleable.ActivityChooserView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::CRUDWebAPI.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::CRUDWebAPI.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AlertDialog = global::CRUDWebAPI.Droid.Resource.Styleable.AlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AlertDialog_android_layout = global::CRUDWebAPI.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AlertDialog_buttonIconDimen = global::CRUDWebAPI.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::CRUDWebAPI.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::CRUDWebAPI.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AlertDialog_listLayout = global::CRUDWebAPI.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::CRUDWebAPI.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AlertDialog_showTitle = global::CRUDWebAPI.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::CRUDWebAPI.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat = global::CRUDWebAPI.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::CRUDWebAPI.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::CRUDWebAPI.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::CRUDWebAPI.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::CRUDWebAPI.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::CRUDWebAPI.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::CRUDWebAPI.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableItem = global::CRUDWebAPI.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::CRUDWebAPI.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::CRUDWebAPI.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition = global::CRUDWebAPI.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::CRUDWebAPI.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::CRUDWebAPI.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::CRUDWebAPI.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::CRUDWebAPI.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout = global::CRUDWebAPI.Droid.Resource.Styleable.AppBarLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_android_background = global::CRUDWebAPI.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::CRUDWebAPI.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::CRUDWebAPI.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_elevation = global::CRUDWebAPI.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_expanded = global::CRUDWebAPI.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_liftOnScroll = global::CRUDWebAPI.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayoutStates = global::CRUDWebAPI.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::CRUDWebAPI.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::CRUDWebAPI.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable = global::CRUDWebAPI.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted = global::CRUDWebAPI.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_Layout = global::CRUDWebAPI.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::CRUDWebAPI.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::CRUDWebAPI.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatImageView = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatImageView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatImageView_android_src = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatImageView_tint = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatSeekBar = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextHelper = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_lineHeight = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorError = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::CRUDWebAPI.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar = global::CRUDWebAPI.Droid.Resource.Styleable.BottomAppBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_backgroundTint = global::CRUDWebAPI.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::CRUDWebAPI.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin = global::CRUDWebAPI.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::CRUDWebAPI.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::CRUDWebAPI.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_hideOnScroll = global::CRUDWebAPI.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomNavigationView = global::CRUDWebAPI.Droid.Resource.Styleable.BottomNavigationView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomNavigationView_elevation = global::CRUDWebAPI.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::CRUDWebAPI.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::CRUDWebAPI.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomNavigationView_itemIconSize = global::CRUDWebAPI.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::CRUDWebAPI.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::CRUDWebAPI.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::CRUDWebAPI.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::CRUDWebAPI.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::CRUDWebAPI.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomNavigationView_menu = global::CRUDWebAPI.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::CRUDWebAPI.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::CRUDWebAPI.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::CRUDWebAPI.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::CRUDWebAPI.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::CRUDWebAPI.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ButtonBarLayout = global::CRUDWebAPI.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::CRUDWebAPI.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView = global::CRUDWebAPI.Droid.Resource.Styleable.CardView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_android_minHeight = global::CRUDWebAPI.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_android_minWidth = global::CRUDWebAPI.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::CRUDWebAPI.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_cardCornerRadius = global::CRUDWebAPI.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_cardElevation = global::CRUDWebAPI.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_cardMaxElevation = global::CRUDWebAPI.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::CRUDWebAPI.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::CRUDWebAPI.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_contentPadding = global::CRUDWebAPI.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::CRUDWebAPI.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::CRUDWebAPI.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_contentPaddingRight = global::CRUDWebAPI.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView_contentPaddingTop = global::CRUDWebAPI.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip = global::CRUDWebAPI.Droid.Resource.Styleable.Chip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_android_checkable = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_android_ellipsize = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_android_maxWidth = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_android_text = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_android_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_android_textAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_checkedIcon = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_checkedIconEnabled = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_checkedIconVisible = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipBackgroundColor = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipCornerRadius = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipEndPadding = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipIcon = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipIconEnabled = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipIconSize = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipIconTint = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipIconVisible = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipMinHeight = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipStartPadding = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipStrokeColor = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipStrokeWidth = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIcon = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIconEnabled = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIconEndPadding = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIconSize = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIconStartPadding = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIconTint = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIconVisible = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_hideMotionSpec = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_iconEndPadding = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_iconStartPadding = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_rippleColor = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_showMotionSpec = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_textEndPadding = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_textStartPadding = global::CRUDWebAPI.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup = global::CRUDWebAPI.Droid.Resource.Styleable.ChipGroup;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_checkedChip = global::CRUDWebAPI.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_chipSpacing = global::CRUDWebAPI.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::CRUDWebAPI.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical = global::CRUDWebAPI.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_singleLine = global::CRUDWebAPI.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_singleSelection = global::CRUDWebAPI.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::CRUDWebAPI.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ColorStateListItem = global::CRUDWebAPI.Droid.Resource.Styleable.ColorStateListItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ColorStateListItem_alpha = global::CRUDWebAPI.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::CRUDWebAPI.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ColorStateListItem_android_color = global::CRUDWebAPI.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CompoundButton = global::CRUDWebAPI.Droid.Resource.Styleable.CompoundButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CompoundButton_android_button = global::CRUDWebAPI.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CompoundButton_buttonTint = global::CRUDWebAPI.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::CRUDWebAPI.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout = global::CRUDWebAPI.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::CRUDWebAPI.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::CRUDWebAPI.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::CRUDWebAPI.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::CRUDWebAPI.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::CRUDWebAPI.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::CRUDWebAPI.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::CRUDWebAPI.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::CRUDWebAPI.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::CRUDWebAPI.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::CRUDWebAPI.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DesignTheme = global::CRUDWebAPI.Droid.Resource.Styleable.DesignTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::CRUDWebAPI.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::CRUDWebAPI.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle = global::CRUDWebAPI.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::CRUDWebAPI.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::CRUDWebAPI.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::CRUDWebAPI.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_color = global::CRUDWebAPI.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::CRUDWebAPI.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::CRUDWebAPI.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::CRUDWebAPI.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::CRUDWebAPI.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton = global::CRUDWebAPI.Droid.Resource.Styleable.FloatingActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::CRUDWebAPI.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::CRUDWebAPI.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::CRUDWebAPI.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_elevation = global::CRUDWebAPI.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize = global::CRUDWebAPI.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::CRUDWebAPI.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::CRUDWebAPI.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::CRUDWebAPI.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_maxImageSize = global::CRUDWebAPI.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::CRUDWebAPI.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::CRUDWebAPI.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec = global::CRUDWebAPI.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::CRUDWebAPI.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::CRUDWebAPI.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::CRUDWebAPI.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FlowLayout = global::CRUDWebAPI.Droid.Resource.Styleable.FlowLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FlowLayout_itemSpacing = global::CRUDWebAPI.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FlowLayout_lineSpacing = global::CRUDWebAPI.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamily = global::CRUDWebAPI.Droid.Resource.Styleable.FontFamily;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::CRUDWebAPI.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::CRUDWebAPI.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::CRUDWebAPI.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::CRUDWebAPI.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::CRUDWebAPI.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::CRUDWebAPI.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont = global::CRUDWebAPI.Droid.Resource.Styleable.FontFamilyFont;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_android_font = global::CRUDWebAPI.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::CRUDWebAPI.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::CRUDWebAPI.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::CRUDWebAPI.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::CRUDWebAPI.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_font = global::CRUDWebAPI.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::CRUDWebAPI.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::CRUDWebAPI.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::CRUDWebAPI.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FontFamilyFont_ttcIndex = global::CRUDWebAPI.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ForegroundLinearLayout = global::CRUDWebAPI.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::CRUDWebAPI.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::CRUDWebAPI.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::CRUDWebAPI.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor = global::CRUDWebAPI.Droid.Resource.Styleable.GradientColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_centerColor = global::CRUDWebAPI.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_centerX = global::CRUDWebAPI.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_centerY = global::CRUDWebAPI.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_endColor = global::CRUDWebAPI.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_endX = global::CRUDWebAPI.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_endY = global::CRUDWebAPI.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_gradientRadius = global::CRUDWebAPI.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_startColor = global::CRUDWebAPI.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_startX = global::CRUDWebAPI.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_startY = global::CRUDWebAPI.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_tileMode = global::CRUDWebAPI.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_type = global::CRUDWebAPI.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColorItem = global::CRUDWebAPI.Droid.Resource.Styleable.GradientColorItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColorItem_android_color = global::CRUDWebAPI.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColorItem_android_offset = global::CRUDWebAPI.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat = global::CRUDWebAPI.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::CRUDWebAPI.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::CRUDWebAPI.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::CRUDWebAPI.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::CRUDWebAPI.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::CRUDWebAPI.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::CRUDWebAPI.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::CRUDWebAPI.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::CRUDWebAPI.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::CRUDWebAPI.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::CRUDWebAPI.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::CRUDWebAPI.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::CRUDWebAPI.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::CRUDWebAPI.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::CRUDWebAPI.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ListPopupWindow = global::CRUDWebAPI.Droid.Resource.Styleable.ListPopupWindow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::CRUDWebAPI.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::CRUDWebAPI.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_android_insetBottom = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_android_insetLeft = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_android_insetRight = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_android_insetTop = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_backgroundTint = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_backgroundTintMode = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_cornerRadius = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_icon = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_iconGravity = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_iconPadding = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_iconSize = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_iconTint = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_iconTintMode = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_rippleColor = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_strokeColor = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_strokeWidth = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialCardView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_strokeColor = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_strokeWidth = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::CRUDWebAPI.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuGroup = global::CRUDWebAPI.Droid.Resource.Styleable.MenuGroup;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::CRUDWebAPI.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuGroup_android_enabled = global::CRUDWebAPI.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuGroup_android_id = global::CRUDWebAPI.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::CRUDWebAPI.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::CRUDWebAPI.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuGroup_android_visible = global::CRUDWebAPI.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_actionLayout = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_actionViewClass = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_checkable = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_checked = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_enabled = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_icon = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_id = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_onClick = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_title = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_android_visible = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_contentDescription = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_iconTint = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_iconTintMode = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_numericModifiers = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_showAsAction = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuItem_tooltipText = global::CRUDWebAPI.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView = global::CRUDWebAPI.Droid.Resource.Styleable.MenuView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView_android_headerBackground = global::CRUDWebAPI.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::CRUDWebAPI.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView_android_itemBackground = global::CRUDWebAPI.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::CRUDWebAPI.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::CRUDWebAPI.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::CRUDWebAPI.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::CRUDWebAPI.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuView_subMenuArrow = global::CRUDWebAPI.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView = global::CRUDWebAPI.Droid.Resource.Styleable.NavigationView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_android_background = global::CRUDWebAPI.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::CRUDWebAPI.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::CRUDWebAPI.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_elevation = global::CRUDWebAPI.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_headerLayout = global::CRUDWebAPI.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemBackground = global::CRUDWebAPI.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding = global::CRUDWebAPI.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemIconPadding = global::CRUDWebAPI.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemIconTint = global::CRUDWebAPI.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemTextColor = global::CRUDWebAPI.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_menu = global::CRUDWebAPI.Droid.Resource.Styleable.NavigationView_menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.PopupWindow = global::CRUDWebAPI.Droid.Resource.Styleable.PopupWindow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::CRUDWebAPI.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::CRUDWebAPI.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::CRUDWebAPI.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.PopupWindowBackgroundState = global::CRUDWebAPI.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::CRUDWebAPI.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecycleListView = global::CRUDWebAPI.Droid.Resource.Styleable.RecycleListView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::CRUDWebAPI.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::CRUDWebAPI.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView = global::CRUDWebAPI.Droid.Resource.Styleable.RecyclerView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::CRUDWebAPI.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_android_orientation = global::CRUDWebAPI.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::CRUDWebAPI.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::CRUDWebAPI.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::CRUDWebAPI.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::CRUDWebAPI.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::CRUDWebAPI.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_layoutManager = global::CRUDWebAPI.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::CRUDWebAPI.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_spanCount = global::CRUDWebAPI.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::CRUDWebAPI.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::CRUDWebAPI.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::CRUDWebAPI.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::CRUDWebAPI.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::CRUDWebAPI.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView = global::CRUDWebAPI.Droid.Resource.Styleable.SearchView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_android_focusable = global::CRUDWebAPI.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_android_imeOptions = global::CRUDWebAPI.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_android_inputType = global::CRUDWebAPI.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_android_maxWidth = global::CRUDWebAPI.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_closeIcon = global::CRUDWebAPI.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_commitIcon = global::CRUDWebAPI.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::CRUDWebAPI.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_goIcon = global::CRUDWebAPI.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::CRUDWebAPI.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_layout = global::CRUDWebAPI.Droid.Resource.Styleable.SearchView_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_queryBackground = global::CRUDWebAPI.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_queryHint = global::CRUDWebAPI.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_searchHintIcon = global::CRUDWebAPI.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_searchIcon = global::CRUDWebAPI.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_submitBackground = global::CRUDWebAPI.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::CRUDWebAPI.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_voiceIcon = global::CRUDWebAPI.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Snackbar = global::CRUDWebAPI.Droid.Resource.Styleable.Snackbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle = global::CRUDWebAPI.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Snackbar_snackbarStyle = global::CRUDWebAPI.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout = global::CRUDWebAPI.Droid.Resource.Styleable.SnackbarLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::CRUDWebAPI.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_elevation = global::CRUDWebAPI.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::CRUDWebAPI.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Spinner = global::CRUDWebAPI.Droid.Resource.Styleable.Spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::CRUDWebAPI.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Spinner_android_entries = global::CRUDWebAPI.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Spinner_android_popupBackground = global::CRUDWebAPI.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Spinner_android_prompt = global::CRUDWebAPI.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Spinner_popupTheme = global::CRUDWebAPI.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawable = global::CRUDWebAPI.Droid.Resource.Styleable.StateListDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawable_android_constantSize = global::CRUDWebAPI.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawable_android_dither = global::CRUDWebAPI.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::CRUDWebAPI.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::CRUDWebAPI.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::CRUDWebAPI.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawable_android_visible = global::CRUDWebAPI.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawableItem = global::CRUDWebAPI.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawableItem_android_drawable = global::CRUDWebAPI.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat = global::CRUDWebAPI.Droid.Resource.Styleable.SwitchCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::CRUDWebAPI.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::CRUDWebAPI.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::CRUDWebAPI.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_showText = global::CRUDWebAPI.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::CRUDWebAPI.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::CRUDWebAPI.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::CRUDWebAPI.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::CRUDWebAPI.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::CRUDWebAPI.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::CRUDWebAPI.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_track = global::CRUDWebAPI.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_trackTint = global::CRUDWebAPI.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::CRUDWebAPI.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabItem = global::CRUDWebAPI.Droid.Resource.Styleable.TabItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabItem_android_icon = global::CRUDWebAPI.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabItem_android_layout = global::CRUDWebAPI.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabItem_android_text = global::CRUDWebAPI.Droid.Resource.Styleable.TabItem_android_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabBackground = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabContentStart = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabGravity = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabIconTint = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabIconTintMode = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabIndicator = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabInlineLabel = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabMode = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabPadding = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabRippleColor = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabTextColor = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple = global::CRUDWebAPI.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.TextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::CRUDWebAPI.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::CRUDWebAPI.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::CRUDWebAPI.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::CRUDWebAPI.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::CRUDWebAPI.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_textColor = global::CRUDWebAPI.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::CRUDWebAPI.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::CRUDWebAPI.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_textSize = global::CRUDWebAPI.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::CRUDWebAPI.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_android_typeface = global::CRUDWebAPI.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_fontFamily = global::CRUDWebAPI.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::CRUDWebAPI.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_android_hint = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_helperText = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::CRUDWebAPI.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ThemeEnforcement = global::CRUDWebAPI.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::CRUDWebAPI.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_android_gravity = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_android_minHeight = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_buttonGravity = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_collapseIcon = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_logo = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_logo;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_logoDescription = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_navigationIcon = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_popupTheme = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_subtitle = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_title = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleMargin = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleMargins = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleTextColor = global::CRUDWebAPI.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.View = global::CRUDWebAPI.Droid.Resource.Styleable.View;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.View_android_focusable = global::CRUDWebAPI.Droid.Resource.Styleable.View_android_focusable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.View_android_theme = global::CRUDWebAPI.Droid.Resource.Styleable.View_android_theme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.View_paddingEnd = global::CRUDWebAPI.Droid.Resource.Styleable.View_paddingEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.View_paddingStart = global::CRUDWebAPI.Droid.Resource.Styleable.View_paddingStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.View_theme = global::CRUDWebAPI.Droid.Resource.Styleable.View_theme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewBackgroundHelper = global::CRUDWebAPI.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::CRUDWebAPI.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::CRUDWebAPI.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::CRUDWebAPI.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewStubCompat = global::CRUDWebAPI.Droid.Resource.Styleable.ViewStubCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewStubCompat_android_id = global::CRUDWebAPI.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::CRUDWebAPI.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::CRUDWebAPI.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_fade_in = global::CRUDWebAPI.Droid.Resource.Animation.abc_fade_in;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_fade_out = global::CRUDWebAPI.Droid.Resource.Animation.abc_fade_out;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_grow_fade_in_from_bottom = global::CRUDWebAPI.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -2726,6 +5340,9 @@ namespace CRUDWebAPI.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_id = global::CRUDWebAPI.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_inflatedId = global::CRUDWebAPI.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_layout = global::CRUDWebAPI.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.ApplicationName = global::CRUDWebAPI.Droid.Resource.String.ApplicationName;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.Hello = global::CRUDWebAPI.Droid.Resource.String.Hello;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.Load_More = global::CRUDWebAPI.Droid.Resource.String.Load_More;
 			global::Com.Syncfusion.Rating.Resource.Attribute.ratingControlValue = global::CRUDWebAPI.Droid.Resource.Attribute.ratingControlValue;
 			global::Com.Syncfusion.Rating.Resource.Attribute.ratingEnableAutoSize = global::CRUDWebAPI.Droid.Resource.Attribute.ratingEnableAutoSize;
 			global::Com.Syncfusion.Rating.Resource.Attribute.ratingItemCount = global::CRUDWebAPI.Droid.Resource.Attribute.ratingItemCount;
@@ -12108,19 +14725,25 @@ namespace CRUDWebAPI.Droid
 			public const int python = 2131165563;
 			
 			// aapt resource value: 0x7F07017C
-			public const int teacher = 2131165564;
+			public const int sfclosebutton = 2131165564;
 			
 			// aapt resource value: 0x7F07017D
-			public const int tooltip_frame_dark = 2131165565;
+			public const int styleinfo = 2131165565;
 			
 			// aapt resource value: 0x7F07017E
-			public const int tooltip_frame_light = 2131165566;
+			public const int teacher = 2131165566;
 			
 			// aapt resource value: 0x7F07017F
-			public const int user = 2131165567;
+			public const int tooltip_frame_dark = 2131165567;
 			
 			// aapt resource value: 0x7F070180
-			public const int usericon = 2131165568;
+			public const int tooltip_frame_light = 2131165568;
+			
+			// aapt resource value: 0x7F070181
+			public const int user = 2131165569;
+			
+			// aapt resource value: 0x7F070182
+			public const int usericon = 2131165570;
 			
 			static Drawable()
 			{
@@ -13153,169 +15776,175 @@ namespace CRUDWebAPI.Droid
 			public const int CustomizedView = 2131427360;
 			
 			// aapt resource value: 0x7F0B0021
-			public const int design_bottom_navigation_item = 2131427361;
+			public const int CustomizedView1 = 2131427361;
 			
 			// aapt resource value: 0x7F0B0022
-			public const int design_bottom_sheet_dialog = 2131427362;
+			public const int design_bottom_navigation_item = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public const int design_layout_snackbar = 2131427363;
+			public const int design_bottom_sheet_dialog = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_layout_snackbar_include = 2131427364;
+			public const int design_layout_snackbar = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_layout_tab_icon = 2131427365;
+			public const int design_layout_snackbar_include = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_layout_tab_text = 2131427366;
+			public const int design_layout_tab_icon = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_menu_item_action_area = 2131427367;
+			public const int design_layout_tab_text = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_navigation_item = 2131427368;
+			public const int design_menu_item_action_area = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int design_navigation_item_header = 2131427369;
+			public const int design_navigation_item = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_item_separator = 2131427370;
+			public const int design_navigation_item_header = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_item_subheader = 2131427371;
+			public const int design_navigation_item_separator = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int design_navigation_menu = 2131427372;
+			public const int design_navigation_item_subheader = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int design_navigation_menu_item = 2131427373;
+			public const int design_navigation_menu = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int design_text_input_password_icon = 2131427374;
+			public const int design_navigation_menu_item = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int FlyoutContent = 2131427375;
+			public const int design_text_input_password_icon = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int mr_cast_dialog = 2131427376;
+			public const int FlyoutContent = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int mr_cast_group_item = 2131427377;
+			public const int mr_cast_dialog = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int mr_cast_group_volume_item = 2131427378;
+			public const int mr_cast_group_item = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int mr_cast_media_metadata = 2131427379;
+			public const int mr_cast_group_volume_item = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int mr_cast_route_item = 2131427380;
+			public const int mr_cast_media_metadata = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int mr_chooser_dialog = 2131427381;
+			public const int mr_cast_route_item = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int mr_chooser_list_item = 2131427382;
+			public const int mr_chooser_dialog = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int mr_controller_material_dialog_b = 2131427383;
+			public const int mr_chooser_list_item = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int mr_controller_volume_item = 2131427384;
+			public const int mr_controller_material_dialog_b = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int mr_dialog_header_item = 2131427385;
+			public const int mr_controller_volume_item = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int mr_picker_dialog = 2131427386;
+			public const int mr_dialog_header_item = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int mr_picker_route_item = 2131427387;
+			public const int mr_picker_dialog = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int mr_playback_control = 2131427388;
+			public const int mr_picker_route_item = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int mr_volume_control = 2131427389;
+			public const int mr_playback_control = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int mtrl_layout_snackbar = 2131427390;
+			public const int mr_volume_control = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int mtrl_layout_snackbar_include = 2131427391;
+			public const int mtrl_layout_snackbar = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int notification_action = 2131427392;
+			public const int mtrl_layout_snackbar_include = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int notification_action_tombstone = 2131427393;
+			public const int notification_action = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int notification_media_action = 2131427394;
+			public const int notification_action_tombstone = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int notification_media_cancel_action = 2131427395;
+			public const int notification_media_action = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int notification_template_big_media = 2131427396;
+			public const int notification_media_cancel_action = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int notification_template_big_media_custom = 2131427397;
+			public const int notification_template_big_media = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int notification_template_big_media_narrow = 2131427398;
+			public const int notification_template_big_media_custom = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int notification_template_big_media_narrow_custom = 2131427399;
+			public const int notification_template_big_media_narrow = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int notification_template_custom_big = 2131427400;
+			public const int notification_template_big_media_narrow_custom = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int notification_template_icon_group = 2131427401;
+			public const int notification_template_custom_big = 2131427401;
 			
 			// aapt resource value: 0x7F0B004A
-			public const int notification_template_lines_media = 2131427402;
+			public const int notification_template_icon_group = 2131427402;
 			
 			// aapt resource value: 0x7F0B004B
-			public const int notification_template_media = 2131427403;
+			public const int notification_template_lines_media = 2131427403;
 			
 			// aapt resource value: 0x7F0B004C
-			public const int notification_template_media_custom = 2131427404;
+			public const int notification_template_media = 2131427404;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int notification_template_part_chronometer = 2131427405;
+			public const int notification_template_media_custom = 2131427405;
 			
 			// aapt resource value: 0x7F0B004E
-			public const int notification_template_part_time = 2131427406;
+			public const int notification_template_part_chronometer = 2131427406;
 			
 			// aapt resource value: 0x7F0B004F
-			public const int RootLayout = 2131427407;
+			public const int notification_template_part_time = 2131427407;
 			
 			// aapt resource value: 0x7F0B0050
-			public const int select_dialog_item_material = 2131427408;
+			public const int RootLayout = 2131427408;
 			
 			// aapt resource value: 0x7F0B0051
-			public const int select_dialog_multichoice_material = 2131427409;
+			public const int select_dialog_item_material = 2131427409;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int select_dialog_singlechoice_material = 2131427410;
+			public const int select_dialog_multichoice_material = 2131427410;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int sfcomboBox_layout = 2131427411;
+			public const int select_dialog_singlechoice_material = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int ShellContent = 2131427412;
+			public const int sfautocomplete_layout = 2131427412;
 			
 			// aapt resource value: 0x7F0B0055
-			public const int support_simple_spinner_dropdown_item = 2131427413;
+			public const int sfcomboBox_layout = 2131427413;
 			
 			// aapt resource value: 0x7F0B0056
-			public const int Tabbar = 2131427414;
+			public const int ShellContent = 2131427414;
 			
 			// aapt resource value: 0x7F0B0057
-			public const int Toolbar = 2131427415;
+			public const int support_simple_spinner_dropdown_item = 2131427415;
+			
+			// aapt resource value: 0x7F0B0058
+			public const int Tabbar = 2131427416;
+			
+			// aapt resource value: 0x7F0B0059
+			public const int Toolbar = 2131427417;
 			
 			static Layout()
 			{
@@ -13355,245 +15984,254 @@ namespace CRUDWebAPI.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7F0D0000
-			public const int abc_action_bar_home_description = 2131558400;
-			
-			// aapt resource value: 0x7F0D0001
-			public const int abc_action_bar_up_description = 2131558401;
-			
-			// aapt resource value: 0x7F0D0002
-			public const int abc_action_menu_overflow_description = 2131558402;
-			
 			// aapt resource value: 0x7F0D0003
-			public const int abc_action_mode_done = 2131558403;
-			
-			// aapt resource value: 0x7F0D0005
-			public const int abc_activitychooserview_choose_application = 2131558405;
+			public const int abc_action_bar_home_description = 2131558403;
 			
 			// aapt resource value: 0x7F0D0004
-			public const int abc_activity_chooser_view_see_all = 2131558404;
+			public const int abc_action_bar_up_description = 2131558404;
+			
+			// aapt resource value: 0x7F0D0005
+			public const int abc_action_menu_overflow_description = 2131558405;
 			
 			// aapt resource value: 0x7F0D0006
-			public const int abc_capital_off = 2131558406;
-			
-			// aapt resource value: 0x7F0D0007
-			public const int abc_capital_on = 2131558407;
+			public const int abc_action_mode_done = 2131558406;
 			
 			// aapt resource value: 0x7F0D0008
-			public const int abc_font_family_body_1_material = 2131558408;
+			public const int abc_activitychooserview_choose_application = 2131558408;
+			
+			// aapt resource value: 0x7F0D0007
+			public const int abc_activity_chooser_view_see_all = 2131558407;
 			
 			// aapt resource value: 0x7F0D0009
-			public const int abc_font_family_body_2_material = 2131558409;
+			public const int abc_capital_off = 2131558409;
 			
 			// aapt resource value: 0x7F0D000A
-			public const int abc_font_family_button_material = 2131558410;
+			public const int abc_capital_on = 2131558410;
 			
 			// aapt resource value: 0x7F0D000B
-			public const int abc_font_family_caption_material = 2131558411;
+			public const int abc_font_family_body_1_material = 2131558411;
 			
 			// aapt resource value: 0x7F0D000C
-			public const int abc_font_family_display_1_material = 2131558412;
+			public const int abc_font_family_body_2_material = 2131558412;
 			
 			// aapt resource value: 0x7F0D000D
-			public const int abc_font_family_display_2_material = 2131558413;
+			public const int abc_font_family_button_material = 2131558413;
 			
 			// aapt resource value: 0x7F0D000E
-			public const int abc_font_family_display_3_material = 2131558414;
+			public const int abc_font_family_caption_material = 2131558414;
 			
 			// aapt resource value: 0x7F0D000F
-			public const int abc_font_family_display_4_material = 2131558415;
+			public const int abc_font_family_display_1_material = 2131558415;
 			
 			// aapt resource value: 0x7F0D0010
-			public const int abc_font_family_headline_material = 2131558416;
+			public const int abc_font_family_display_2_material = 2131558416;
 			
 			// aapt resource value: 0x7F0D0011
-			public const int abc_font_family_menu_material = 2131558417;
+			public const int abc_font_family_display_3_material = 2131558417;
 			
 			// aapt resource value: 0x7F0D0012
-			public const int abc_font_family_subhead_material = 2131558418;
+			public const int abc_font_family_display_4_material = 2131558418;
 			
 			// aapt resource value: 0x7F0D0013
-			public const int abc_font_family_title_material = 2131558419;
+			public const int abc_font_family_headline_material = 2131558419;
 			
 			// aapt resource value: 0x7F0D0014
-			public const int abc_menu_alt_shortcut_label = 2131558420;
+			public const int abc_font_family_menu_material = 2131558420;
 			
 			// aapt resource value: 0x7F0D0015
-			public const int abc_menu_ctrl_shortcut_label = 2131558421;
+			public const int abc_font_family_subhead_material = 2131558421;
 			
 			// aapt resource value: 0x7F0D0016
-			public const int abc_menu_delete_shortcut_label = 2131558422;
+			public const int abc_font_family_title_material = 2131558422;
 			
 			// aapt resource value: 0x7F0D0017
-			public const int abc_menu_enter_shortcut_label = 2131558423;
+			public const int abc_menu_alt_shortcut_label = 2131558423;
 			
 			// aapt resource value: 0x7F0D0018
-			public const int abc_menu_function_shortcut_label = 2131558424;
+			public const int abc_menu_ctrl_shortcut_label = 2131558424;
 			
 			// aapt resource value: 0x7F0D0019
-			public const int abc_menu_meta_shortcut_label = 2131558425;
+			public const int abc_menu_delete_shortcut_label = 2131558425;
 			
 			// aapt resource value: 0x7F0D001A
-			public const int abc_menu_shift_shortcut_label = 2131558426;
+			public const int abc_menu_enter_shortcut_label = 2131558426;
 			
 			// aapt resource value: 0x7F0D001B
-			public const int abc_menu_space_shortcut_label = 2131558427;
+			public const int abc_menu_function_shortcut_label = 2131558427;
 			
 			// aapt resource value: 0x7F0D001C
-			public const int abc_menu_sym_shortcut_label = 2131558428;
+			public const int abc_menu_meta_shortcut_label = 2131558428;
 			
 			// aapt resource value: 0x7F0D001D
-			public const int abc_prepend_shortcut_label = 2131558429;
-			
-			// aapt resource value: 0x7F0D001F
-			public const int abc_searchview_description_clear = 2131558431;
-			
-			// aapt resource value: 0x7F0D0020
-			public const int abc_searchview_description_query = 2131558432;
-			
-			// aapt resource value: 0x7F0D0021
-			public const int abc_searchview_description_search = 2131558433;
-			
-			// aapt resource value: 0x7F0D0022
-			public const int abc_searchview_description_submit = 2131558434;
-			
-			// aapt resource value: 0x7F0D0023
-			public const int abc_searchview_description_voice = 2131558435;
+			public const int abc_menu_shift_shortcut_label = 2131558429;
 			
 			// aapt resource value: 0x7F0D001E
-			public const int abc_search_hint = 2131558430;
+			public const int abc_menu_space_shortcut_label = 2131558430;
+			
+			// aapt resource value: 0x7F0D001F
+			public const int abc_menu_sym_shortcut_label = 2131558431;
+			
+			// aapt resource value: 0x7F0D0020
+			public const int abc_prepend_shortcut_label = 2131558432;
+			
+			// aapt resource value: 0x7F0D0022
+			public const int abc_searchview_description_clear = 2131558434;
+			
+			// aapt resource value: 0x7F0D0023
+			public const int abc_searchview_description_query = 2131558435;
 			
 			// aapt resource value: 0x7F0D0024
-			public const int abc_shareactionprovider_share_with = 2131558436;
+			public const int abc_searchview_description_search = 2131558436;
 			
 			// aapt resource value: 0x7F0D0025
-			public const int abc_shareactionprovider_share_with_application = 2131558437;
+			public const int abc_searchview_description_submit = 2131558437;
 			
 			// aapt resource value: 0x7F0D0026
-			public const int abc_toolbar_collapse_description = 2131558438;
+			public const int abc_searchview_description_voice = 2131558438;
+			
+			// aapt resource value: 0x7F0D0021
+			public const int abc_search_hint = 2131558433;
 			
 			// aapt resource value: 0x7F0D0027
-			public const int appbar_scrolling_view_behavior = 2131558439;
+			public const int abc_shareactionprovider_share_with = 2131558439;
 			
 			// aapt resource value: 0x7F0D0028
-			public const int bottom_sheet_behavior = 2131558440;
+			public const int abc_shareactionprovider_share_with_application = 2131558440;
 			
 			// aapt resource value: 0x7F0D0029
-			public const int character_counter_content_description = 2131558441;
+			public const int abc_toolbar_collapse_description = 2131558441;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int character_counter_pattern = 2131558442;
+			public const int appbar_scrolling_view_behavior = 2131558442;
+			
+			// aapt resource value: 0x7F0D0000
+			public const int ApplicationName = 2131558400;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int fab_transformation_scrim_behavior = 2131558443;
+			public const int bottom_sheet_behavior = 2131558443;
 			
 			// aapt resource value: 0x7F0D002C
-			public const int fab_transformation_sheet_behavior = 2131558444;
+			public const int character_counter_content_description = 2131558444;
 			
 			// aapt resource value: 0x7F0D002D
-			public const int hide_bottom_view_on_scroll_behavior = 2131558445;
+			public const int character_counter_pattern = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int library_name = 2131558446;
+			public const int fab_transformation_scrim_behavior = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int mr_button_content_description = 2131558447;
+			public const int fab_transformation_sheet_behavior = 2131558447;
+			
+			// aapt resource value: 0x7F0D0001
+			public const int Hello = 2131558401;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int mr_cast_button_connected = 2131558448;
+			public const int hide_bottom_view_on_scroll_behavior = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int mr_cast_button_connecting = 2131558449;
+			public const int library_name = 2131558449;
+			
+			// aapt resource value: 0x7F0D0002
+			public const int Load_More = 2131558402;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int mr_cast_button_disconnected = 2131558450;
+			public const int mr_button_content_description = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int mr_cast_dialog_title_view_placeholder = 2131558451;
+			public const int mr_cast_button_connected = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int mr_chooser_searching = 2131558452;
+			public const int mr_cast_button_connecting = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int mr_chooser_title = 2131558453;
+			public const int mr_cast_button_disconnected = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int mr_controller_album_art = 2131558454;
+			public const int mr_cast_dialog_title_view_placeholder = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int mr_controller_casting_screen = 2131558455;
+			public const int mr_chooser_searching = 2131558455;
 			
 			// aapt resource value: 0x7F0D0038
-			public const int mr_controller_close_description = 2131558456;
+			public const int mr_chooser_title = 2131558456;
 			
 			// aapt resource value: 0x7F0D0039
-			public const int mr_controller_collapse_group = 2131558457;
+			public const int mr_controller_album_art = 2131558457;
 			
 			// aapt resource value: 0x7F0D003A
-			public const int mr_controller_disconnect = 2131558458;
+			public const int mr_controller_casting_screen = 2131558458;
 			
 			// aapt resource value: 0x7F0D003B
-			public const int mr_controller_expand_group = 2131558459;
+			public const int mr_controller_close_description = 2131558459;
 			
 			// aapt resource value: 0x7F0D003C
-			public const int mr_controller_no_info_available = 2131558460;
+			public const int mr_controller_collapse_group = 2131558460;
 			
 			// aapt resource value: 0x7F0D003D
-			public const int mr_controller_no_media_selected = 2131558461;
+			public const int mr_controller_disconnect = 2131558461;
 			
 			// aapt resource value: 0x7F0D003E
-			public const int mr_controller_pause = 2131558462;
+			public const int mr_controller_expand_group = 2131558462;
 			
 			// aapt resource value: 0x7F0D003F
-			public const int mr_controller_play = 2131558463;
+			public const int mr_controller_no_info_available = 2131558463;
 			
 			// aapt resource value: 0x7F0D0040
-			public const int mr_controller_stop = 2131558464;
+			public const int mr_controller_no_media_selected = 2131558464;
 			
 			// aapt resource value: 0x7F0D0041
-			public const int mr_controller_stop_casting = 2131558465;
+			public const int mr_controller_pause = 2131558465;
 			
 			// aapt resource value: 0x7F0D0042
-			public const int mr_controller_volume_slider = 2131558466;
+			public const int mr_controller_play = 2131558466;
 			
 			// aapt resource value: 0x7F0D0043
-			public const int mr_dialog_device_header = 2131558467;
+			public const int mr_controller_stop = 2131558467;
 			
 			// aapt resource value: 0x7F0D0044
-			public const int mr_dialog_route_header = 2131558468;
+			public const int mr_controller_stop_casting = 2131558468;
 			
 			// aapt resource value: 0x7F0D0045
-			public const int mr_system_route_name = 2131558469;
+			public const int mr_controller_volume_slider = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int mr_user_route_category_name = 2131558470;
+			public const int mr_dialog_device_header = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int mtrl_chip_close_icon_content_description = 2131558471;
+			public const int mr_dialog_route_header = 2131558471;
 			
 			// aapt resource value: 0x7F0D0048
-			public const int overflow_tab_title = 2131558472;
+			public const int mr_system_route_name = 2131558472;
 			
 			// aapt resource value: 0x7F0D0049
-			public const int password_toggle_content_description = 2131558473;
+			public const int mr_user_route_category_name = 2131558473;
 			
 			// aapt resource value: 0x7F0D004A
-			public const int path_password_eye = 2131558474;
+			public const int mtrl_chip_close_icon_content_description = 2131558474;
 			
 			// aapt resource value: 0x7F0D004B
-			public const int path_password_eye_mask_strike_through = 2131558475;
+			public const int overflow_tab_title = 2131558475;
 			
 			// aapt resource value: 0x7F0D004C
-			public const int path_password_eye_mask_visible = 2131558476;
+			public const int password_toggle_content_description = 2131558476;
 			
 			// aapt resource value: 0x7F0D004D
-			public const int path_password_strike_through = 2131558477;
+			public const int path_password_eye = 2131558477;
 			
 			// aapt resource value: 0x7F0D004E
-			public const int search_menu_title = 2131558478;
+			public const int path_password_eye_mask_strike_through = 2131558478;
 			
 			// aapt resource value: 0x7F0D004F
-			public const int status_bar_notification_info_overflow = 2131558479;
+			public const int path_password_eye_mask_visible = 2131558479;
+			
+			// aapt resource value: 0x7F0D0050
+			public const int path_password_strike_through = 2131558480;
+			
+			// aapt resource value: 0x7F0D0051
+			public const int search_menu_title = 2131558481;
+			
+			// aapt resource value: 0x7F0D0052
+			public const int status_bar_notification_info_overflow = 2131558482;
 			
 			static String()
 			{

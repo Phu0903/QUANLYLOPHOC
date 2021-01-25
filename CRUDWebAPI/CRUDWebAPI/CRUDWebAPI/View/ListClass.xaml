@@ -1,27 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
              x:Class="CRUDWebAPI.View.ListClass">
     <NavigationPage.TitleView>
-        <Label Text="Danh sách lớp" TextColor="White" FontAttributes="Bold" Margin="120,0,0,0" FontSize="20"/>
+        <Label Text="Danh sách lớp" TextColor="White" FontAttributes="Bold" FontFamily="Montserrat-SemiBold" Margin="120,0,0,0" FontSize="20"/>
     </NavigationPage.TitleView>
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="bell.png" Clicked="ToolbarItem_Clicked" />
     </ContentPage.ToolbarItems>
 
-    <StackLayout BackgroundColor="White" Padding="10">
-        <ListView ItemsSource="{Binding Student}" HasUnevenRows="True" IsPullToRefreshEnabled="True"
-                      IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshData}" SelectedItem="{Binding SelectedStudent,Mode=TwoWay}">
-                <ListView.ItemTemplate >
+    <StackLayout BackgroundColor="White" Padding="10,5">
+        <syncfusion:SfListView ItemsSource="{Binding Student}"  SelectedItem="{Binding SelectedStudent,Mode=TwoWay}"
+                               ItemSpacing="5" AutoFitMode="Height"         
+                   ItemSize="100">
+            <syncfusion:SfListView.ItemTemplate >
                     <DataTemplate>
                         <ViewCell Height="120">
+                        <Frame CornerRadius="2" HasShadow="True" Padding="2" Margin="2">
                             <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                            </Grid.RowDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="2*"/>
@@ -33,10 +36,11 @@
                                 <Label Text="{Binding StartDay,StringFormat='Ngày bắt đầu: {0:F0)}'}" Grid.Column="1" Grid.Row="2"/>
                                 <Label Text="{Binding LeavingDay,StringFormat='Ngày kết thúc: {0:F0)}'}" Grid.Column="1" Grid.Row="3"/>
                             </Grid>
+                        </Frame>
                         </ViewCell>
                     </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+                </syncfusion:SfListView.ItemTemplate>
+            </syncfusion:SfListView>
         </StackLayout>
 
 </ContentPage>

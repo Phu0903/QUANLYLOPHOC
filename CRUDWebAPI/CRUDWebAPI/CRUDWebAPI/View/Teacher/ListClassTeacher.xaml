@@ -6,7 +6,7 @@
         <Label Text="Danh sách lớp" TextColor="White" FontAttributes="Bold" Margin="120,0,0,0" FontSize="20"/>
     </NavigationPage.TitleView>
     <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="bell.png" Clicked="ToolbarItem_Clicked" />
+        <ToolbarItem IconImageSource="bell.png" />
     </ContentPage.ToolbarItems>
 
     <StackLayout BackgroundColor="White" Padding="10">
