@@ -3,6 +3,7 @@ using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
 using System;
 using CRUDWebAPI.View;
+using CRUDWebAPI.View.Teacher;
 
 namespace CRUDWebAPI.Views.Forms
 {
@@ -39,7 +40,7 @@ namespace CRUDWebAPI.Views.Forms
             }
             else
             {
-                Navigation.PushAsync(new TabbedPage1());
+                Navigation.PushAsync(new TabbedPageTeacher());
             }
         }
     }

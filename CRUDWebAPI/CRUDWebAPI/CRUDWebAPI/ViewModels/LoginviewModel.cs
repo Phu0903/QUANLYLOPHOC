@@ -9,6 +9,7 @@ using System.Text;
 using Xamarin.Forms;
 using System.Threading.Tasks;
 using CRUDWebAPI.View;
+using CRUDWebAPI.View.Teacher;
 
 namespace CRUDWebAPI
 {
@@ -56,7 +57,7 @@ namespace CRUDWebAPI
             else
             {
 
-                await Navigation.PushModalAsync(new TabbedPage1());
+                await Navigation.PushModalAsync(new TabbedPageTeacher());
             }
         }
 
