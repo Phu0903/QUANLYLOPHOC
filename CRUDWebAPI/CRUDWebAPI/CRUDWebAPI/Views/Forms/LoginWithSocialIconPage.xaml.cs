@@ -17,7 +17,7 @@ namespace CRUDWebAPI.Views.Forms
         {
             var vm = new LoginviewModel(Navigation);
             this.BindingContext = vm;
-            vm.DisplayInvalidLoginPrompt += () => DisplayAlert("Error", "Invalid Login, try again", "OK");
+            vm.DisplayInvalidLoginPrompt += () => DisplayAlert("Thông báo", "Sai username hoặc password", "OK");
             InitializeComponent();
 
             username.Completed += (object sender, EventArgs e) =>
@@ -30,7 +30,7 @@ namespace CRUDWebAPI.Views.Forms
                 vm.SubmitCommand.Execute(null);
             };
         }
-
+        /*
         private void SfButton_Clicked(object sender, EventArgs e)
         {
             if (username.Text != "phu" || password.Text != "1")
@@ -41,6 +41,6 @@ namespace CRUDWebAPI.Views.Forms
             {
                 Navigation.PushAsync(new TabbedPage1());
             }
-        }
+        }*/
     }
 }

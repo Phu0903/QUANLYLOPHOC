@@ -12,7 +12,7 @@ namespace CRUDWebAPI.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class TabbedPage1 : TabbedPage
     {
-        public TabbedPage1()
+        public TabbedPage1(string Username,string Password)
         {
             InitializeComponent();
         }

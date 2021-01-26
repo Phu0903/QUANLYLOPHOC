@@ -14,6 +14,33 @@ namespace CRUDWebAPI
 {
     public class LoginviewModel : INotifyPropertyChanged
     {
+        public class RestClient<T>
+        {
+           
+           
+            public async Task<bool> checkLogin(string username, string password)
+            {
+                string url = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/UserDetailsLogin/Login?email="+username.ToString()+ "&password="+password.ToString();
+                var httpClient = new HttpClient();
+
+                var response = await httpClient.GetAsync(url);
+
+                return response.IsSuccessStatusCode;
+            }
+        }
+        public class LoginService
+        {
+            // fetch the RestClient<T>
+            RestClient<ListTeacher> _restClient = new RestClient<ListTeacher>();
+
+            // Boolean function with the following parameters of username & password.
+            public async Task<bool> CheckLoginIfExists(string username, string password)
+            {
+                var check = await _restClient.checkLogin(username, password);
+
+                return check;
+            }
+        }
         public INavigation Navigation { get; set; }
 
 
@@ -48,7 +75,18 @@ namespace CRUDWebAPI
         }
         public async Task OnSubmit()
         {
-            if (Username != "phu" || Password != "1")
+            LoginService services = new LoginService();
+            var getLoginDetails = await services.CheckLoginIfExists(Username, Password);
+
+            if (getLoginDetails)
+            {
+                await Navigation.PushModalAsync(new TabbedPage1(Username,Password));
+            }
+            else
+            {
+                DisplayInvalidLoginPrompt();
+            }
+            /*if (Username != "phu" || Password != "1")
             {
                 DisplayInvalidLoginPrompt();
             }
@@ -57,7 +95,7 @@ namespace CRUDWebAPI
             {
 
                 await Navigation.PushModalAsync(new TabbedPage1());
-            }
+            }*/
         }
 
     }

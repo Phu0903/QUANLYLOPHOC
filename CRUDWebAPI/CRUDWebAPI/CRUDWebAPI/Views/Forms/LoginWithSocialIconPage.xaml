@@ -84,10 +84,10 @@
                         Style="{StaticResource SfBorderStyle}" CornerRadius="4">
                             <control:BorderlessEntry
                             x:Name="username"                   
-                            Placeholder="username"
+                            Placeholder="Username" 
                             PlaceholderColor="{DynamicResource Gray-700}"
                             Style="{StaticResource EntryStyle}"
-                            Text="{Binding Password}"
+                            Text="{Binding username}"
                             TextColor="{DynamicResource Gray-900}" />
                         </border:SfBorder>
 
@@ -104,7 +104,7 @@
                             Placeholder="password"
                             PlaceholderColor="{DynamicResource Gray-700}"
                             Style="{StaticResource EntryStyle}"
-                            Text="{Binding Password}"
+                            Text="{Binding password}"
                             TextColor="{DynamicResource Gray-900}" />
                         </border:SfBorder>
 
@@ -113,7 +113,7 @@
                         Grid.Row="5"
                         Margin="0,16"
                         CornerRadius="4"
-                        Clicked="SfButton_Clicked"
+                        Command="{Binding SubmitCommand}"
                         Style="{StaticResource SfButtonStyle}"
                         Text="LOG IN" />
                     </Grid>
