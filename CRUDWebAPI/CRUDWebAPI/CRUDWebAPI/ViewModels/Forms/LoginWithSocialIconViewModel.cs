@@ -64,11 +64,11 @@ namespace CRUDWebAPI.ViewModels.Forms
 
             else
             {
-<<<<<<< HEAD
-                await Navigation.PushModalAsync(new TabbedPage1(username,password));
-=======
+
+                //await Navigation.PushModalAsync(new TabbedPage1(username,password));
+
                 await Navigation.PushModalAsync(new TabbedPageTeacher());
->>>>>>> fb51afab5669d9b78393c828095c922edbb28aa3
+
             }
         }
     }
