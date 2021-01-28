@@ -81,8 +81,9 @@ namespace CRUDWebAPI
 
             if (getLoginDetails)
             {
-                //await Navigation.PushModalAsync(new TabbedPageTeacher());
-                await Navigation.PushModalAsync(new TabbedPage1(Username,Password));
+                await Navigation.PushModalAsync(new TabbedPageTeacher(Username,Password));
+                //await Navigation.PushModalAsync(new TabbedPage1());
+                //await Navigation.PushModalAsync(new Infor(Username,Password));
             }
             else
             {

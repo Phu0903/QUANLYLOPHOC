@@ -84,7 +84,7 @@
                         Style="{StaticResource SfBorderStyle}" CornerRadius="4">
                             <control:BorderlessEntry
                             x:Name="username"                   
-                            Placeholder="Username" 
+                            Placeholder="username" 
                             PlaceholderColor="{DynamicResource Gray-700}"
                             Style="{StaticResource EntryStyle}"
                             Text="{Binding username}"

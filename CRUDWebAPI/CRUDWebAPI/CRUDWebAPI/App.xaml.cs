@@ -1,4 +1,5 @@
 ﻿using CRUDWebAPI.View;
+using CRUDWebAPI.View.Teacher;
 using CRUDWebAPI.Views.Forms;
 using System;
 using Xamarin.Forms;
@@ -14,6 +15,7 @@ namespace CRUDWebAPI
             InitializeComponent();
             Device.SetFlags(new[] { "Shapes_Experimental", "MediaElement_Experimental" });
             MainPage = new NavigationPage(new TeacherOrAdmin());
+            //MainPage = new NavigationPage(new Infor());
         }
 
         protected override void OnStart()

@@ -20,9 +20,9 @@
         </NavigationPage>
 
         <NavigationPage Title="Thông tin cá nhân" IconImageSource="user.png">
-            <x:Arguments>
+           <!-- <x:Arguments>
                 <tabbedbottom1:Infor></tabbedbottom1:Infor>
-            </x:Arguments>
+            </x:Arguments>-->
         </NavigationPage>
     </TabbedPage.Children>
 </TabbedPage>
