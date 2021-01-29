@@ -13,13 +13,14 @@
                     BackgroundColor="White" BorderColor="LightGray" BorderWidth="1"
                     VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="50,70,50,10"
                     HeightRequest="100"
+                        Clicked="Button_Clicked_1"
                     CornerRadius="20"/>
 
                 <Button ImageSource="admin.png" Text="Admin" FontSize="30"
                     BackgroundColor="White" BorderColor="LightGray" BorderWidth="1"     
                     VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="50,20,50,10"
                     HeightRequest="100"
-                    CornerRadius="20" Clicked="Button_Clicked"/>
+                    CornerRadius="20"  Clicked="Button_Clicked"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

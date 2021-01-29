@@ -1,37 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
              x:Class="CRUDWebAPI.View.Teacher.Infor">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="White" Padding="10">
+        
+        
+        <!--Thêm thông tin giáo viên ở đây nha phú bựưư-->
+        
+        
+        <!--***********************************************-->
+        <ScrollView>
+            <StackLayout BackgroundColor="White" Padding="10,5">
+                <syncfusion:SfListView ItemsSource="{Binding Student}"  SelectedItem="{Binding SelectedStudent,Mode=TwoWay}"
+                               ItemSpacing="5" AutoFitMode="Height"         
+                   ItemSize="100">
+                    <syncfusion:SfListView.ItemTemplate >
+                        <DataTemplate>
+                            <ViewCell Height="120">
+                                <Frame CornerRadius="2" HasShadow="True" Padding="2" Margin="2">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="*"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="2*"/>
+                                        </Grid.ColumnDefinitions>
 
-            <ListView ItemsSource="{Binding TeacherInfo}" HasUnevenRows="True" IsPullToRefreshEnabled="True"
-                      IsRefreshing="{Binding IsRefreshing}">
-                <ListView.ItemTemplate >
-                    <DataTemplate>
-                        <ViewCell Height="100">
-                            <Grid>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*"/>
-                                    <RowDefinition Height="*"/>
-                                    <RowDefinition Height="*"/>
-                                    <RowDefinition Height="*"/>
-                                </Grid.RowDefinitions>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                </Grid.ColumnDefinitions>
-
-
-                                <Label  Text="{Binding Name_Teacher}" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
-                                <Label Text="{Binding BirthDay_Teacher}" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2" FontSize="15" TextColor="Black" />
-                                <Label Text="{Binding Address}" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2"  TextColor="Black" />
-                            </Grid>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-        </StackLayout>
+                                        <Image Source="{Binding Image}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="4"/>
+                                        <Label Text="{Binding ID_CLass ,StringFormat='Mã lớp: {0:F0)}'}" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" FontSize="20" TextColor="Black" FontAttributes="Bold"/>
+                                        <Label Text="{Binding NameClass,StringFormat='Tên Lớp: {0:F0)}'}" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" FontSize="20" TextColor="Black" FontAttributes="Bold"/>
+                                        <Label Text="{Binding StartDay,StringFormat='Ngày bắt đầu: {0:F0)}'}" Grid.Column="1" Grid.Row="2"/>
+                                        <Label Text="{Binding LeavingDay,StringFormat='Ngày kết thúc: {0:F0)}'}" Grid.Column="1" Grid.Row="3"/>
+                                    </Grid>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </syncfusion:SfListView.ItemTemplate>
+                </syncfusion:SfListView>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
 <!--<?xml version="1.0" encoding="utf-8" ?>

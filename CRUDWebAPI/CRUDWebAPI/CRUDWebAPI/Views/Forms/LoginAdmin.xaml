@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:converter="clr-namespace:CRUDWebAPI.Converters" xmlns:gradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms" xmlns:core="clr-namespace:Syncfusion.XForms.Core;assembly=Syncfusion.Core.XForms" xmlns:control="clr-namespace:CRUDWebAPI.Controls" xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms" xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             x:Class="CRUDWebAPI.Views.Forms.LoginAdmin"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:BooleanToColorConverter x:Key="ColorConverter" />
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+
+    <ContentPage.Content>
+        <Grid>
+            <gradient:SfGradientView Style="{StaticResource SfGradientStyle}" />
+            <ScrollView HorizontalOptions="Center">
+
+                
+
+                <StackLayout
+                Margin="{core:OnPlatformOrientationThickness PhonePortrait='24,32',
+                                                             PhoneLandscape='150,32',
+                                                             TabletPortrait='200,50',
+                                                             TabletLandscape='350,50',
+                                                             Desktop='30'}"
+                Spacing="0"
+                VerticalOptions="FillAndExpand"
+                WidthRequest="{OnPlatform Default='-1',
+                                          UWP='350'}">
+
+                    <Grid RowSpacing="0" VerticalOptions="CenterAndExpand">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+
+                        </Grid.RowDefinitions>
+
+                        <!--  Label to display the title of this page  -->
+                        <Label
+                        FontFamily="{StaticResource Montserrat-SemiBold}" Margin="0,0,0,10"
+                        FontSize="30"
+                        HorizontalTextAlignment="Center"
+                        Style="{StaticResource LabelStyle}"
+                        Text="Đăng nhập"
+                        TextColor="{DynamicResource Gray-White}" />
+
+                        <!--  Entry to get email ID from user  -->
+
+
+
+                        <border:SfBorder
+                        Grid.Row="2"
+                        BackgroundColor="{DynamicResource Gray-White}"
+                        Margin="0,0,0,10"
+                        Style="{StaticResource SfBorderStyle}" CornerRadius="4">
+                            <control:BorderlessEntry
+                            x:Name="username"                   
+                            Placeholder="username" 
+                            PlaceholderColor="{DynamicResource Gray-700}"
+                            Style="{StaticResource EntryStyle}"
+                            Text="{Binding username}"
+                            TextColor="{DynamicResource Gray-900}" />
+                        </border:SfBorder>
+
+
+                        <!--  Entry to get password from user  -->
+                        <border:SfBorder
+                        Grid.Row="3"
+                        BackgroundColor="{DynamicResource Gray-White}"
+                        Margin="0,0,0,20"
+                        Style="{StaticResource SfBorderStyle}" CornerRadius="4">
+                            <control:BorderlessEntry
+                            x:Name="password"
+                            IsPassword="True"
+                            Placeholder="password"
+                            PlaceholderColor="{DynamicResource Gray-700}"
+                            Style="{StaticResource EntryStyle}"
+                            Text="{Binding password}"
+                            TextColor="{DynamicResource Gray-900}" />
+                        </border:SfBorder>
+
+
+                        <buttons:SfButton
+                        Grid.Row="5"
+                        Margin="0,16"
+                        CornerRadius="4"
+                   
+                        Style="{StaticResource SfButtonStyle}"
+                        Text="LOG IN" />
+                    </Grid>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
