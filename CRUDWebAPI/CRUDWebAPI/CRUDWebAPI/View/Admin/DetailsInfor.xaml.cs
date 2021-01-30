@@ -18,9 +18,13 @@ namespace CRUDWebAPI.View
             InitializeComponent();
 
             resultImage.Source = "hecthor.jpg";
+            BindingContext = new InforViewModel(Navigation);
         }
-        
-        
+        protected override void OnAppearing()
+        {
+            (this.BindingContext as InforViewModel).GetInforTeacher( );
+        }
+
         private void ToolbarItem_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new AnnouncePage());

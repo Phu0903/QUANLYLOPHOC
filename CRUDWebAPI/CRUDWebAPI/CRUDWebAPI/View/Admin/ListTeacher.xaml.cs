@@ -1,4 +1,5 @@
 ﻿
+using CRUDWebAPI.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -21,7 +22,7 @@ namespace CRUDWebAPI.View
             InitializeComponent();
 
 
-            ObservableCollection<TeacherInfor> teacher = new ObservableCollection<TeacherInfor>();
+            /*ObservableCollection<TeacherInfor> teacher = new ObservableCollection<TeacherInfor>();
 
             teacher.Add(new TeacherInfor { Name = "khang", Phone = "0123456" });
             teacher.Add(new TeacherInfor { Name = "khoa", Phone = "0123456" });
@@ -29,9 +30,11 @@ namespace CRUDWebAPI.View
             teacher.Add(new TeacherInfor { Name = "mai", Phone = "0123456" });
             teacher.Add(new TeacherInfor { Name = "cường", Phone = "0123456" });
             teacher.Add(new TeacherInfor { Name = "thảo", Phone = "0123456" });
+
             
             
-            listView.ItemsSource = teacher;
+            listView.ItemsSource = teacher;*/
+            BindingContext = new ListTeacherViewModel(Navigation);
         }
 
        

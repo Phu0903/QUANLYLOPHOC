@@ -93,7 +93,7 @@ namespace CRUDWebAPI
                 }   
                 else if (Chucvu == "Quanly")
                 {
-                    await Navigation.PushModalAsync(new TabbedPage1());
+                    await Navigation.PushModalAsync(new TabbedPage1(Username,Password));
                 }
 
                 //await Navigation.PushModalAsync(new TabbedPage1());

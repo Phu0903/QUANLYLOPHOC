@@ -8,28 +8,31 @@ using System.Net.Http;
 using System.Runtime.CompilerServices;
 using System.Text;
 using Xamarin.Forms;
+using Xamarin.Essentials;
 
 namespace CRUDWebAPI
 {
     class InforViewModel : INotifyPropertyChanged
     {
         private INavigation navigation { get; set; }
-        private string email;
-        private string password;
+        //private string email;
+        //private string password;
 
-        public InforViewModel(INavigation _navigation, string email, string password)
+        public InforViewModel(INavigation _navigation)
         {
             this.navigation = _navigation;
-            this.email = email;
-            this.password = password;
+            //this.email = email;
+            //this.password = password;
         }
         public async void GetInforTeacher()
         {
+            string email = Preferences.Get("my_key", "default_value");
+            string password = Preferences.Get("my_key2", "default_value");
             using (var client = new HttpClient())
             {
                 // send a GET request  
                 var uri = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/GetTeacherLogin?email=" + email.ToString() + "&password=" + password.ToString();
-                //var uri = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/GetTeacherLogin?email=phucotrhihamhoc@gmai.com.vn&password=123456789";
+                //var uri = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/GetTeacherLogin?email=18520129@gm.uit.edu.vn&password=1";
                 var result = await client.GetStringAsync(uri);
                 var TeacherInfor = JsonConvert.DeserializeObject<List<Teacher>>(result);
                 TeacherInfo = new ObservableCollection<Teacher>(TeacherInfor);

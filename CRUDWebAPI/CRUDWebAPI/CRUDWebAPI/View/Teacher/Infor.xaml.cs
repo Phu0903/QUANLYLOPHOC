@@ -13,10 +13,10 @@ namespace CRUDWebAPI.View.Teacher
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Infor : ContentPage
     {
-        public Infor(string email,string password)
+        public Infor()
         {
             InitializeComponent();
-            BindingContext = new InforViewModel(Navigation,email,password);
+            BindingContext = new InforViewModel(Navigation);
         }
         protected override void OnAppearing()
         {

@@ -14,12 +14,16 @@ namespace CRUDWebAPI.View.Teacher
     
     public partial class TabbedPageTeacher : TabbedPage
     {
+        string email_temp;
+        string password_temp;
         public TabbedPageTeacher(string email, string Password)
         {
             
             InitializeComponent();
+            email_temp = email;
+            password_temp = Password;
         }
-       
+        
 
        
     }

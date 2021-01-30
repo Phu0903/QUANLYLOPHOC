@@ -14,7 +14,7 @@ namespace CRUDWebAPI.Views.Forms
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginWithSocialIconPage : ContentPage
     {
-
+        
         public LoginWithSocialIconPage(string Chucvu)
         {
 

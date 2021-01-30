@@ -5,14 +5,15 @@ using Xamarin.Forms;
 
 namespace CRUDWebAPI.ViewModels
 {
-    class ListTeacherViewModel
+    public class TabbedPage1ViewModel
     {
-        public string Text { get; set; }
+       
         public INavigation Navigation { get; set; }
-        public ListTeacherViewModel(INavigation _navigation)
+        public TabbedPage1ViewModel(INavigation _navigation, string UserName_temp, string Password_temp)
         {
             Navigation = _navigation;
-            Text = "First Childrent Page";
+            
+           
         }
     }
 }
