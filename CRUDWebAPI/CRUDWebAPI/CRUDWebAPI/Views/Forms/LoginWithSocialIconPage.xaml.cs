@@ -13,10 +13,12 @@ namespace CRUDWebAPI.Views.Forms
 
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginWithSocialIconPage : ContentPage
-    { 
-        public LoginWithSocialIconPage()
+    {
+
+        public LoginWithSocialIconPage(string Chucvu)
         {
-            var vm = new LoginviewModel(Navigation);
+
+            var vm = new LoginviewModel(Navigation, Chucvu);
             this.BindingContext = vm;
             vm.DisplayInvalidLoginPrompt += () => DisplayAlert("Thông báo", "Sai username hoặc password", "OK");
             InitializeComponent();
@@ -31,17 +33,12 @@ namespace CRUDWebAPI.Views.Forms
                 vm.SubmitCommand.Execute(null);
             };
         }
-        /*
+
+    
+
         private void SfButton_Clicked(object sender, EventArgs e)
         {
-            if (username.Text != "phu" || password.Text != "1")
-            {
-                DisplayAlert("Thông báo", "Sai username hoặc password", "OK");
-            }
-            else
-            {
-                Navigation.PushAsync(new TabbedPageTeacher());
-            }
-        }*/
+
+        }
     }
 }

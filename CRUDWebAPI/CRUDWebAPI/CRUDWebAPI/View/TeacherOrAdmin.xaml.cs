@@ -18,16 +18,22 @@ namespace CRUDWebAPI.View
             InitializeComponent();
         }
 
-     
+        
 
         private void Button_Clicked_1(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new LoginWithSocialIconPage());
+            
+            Navigation.PushAsync(new LoginWithSocialIconPage("Giaovien"));
         }
-
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new LoginAdmin());
+            
+            Navigation.PushAsync(new LoginWithSocialIconPage("Quanly"));
         }
+        /*private void Button_Clicked(object sender, EventArgs e)
+        {
+            Chucvu = "Quanly";
+            Navigation.PushAsync(new LoginAdmin());
+        }*/
     }
 }

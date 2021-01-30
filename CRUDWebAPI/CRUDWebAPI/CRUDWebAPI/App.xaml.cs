@@ -16,6 +16,9 @@ namespace CRUDWebAPI
             Device.SetFlags(new[] { "Shapes_Experimental", "MediaElement_Experimental" });
             MainPage = new NavigationPage(new TeacherOrAdmin());
             //MainPage = new NavigationPage(new Infor());
+            //MainPage = new NavigationPage(new TabbedPage1());
+
+
         }
 
         protected override void OnStart()

@@ -17,11 +17,12 @@ namespace CRUDWebAPI
     {
         public class RestClient<T>
         {
-           
-           
-            public async Task<bool> checkLogin(string username, string password)
+
+
+            public async Task<bool> checkLogin(string username, string password, string Chucvu)
             {
-                string url = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/UserDetailsLogin/Login?email="+username.ToString()+ "&password="+password.ToString();
+                string url = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/UserDetailsLogin/Login?email=" + username.ToString() + "&password=" + password.ToString() + "&chucvu="+Chucvu.ToString();
+
                 var httpClient = new HttpClient();
 
                 var response = await httpClient.GetAsync(url);
@@ -35,9 +36,9 @@ namespace CRUDWebAPI
             RestClient<ListTeacher> _restClient = new RestClient<ListTeacher>();
 
             // Boolean function with the following parameters of username & password.
-            public async Task<bool> CheckLoginIfExists(string username, string password)
+            public async Task<bool> CheckLoginIfExists(string username, string password, string Chucvu)
             {
-                var check = await _restClient.checkLogin(username, password);
+                var check = await _restClient.checkLogin(username, password, Chucvu);
 
                 return check;
             }
@@ -67,21 +68,34 @@ namespace CRUDWebAPI
                 PropertyChanged(this, new PropertyChangedEventArgs("password"));
             }
         }
+      
+      
         public Command SubmitCommand { protected set; get; }
-        public LoginviewModel(INavigation navigation)
+        public LoginviewModel(INavigation navigation,string Chucvu)
         {
+            
             this.Navigation = navigation;
-            this.SubmitCommand = new Command(async () => await OnSubmit());
+            this.SubmitCommand = new Command(async () => await OnSubmit(Chucvu));
             
         }
-        public async Task OnSubmit()
+        public async Task OnSubmit(string Chucvu)
         {
             LoginService services = new LoginService();
-            var getLoginDetails = await services.CheckLoginIfExists(Username, Password);
+            var getLoginDetails = await services.CheckLoginIfExists(Username, Password, Chucvu);
 
             if (getLoginDetails)
             {
-                await Navigation.PushModalAsync(new TabbedPageTeacher(Username,Password));
+               
+               if(Chucvu == "Giaovien")
+                {
+
+                    await Navigation.PushModalAsync(new TabbedPageTeacher(Username, Password));
+                }   
+                else if (Chucvu == "Quanly")
+                {
+                    await Navigation.PushModalAsync(new TabbedPage1());
+                }
+
                 //await Navigation.PushModalAsync(new TabbedPage1());
                 //await Navigation.PushModalAsync(new Infor(Username,Password));
             }
