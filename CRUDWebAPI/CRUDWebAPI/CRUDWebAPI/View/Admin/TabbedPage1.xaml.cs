@@ -22,7 +22,7 @@ namespace CRUDWebAPI.View
             var inputText2 = Password_temp;
             Preferences.Set("my_key", inputText);
             Preferences.Set("my_key2", inputText2);
-            //BindingContext = new TabbedPage1ViewModel(Navigation, UserName_temp, Password_temp);
+            
 
 
         }

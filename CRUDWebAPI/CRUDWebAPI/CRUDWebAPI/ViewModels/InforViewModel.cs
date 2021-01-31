@@ -34,13 +34,13 @@ namespace CRUDWebAPI
                 var uri = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/GetTeacherLogin?email=" + email.ToString() + "&password=" + password.ToString();
                 //var uri = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/GetTeacherLogin?email=18520129@gm.uit.edu.vn&password=1";
                 var result = await client.GetStringAsync(uri);
-                var TeacherInfor = JsonConvert.DeserializeObject<List<Teacher>>(result);
-                TeacherInfo = new ObservableCollection<Teacher>(TeacherInfor);
+                var TeacherInfor = JsonConvert.DeserializeObject<List<TeacherInfor>>(result);
+                TeacherInfo = new ObservableCollection<TeacherInfor>(TeacherInfor);
                 IsRefreshing = false;
             }
         }
-        ObservableCollection<Teacher> _teacher;
-        public ObservableCollection<Teacher> TeacherInfo
+        ObservableCollection<TeacherInfor> _teacher;
+        public ObservableCollection<TeacherInfor> TeacherInfo
         {
             get
             {

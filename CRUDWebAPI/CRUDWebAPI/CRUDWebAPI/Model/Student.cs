@@ -35,7 +35,7 @@ namespace CRUDWebAPI
         public string NoiDung { get; set; }
         public DateTime Time { get; set; }
     }
-    public class Teacher
+    /*public class Teacher
     {
         public string Name_Teacher { get; set; }
         public string BirthDay_Teacher { get; set; }
@@ -44,5 +44,5 @@ namespace CRUDWebAPI
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
         public string Chucvu { get; set; }
-    }
+    }*/
 }
