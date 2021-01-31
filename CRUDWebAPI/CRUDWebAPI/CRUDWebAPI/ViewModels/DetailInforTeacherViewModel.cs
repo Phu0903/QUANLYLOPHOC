@@ -1,4 +1,6 @@
-﻿using Newtonsoft.Json;
+﻿using CRUDWebAPI.View;
+using CRUDWebAPI.View.Admin;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -50,6 +52,7 @@ namespace CRUDWebAPI.ViewModels
                 IsRefreshing = false;
             }
         }
+      
         ObservableCollection<ClassStudent> _class;
         public ObservableCollection<ClassStudent> Class
         {
@@ -74,6 +77,17 @@ namespace CRUDWebAPI.ViewModels
             {
                 _isRefreshing = value;
                 OnPropertyChanged();
+            }
+        }
+        TeacherInfor _EditTeacher;
+        public Command EditTeacher
+        {
+            get
+            {
+                return new Command(() =>
+                {
+                    Navigation.PushAsync(new AddTeacher(_teacherInfor));
+                });
             }
         }
 

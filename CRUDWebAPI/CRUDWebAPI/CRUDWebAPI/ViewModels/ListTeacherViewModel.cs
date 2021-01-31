@@ -67,6 +67,16 @@ namespace CRUDWebAPI.ViewModels
                 OnPropertyChanged();
             }
         }
+        public Command AddTeacher
+        {
+            get
+            {
+                return new Command(() =>
+                {
+                    Navigation.PushAsync(new AddTeacher(null));
+                });
+            }
+        }
         ObservableCollection<TeacherInfor> _listteacher;
         public ObservableCollection<TeacherInfor> Listteacher
         {

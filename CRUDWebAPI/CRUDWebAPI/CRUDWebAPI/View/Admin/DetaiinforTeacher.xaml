@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms" xmlns:autocomplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
              x:Class="CRUDWebAPI.View.Admin.DetaiinforTeacher">
+   
+    
     <StackLayout Margin="0,5,0,0">
        
                     <Frame CornerRadius="2" HasShadow="True" Padding="2" Margin="2">
@@ -28,7 +30,10 @@
                             <Label Text="{Binding Email}" Grid.Row="3" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
                             <Label Text="{Binding BirthDay_Teacher}" Grid.Row="4" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
                             <Label Text="{Binding Address}" Grid.Row="5" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
-               
+                <Button Text="Edit" Command="{Binding EditTeacher}" FontSize="20" Grid.Column="2" 
+                        TextColor="White" 
+                        BackgroundColor="Green"/>
+
 
             </Grid>
                     </Frame>

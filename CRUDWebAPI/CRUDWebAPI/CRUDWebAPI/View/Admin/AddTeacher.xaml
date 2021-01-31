@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUDWebAPI.View.Admin.AddTeacher">
+    <NavigationPage.TitleView>
+        <Label Text="Thêm Giáo viên" TextColor="White" FontAttributes="Bold" Margin="100,0,0,0"  FontSize="20"/>
+    </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="bell.png" Clicked="ToolbarItem_Clicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="White">
+            <StackLayout Padding="1" Margin="10">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Họ và Tên: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="0" Padding="0,12,0,0"/>
+                    <Entry Text="{Binding Name_Teacher}" HorizontalOptions="FillAndExpand" Placeholder="Tên" Grid.Column="1" Grid.Row="0"/>
+
+                    <Label Text="Địa chỉ: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="1" Padding="0,12,0,0"/>
+                    <Entry Text="{Binding Address}" HorizontalOptions="FillAndExpand" Placeholder="Địa chỉ" Grid.Column="1" Grid.Row="1"/>
+
+                    <Label Text="Điện thoại: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="2" Padding="0,12,0,0"/>
+                    <Entry Text="{Binding PhoneNumber}" HorizontalOptions="FillAndExpand" Placeholder="Điện thoại" Grid.Column="1" Grid.Row="2"/>
+
+                    <Label Text="Ngày sinh: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="3" Padding="0,12,0,0"/>
+                    <Entry Text="{Binding BirthDay_Teacher}" HorizontalOptions="FillAndExpand" Placeholder="Mã lớp" Grid.Column="1" Grid.Row="3"/>
+
+                    <Label Text="Chức vụ: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="4" Padding="0,12,0,0"/>
+                    <Entry Text="{Binding Chucvu}" HorizontalOptions="FillAndExpand" Placeholder="Sinh nhật" Grid.Column="1" Grid.Row="4"/>
+
+                    <Label Text="Email: " TextColor="Black" FontSize="18" Grid.Column="0" Grid.Row="5" Padding="0,12,0,0"/>
+                    <Entry Text="{Binding Email}" HorizontalOptions="FillAndExpand" Placeholder="Ngày đăng ký" Grid.Column="1" Grid.Row="5"/>
+
+                    <Label Text="Password: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="6" Padding="0,12,0,0"/>
+                    <Entry Text="{Binding Password}" HorizontalOptions="FillAndExpand" Placeholder="Giới tính" Grid.Column="1" Grid.Row="6"/>
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Text="Lưu" Command="{Binding SaveStudent}" FontSize="20" Grid.Column="1" 
+                        TextColor="White" CornerRadius="2"
+                        BackgroundColor="Green"/>
+                    <Button Text="Xóa" Command="{Binding DeleteStudent}" BackgroundColor="Red" TextColor="White"
+                    Grid.Column="0" CornerRadius="2"
+                    FontSize="20"
+                    IsVisible="{Binding IsVisibleDeleteBtn}"/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
