@@ -16,9 +16,12 @@ namespace CRUDWebAPI.View.Teacher
         public ListStudent()
         {
             InitializeComponent();
-           
-
+            BindingContext = new ListClassViewModel(Navigation);
         }
-       
+        protected override void OnAppearing()
+        {
+            (this.BindingContext as ListClassViewModel).GetClassStudent();
+        }
+
     }
 }

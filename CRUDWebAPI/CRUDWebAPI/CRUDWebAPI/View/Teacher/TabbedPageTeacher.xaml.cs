@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -14,14 +14,15 @@ namespace CRUDWebAPI.View.Teacher
     
     public partial class TabbedPageTeacher : TabbedPage
     {
-        string email_temp;
-        string password_temp;
-        public TabbedPageTeacher(string email, string Password)
+        
+        public TabbedPageTeacher(string UserName_temp, string Password_temp)
         {
             
             InitializeComponent();
-            email_temp = email;
-            password_temp = Password;
+            var inputText = UserName_temp;
+            var inputText2 = Password_temp;
+            Preferences.Set("my_key", inputText);
+            Preferences.Set("my_key2", inputText2);
         }
         
 

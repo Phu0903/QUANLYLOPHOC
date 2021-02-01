@@ -24,6 +24,9 @@ namespace CRUDWebAPI
             //this.email = email;
             //this.password = password;
         }
+
+      
+        
         public async void GetInforTeacher()
         {
             string email = Preferences.Get("my_key", "default_value");
@@ -32,7 +35,6 @@ namespace CRUDWebAPI
             {
                 // send a GET request  
                 var uri = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/GetTeacherLogin?email=" + email.ToString() + "&password=" + password.ToString();
-                //var uri = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/GetTeacherLogin?email=18520129@gm.uit.edu.vn&password=1";
                 var result = await client.GetStringAsync(uri);
                 var TeacherInfor = JsonConvert.DeserializeObject<List<TeacherInfor>>(result);
                 TeacherInfo = new ObservableCollection<TeacherInfor>(TeacherInfor);
@@ -52,6 +54,21 @@ namespace CRUDWebAPI
                 OnPropertyChanged();
             }
         }
+
+        /*private TeacherInfor _getID;
+       string ID_temp;
+        
+        public int EditTeacher
+        {
+            get
+            {
+                ID_temp = _getID.ID_Teacher.ToString();
+                Preferences.Set("my_key4", ID_temp);
+                return _getID.ID_Teacher;
+
+            }
+        }*/
+        
         bool _isRefreshing;
         public bool IsRefreshing
         {

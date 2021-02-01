@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CRUDWebAPI.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,16 @@ namespace CRUDWebAPI.View.Teacher
         public ListClassTeacher()
         {
             InitializeComponent();
+            BindingContext = new ListClassViewModel(Navigation);
+        }
+        protected override void OnAppearing()
+        {
+            (this.BindingContext as ListClassViewModel).GetClassStudent2();
+        }
+
+        private void ToolbarItem_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AnnouncePage());
         }
     }
 }

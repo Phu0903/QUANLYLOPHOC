@@ -27,7 +27,7 @@
                     </Grid.ColumnDefinitions>
 
                     <Label Text="Họ và Tên: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="0" Padding="0,12,0,0"/>
-                    <Entry Text="{Binding Name_Teacher}" HorizontalOptions="FillAndExpand" Placeholder="Tên" Grid.Column="1" Grid.Row="0"/>
+                    <Entry Text="{Binding Name_Teacher}" HorizontalOptions="FillAndExpand" Placeholder="Họ và Tên" Grid.Column="1" Grid.Row="0"/>
 
                     <Label Text="Địa chỉ: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="1" Padding="0,12,0,0"/>
                     <Entry Text="{Binding Address}" HorizontalOptions="FillAndExpand" Placeholder="Địa chỉ" Grid.Column="1" Grid.Row="1"/>
@@ -36,16 +36,16 @@
                     <Entry Text="{Binding PhoneNumber}" HorizontalOptions="FillAndExpand" Placeholder="Điện thoại" Grid.Column="1" Grid.Row="2"/>
 
                     <Label Text="Ngày sinh: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="3" Padding="0,12,0,0"/>
-                    <Entry Text="{Binding BirthDay_Teacher}" HorizontalOptions="FillAndExpand" Placeholder="Mã lớp" Grid.Column="1" Grid.Row="3"/>
+                    <Entry Text="{Binding BirthDay_Teacher}" HorizontalOptions="FillAndExpand" Placeholder="Ngày sinh" Grid.Column="1" Grid.Row="3"/>
 
                     <Label Text="Chức vụ: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="4" Padding="0,12,0,0"/>
-                    <Entry Text="{Binding Chucvu}" HorizontalOptions="FillAndExpand" Placeholder="Sinh nhật" Grid.Column="1" Grid.Row="4"/>
+                    <Entry Text="{Binding Chucvu}" HorizontalOptions="FillAndExpand" Placeholder="Chức vụ" Grid.Column="1" Grid.Row="4"/>
 
                     <Label Text="Email: " TextColor="Black" FontSize="18" Grid.Column="0" Grid.Row="5" Padding="0,12,0,0"/>
-                    <Entry Text="{Binding Email}" HorizontalOptions="FillAndExpand" Placeholder="Ngày đăng ký" Grid.Column="1" Grid.Row="5"/>
+                    <Entry Text="{Binding Email}" HorizontalOptions="FillAndExpand" Placeholder="Email" Grid.Column="1" Grid.Row="5"/>
 
                     <Label Text="Password: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="6" Padding="0,12,0,0"/>
-                    <Entry Text="{Binding Password}" HorizontalOptions="FillAndExpand" Placeholder="Giới tính" Grid.Column="1" Grid.Row="6"/>
+                    <Entry Text="{Binding Password}" HorizontalOptions="FillAndExpand" Placeholder="Password" Grid.Column="1" Grid.Row="6"/>
                 </Grid>
                 <Grid>
                     <Grid.ColumnDefinitions>

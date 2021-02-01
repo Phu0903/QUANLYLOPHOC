@@ -9,7 +9,7 @@
         <ToolbarItem IconImageSource="plus16.png" Command="{Binding AddStudent}"/>
     </ContentPage.ToolbarItems>
     <StackLayout>
-        <ListView ItemsSource="{Binding Student}" HasUnevenRows="True" IsPullToRefreshEnabled="True" 
+        <ListView ItemsSource="{Binding Student2}" HasUnevenRows="True" IsPullToRefreshEnabled="True" 
                   IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshData}" SelectedItem="{Binding SelectedStudent,Mode=TwoWay}">
             <ListView.ItemTemplate>
                 <DataTemplate>

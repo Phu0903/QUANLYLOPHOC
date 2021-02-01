@@ -2,7 +2,7 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:tabbedbottom1="clr-namespace:CRUDWebAPI.View.Teacher"
             x:Class="CRUDWebAPI.View.Teacher.TabbedPageTeacher"
-            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core" xmlns:tabbedbottom11="clr-namespace:CRUDWebAPI.View"
             android:TabbedPage.ToolbarPlacement="Bottom"
             NavigationPage.HasNavigationBar="False">
   <!--Pages can be added as references or inline-->
@@ -12,17 +12,10 @@
                 <tabbedbottom1:ListClassTeacher></tabbedbottom1:ListClassTeacher>
             </x:Arguments>
         </NavigationPage>
-        
-        <NavigationPage Title="DS học sinh" IconImageSource="presentation">
-            <x:Arguments>
-                <tabbedbottom1:ListStudent></tabbedbottom1:ListStudent>
-            </x:Arguments>
-        </NavigationPage>
-
         <NavigationPage Title="Thông tin cá nhân" IconImageSource="user.png">
-           <!-- <x:Arguments>
-                <tabbedbottom1:Infor></tabbedbottom1:Infor>
-            </x:Arguments>-->
+            <x:Arguments>
+                <tabbedbottom11:DetailsInfor></tabbedbottom11:DetailsInfor>
+            </x:Arguments>
         </NavigationPage>
     </TabbedPage.Children>
 </TabbedPage>

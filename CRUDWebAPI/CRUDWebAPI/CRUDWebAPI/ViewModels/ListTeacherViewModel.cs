@@ -22,7 +22,7 @@ namespace CRUDWebAPI.ViewModels
             Navigation = _navigation;
             
         }
-        public TeacherInfor IDteacher;
+
         public async void GetListTeacher()
         {
             

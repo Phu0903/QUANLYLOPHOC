@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Net.Http;
 using System.Runtime.CompilerServices;
 using System.Text;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace CRUDWebAPI.ViewModels
@@ -29,7 +30,21 @@ namespace CRUDWebAPI.ViewModels
                 IsRefreshing = false;
             }
         }
-         bool _isRefreshing;
+        public async void GetClassStudent2()
+        {
+            string email = Preferences.Get("my_key", "default_value");
+            string password = Preferences.Get("my_key2", "default_value");
+            using (var client = new HttpClient())
+            {
+                // send a GET request  
+                var uri = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/GetClassForPage?username=" + email.ToString()+ "&password="+password.ToString();
+                var result = await client.GetStringAsync(uri);
+                var StudentList = JsonConvert.DeserializeObject<List<ClassStudent>>(result);
+                Student2 = new ObservableCollection<ClassStudent>(StudentList);
+                IsRefreshing = false;
+            }
+        }
+        bool _isRefreshing;
         public bool IsRefreshing
         {
             get
@@ -74,7 +89,22 @@ namespace CRUDWebAPI.ViewModels
                 OnPropertyChanged();
             }
         }
-    
+        ObservableCollection<ClassStudent> _student2;
+        public ObservableCollection<ClassStudent> Student2
+        {
+            get
+            {
+                return _student2;
+            }
+            set
+            {
+                _student2 = value;
+                OnPropertyChanged();
+            }
+        }
+
+
+
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {

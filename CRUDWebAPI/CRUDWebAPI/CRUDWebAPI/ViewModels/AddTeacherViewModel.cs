@@ -182,6 +182,34 @@ namespace CRUDWebAPI.ViewModels
                 });
             }
         }
+        public Command DeleteStudent
+        {
+            get
+            {
+                return new Command(async () =>
+                {
+                    string url = $"https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/DeleteTeacher?TeacherID={_teacherInfor.ID_Teacher}";
+                    HttpClient client = new HttpClient();
+                    string jsonData = JsonConvert.SerializeObject(_teacherInfor);
+                    StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+                    HttpResponseMessage response = await client.DeleteAsync(url);
+                    string result = await response.Content.ReadAsStringAsync();
+                    Response responseData = JsonConvert.DeserializeObject<Response>(result);
+                    if (responseData.Status == 1)
+                    {
+                        for (var counter = 1; counter < 2; counter++)
+                        {
+                            Navigation.RemovePage(Navigation.NavigationStack[Navigation.NavigationStack.Count - 2]);
+                        }
+                        await Navigation.PopAsync();
+                    }
+                    else
+                    {
+                        await Application.Current.MainPage.DisplayAlert("Message", responseData.Message, "ok");
+                    }
+                });
+            }
+        }
         bool _isVisibleDeleteBtn;
         public bool IsVisibleDeleteBtn
         {
