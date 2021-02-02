@@ -4,7 +4,7 @@
              xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
              x:Class="CRUDWebAPI.AddStudent">
     <NavigationPage.TitleView>
-        <Label Text="Thêm sinh viên" TextColor="White" FontAttributes="Bold" Margin="100,0,0,0"  FontSize="20"/>
+        <Label Text="{Binding StudentTittle}" TextColor="White" FontAttributes="Bold" Margin="100,0,0,0"  FontSize="20"/>
     </NavigationPage.TitleView>
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="bell.png" Clicked="ToolbarItem_Clicked" />

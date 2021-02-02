@@ -27,7 +27,12 @@ namespace CRUDWebAPI
                 ID_Class = _student.ID_Class;
                 RegisterDay = _student.RegisterDay;
                 Gender = _student.Gender;
+                StudentTittle = "Sửa thông tin sinh viên";
                 IsVisibleDeleteBtn = true;
+            }
+            else
+            {
+                StudentTittle = "Thêm sinh viên";
             }
         }
 
@@ -220,6 +225,8 @@ namespace CRUDWebAPI
             }
         
         }
+
+        public string StudentTittle { get; }
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged([CallerMemberName]string propertyName = null)
