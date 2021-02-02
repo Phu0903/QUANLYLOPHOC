@@ -16,7 +16,7 @@ namespace CRUDWebAPI.View
         public ListClass()
         {
             InitializeComponent();
-            BindingContext = new ListClassViewModel(Navigation);
+            BindingContext = new ListClassViewModel(Navigation,1);
         }
         protected override void OnAppearing()
         {

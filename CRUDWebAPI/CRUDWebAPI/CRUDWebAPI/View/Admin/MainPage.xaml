@@ -12,7 +12,7 @@
     </ContentPage.ToolbarItems>
     <StackLayout>
         <syncfusion:SfListView ItemsSource="{Binding Student}" AutoFitMode="Height" Padding="10"
-                               SelectedItem="{Binding SelectedStudent,Mode=TwoWay}">
+                               SelectedItem="{Binding SelectedStudent ,Mode=TwoWay}">
             <syncfusion:SfListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell Height="120">

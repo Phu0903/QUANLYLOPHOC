@@ -27,7 +27,7 @@ namespace CRUDWebAPI
                 ID_Class = _student.ID_Class;
                 RegisterDay = _student.RegisterDay;
                 Gender = _student.Gender;
-                IsVisibleDeleteBtn = false;
+                IsVisibleDeleteBtn = true;
             }
         }
 

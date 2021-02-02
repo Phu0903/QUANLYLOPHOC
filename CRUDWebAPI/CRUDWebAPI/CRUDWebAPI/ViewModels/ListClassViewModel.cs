@@ -15,10 +15,13 @@ namespace CRUDWebAPI.ViewModels
     public class ListClassViewModel : INotifyPropertyChanged
     {
         public INavigation Navigation { get; set; }
-        public ListClassViewModel(INavigation _navigation)
+        public int temp;
+        public ListClassViewModel(INavigation _navigation,int page)
         {
+            temp = page;
             Navigation = _navigation;
         }
+        
         public async void GetClassStudent()
         {
             using (var client = new HttpClient())
@@ -70,11 +73,20 @@ namespace CRUDWebAPI.ViewModels
                 _selectedStudent = value;
                 if (value != null)
                 {
-                    Navigation.PushAsync(new ListStudent(SelectedStudent));
+                    if(temp == 2)
+                    {
+                        Navigation.PushAsync(new ListStudent(SelectedStudent));
+                    }    
+                    else if(temp ==1 )
+                    {
+                        Navigation.PushAsync(new MainPage(SelectedStudent));
+                    }
+                    
                 }
                 OnPropertyChanged();
             }
         }
+       
 
 
         ObservableCollection<ClassStudent> _student;
