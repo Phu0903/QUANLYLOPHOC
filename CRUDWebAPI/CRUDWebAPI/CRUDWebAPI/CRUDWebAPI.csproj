@@ -32,6 +32,9 @@
     <Compile Update="View\Admin\AddStudent.xaml.cs">
       <DependentUpon>AddStudent.xaml</DependentUpon>
     </Compile>
+    <Compile Update="View\Teacher\AnnouncePageTeacher.xaml.cs">
+      <DependentUpon>AnnouncePageTeacher.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>

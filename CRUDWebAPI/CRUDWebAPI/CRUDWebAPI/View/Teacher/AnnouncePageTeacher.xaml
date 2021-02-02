@@ -1,17 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CRUDWebAPI.View.AnnouncePage">
+             x:Class="CRUDWebAPI.View.AnnouncePageTeacher">
     <NavigationPage.TitleView>
         <Label Text="Thông báo" TextColor="White" FontAttributes="Bold" Margin="90,0,0,0" FontSize="20"/>
     </NavigationPage.TitleView>
-    <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="addbell512.png" Command="{Binding AddAnnounce}" />
-    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout BackgroundColor="White" Padding="10">
 
-            <ListView ItemsSource="{Binding Thongbao}" HasUnevenRows="True" IsPullToRefreshEnabled="True" SelectedItem="{Binding SelectedThongbao ,Mode=TwoWay}"
+            <ListView ItemsSource="{Binding Thongbao}" HasUnevenRows="True" IsPullToRefreshEnabled="True"
                       IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshData}">
                 <ListView.ItemTemplate >
                     <DataTemplate>

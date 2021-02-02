@@ -4,7 +4,7 @@
              x:Class="CRUDWebAPI.View.Addannounce">
     
     <NavigationPage.TitleView>
-        <Label Text="Thêm thông báo" TextColor="White" FontAttributes="Bold" Margin="70,0,0,0" FontSize="20"/>
+        <Label Text="{Binding ThongbaoTittle}" TextColor="White" FontAttributes="Bold" Margin="70,0,0,0" FontSize="20"/>
     </NavigationPage.TitleView>
     <ContentPage.Content>
         <ScrollView>

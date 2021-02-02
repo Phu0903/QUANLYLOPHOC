@@ -55,19 +55,19 @@ namespace CRUDWebAPI.ViewModels
                 OnPropertyChanged();
             }
         }
-        ClassStudent _selectedStudent;
-        public ClassStudent SelectedStudent
+        Thongbao _selectedthongbao;
+        public Thongbao SelectedThongbao
         {
             get
             {
-                return _selectedStudent;
+                return _selectedthongbao;
             }
             set
             {
-                _selectedStudent = value;
+                _selectedthongbao = value;
                 if (value != null)
                 {
-                    Navigation.PushAsync(new MainPage(SelectedStudent));
+                    Navigation.PushAsync(new Addannounce(_selectedthongbao));
                 }
                 OnPropertyChanged();
             }

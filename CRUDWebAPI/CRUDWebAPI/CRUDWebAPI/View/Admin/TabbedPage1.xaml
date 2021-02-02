@@ -10,21 +10,21 @@
 
     <TabbedPage.Children>
       
-        <NavigationPage Title="DS Giáo viên" IconImageSource="group" >
+        <NavigationPage Title="Giáo viên" IconImageSource="group" >
             <x:Arguments>
                 <tabbedbottom1:ListTeacher></tabbedbottom1:ListTeacher>
             </x:Arguments>
         </NavigationPage>
-        <NavigationPage Title="DS lớp học" IconImageSource="presentation">
+        <NavigationPage Title="Lớp học" IconImageSource="presentation">
             <x:Arguments>
                 <tabbedbottom1:ListClass></tabbedbottom1:ListClass>
             </x:Arguments>
         </NavigationPage>
-       <!--<NavigationPage Title="Cá nhân" IconImageSource="user.png">
+        <NavigationPage Title="Thông báo" IconImageSource="bell.png">
             <x:Arguments>
-                <tabbedbottom1:DetailsInfor></tabbedbottom1:DetailsInfor>
+                <tabbedbottom1:AnnouncePage></tabbedbottom1:AnnouncePage>
             </x:Arguments>
-        </NavigationPage>-->
+        </NavigationPage>
         <NavigationPage Title="Cá nhân" IconImageSource="user.png">
             <x:Arguments>
                 <tabbedbottom1:DetailsInfor></tabbedbottom1:DetailsInfor>

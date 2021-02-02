@@ -7,7 +7,6 @@
         <Label Text="Thông tin cá nhân" TextColor="White" FontAttributes="Bold" Margin="110,0,0,0" FontSize="20"/>
     </NavigationPage.TitleView>
     <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="bell.png" Clicked="ToolbarItem_Clicked" />
         <ToolbarItem Text="Đổi ảnh đại diện" Priority="2" Order="Secondary" Clicked="ToolbarItem_Clicked_1"/>
         <ToolbarItem Text="Thay đổi thông tin cá nhân" Priority="2" Order="Secondary"  Command="{Binding EditInfor}"/>
     </ContentPage.ToolbarItems>

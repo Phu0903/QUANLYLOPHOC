@@ -22,6 +22,7 @@ namespace CRUDWebAPI
 
                 Tieude = _thongbao.Tieude;
                 NoiDung = _thongbao.NoiDung;
+               
                 
 
                 IsVisibleDeleteBtn = true;
@@ -63,13 +64,13 @@ namespace CRUDWebAPI
                 });
             }
         }
-        /*public Command DeleteStudent
+        public Command DeleteAnnounce
         {
             get
             {
                 return new Command(async () =>
                 {
-                    string url = $"https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/DeleteStudent?StudentId={_student.Id}";
+                    string url = $"https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/DeleteThongbao?ThongbaoId={_thongbao.Id_thongbao}";
                     HttpClient client = new HttpClient();
                     string jsonData = JsonConvert.SerializeObject(_thongbao);
                     StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
@@ -86,7 +87,7 @@ namespace CRUDWebAPI
                     }
                 });
             }
-        }*/
+        }
         bool _isVisibleDeleteBtn;
         public bool IsVisibleDeleteBtn
         {
@@ -135,7 +136,6 @@ namespace CRUDWebAPI
             }
         }
 
-        
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)

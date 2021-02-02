@@ -12,6 +12,11 @@
                 <tabbedbottom1:ListClassTeacher></tabbedbottom1:ListClassTeacher>
             </x:Arguments>
         </NavigationPage>
+        <NavigationPage Title="Thông báo" IconImageSource="bell.png">
+            <x:Arguments>
+                <tabbedbottom11:AnnouncePageTeacher></tabbedbottom11:AnnouncePageTeacher>
+            </x:Arguments>
+        </NavigationPage>
         <NavigationPage Title="Thông tin cá nhân" IconImageSource="user.png">
             <x:Arguments>
                 <tabbedbottom11:DetailsInfor></tabbedbottom11:DetailsInfor>

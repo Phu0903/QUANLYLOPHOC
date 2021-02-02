@@ -6,10 +6,6 @@
     <NavigationPage.TitleView>
         <Label Text="Danh sách lớp" TextColor="White" FontAttributes="Bold" FontFamily="Montserrat-SemiBold" Margin="120,0,0,0" FontSize="20"/>
     </NavigationPage.TitleView>
-    <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="bell.png" Clicked="ToolbarItem_Clicked" />
-    </ContentPage.ToolbarItems>
-
     <StackLayout BackgroundColor="White" Padding="10,5">
         <syncfusion:SfListView ItemsSource="{Binding Student}"  SelectedItem="{Binding SelectedStudent,Mode=TwoWay}"
                                ItemSpacing="5" AutoFitMode="Height"         

@@ -86,12 +86,12 @@ namespace CRUDWebAPI
             if (getLoginDetails)
             {
                
-               if(Chucvu == "Giaovien")
+               if(Chucvu == "Giáo Viên")
                 {
 
                     await Navigation.PushModalAsync(new TabbedPageTeacher(Username, Password));
                 }   
-                else if (Chucvu == "Quanly")
+                else if (Chucvu == "Quản Lý")
                 {
                     await Navigation.PushModalAsync(new TabbedPage1(Username,Password));
                 }
