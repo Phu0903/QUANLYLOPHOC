@@ -23,6 +23,7 @@ namespace CRUDWebAPI.ViewModels
         public string Email { get; set; }
         public string Address { get; set; }
         public int ID_Teacher { get; set; }
+        public string Password { get; set; }
 
         TeacherInfor _teacherInfor;
      public DetailInforTeacherViewModel(INavigation _navigation, TeacherInfor teacherInfor)
@@ -38,6 +39,7 @@ namespace CRUDWebAPI.ViewModels
                 Email = _teacherInfor.Email;
                 Address = _teacherInfor.Address;
                 ID_Teacher = _teacherInfor.ID_Teacher;
+                Password = _teacherInfor.Password;
             }    
         }
         /// <summary>
@@ -83,7 +85,21 @@ namespace CRUDWebAPI.ViewModels
                 OnPropertyChanged();
             }
         }
+        //Hàm edit Teacher
+        public Command EditTeacher
+        {
+            get
+            {
+                return new Command(() =>
+                {
+                    Navigation.PushAsync(new AddTeacher(_teacherInfor));
+                });
+            }
+         
+        }
       
+      
+
 
 
         public event PropertyChangedEventHandler PropertyChanged;

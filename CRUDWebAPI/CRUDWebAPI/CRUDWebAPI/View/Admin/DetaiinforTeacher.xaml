@@ -16,7 +16,8 @@
                                 <RowDefinition Height="*"/>
                                 <RowDefinition Height="*"/>
                                 <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
@@ -28,8 +29,9 @@
                             <Label Text="{Binding PhoneNumber}" Grid.Row="1" Grid.Column="1"  TextColor="Teal" FontSize="15"/>
                             <Label Text="{Binding Chucvu}"  Grid.Row="2" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
                             <Label Text="{Binding Email}" Grid.Row="3" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
-                            <Label Text="{Binding BirthDay_Teacher}" Grid.Row="4" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
-                            <Label Text="{Binding Address}" Grid.Row="5" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
+                            <Label Text="{Binding Password}" Grid.Row="4" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
+                            <Label Text="{Binding BirthDay_Teacher}" Grid.Row="5" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
+                            <Label Text="{Binding Address}" Grid.Row="6" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
                 <Button Text="Edit" Command="{Binding EditTeacher}" FontSize="20" Grid.Column="2" 
                         TextColor="White" 
                         BackgroundColor="Green"/>

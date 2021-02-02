@@ -13,14 +13,14 @@ namespace CRUDWebAPI.View.Teacher
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ListStudent : ContentPage
     {
-        public ListStudent()
+        public ListStudent(ClassStudent classStudent)
         {
             InitializeComponent();
-            BindingContext = new ListClassViewModel(Navigation);
+            BindingContext = new MainPageViewModel(Navigation, classStudent);
         }
         protected override void OnAppearing()
         {
-            (this.BindingContext as ListClassViewModel).GetClassStudent();
+            (this.BindingContext as MainPageViewModel).GetStudents();
         }
 
     }

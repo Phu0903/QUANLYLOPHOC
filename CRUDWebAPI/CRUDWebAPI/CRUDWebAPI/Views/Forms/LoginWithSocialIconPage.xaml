@@ -113,9 +113,9 @@
                         Grid.Row="5"
                         Margin="0,16"
                         CornerRadius="4"
-                         Clicked="SfButton_Clicked"
+                         Command="{Binding SubmitCommand}"
                         Style="{StaticResource SfButtonStyle}"
-                        Text="LOG IN" />
+                        Text="Đăng nhập" />
                     </Grid>
                 </StackLayout>
             </ScrollView>

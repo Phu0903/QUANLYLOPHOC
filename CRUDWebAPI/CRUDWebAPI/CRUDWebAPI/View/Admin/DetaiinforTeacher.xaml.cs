@@ -17,6 +17,7 @@ namespace CRUDWebAPI.View.Admin
         {
             InitializeComponent();
             BindingContext = new DetailInforTeacherViewModel(Navigation, teacherinfor);
+            //BindingContext = new AddTeacherViewModel(Navigation, teacherinfor);
         }
         protected override void OnAppearing()
         {

@@ -1,29 +1,28 @@
-﻿using Xamarin.Forms;
-using Xamarin.Forms.Internals;
-using Xamarin.Forms.Xaml;
-using System;
+﻿
 using CRUDWebAPI.View;
-using CRUDWebAPI.View.Teacher;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace CRUDWebAPI.Views.Forms
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace CRUDWebAPI
 {
-    /// <summary>
-    /// Page to login with user name and password
-    /// </summary>
-
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class LoginWithSocialIconPage : ContentPage
+    public partial class LoginPage : ContentPage
     {
-        
-        public LoginWithSocialIconPage(string Chucvu)
+        public LoginPage(string Chucvu)
         {
 
             var vm = new LoginviewModel(Navigation, Chucvu);
             this.BindingContext = vm;
-            if(vm == null)
+            if (vm == null)
             {
                 vm.DisplayInvalidLoginPrompt += () => DisplayAlert("Thông báo", "Nhập email và password", "OK");
-            }    
+            }
             vm.DisplayInvalidLoginPrompt += () => DisplayAlert("Thông báo", "Sai email hoặc password hoặc chức vụ", "OK");
             InitializeComponent();
 
@@ -38,8 +37,5 @@ namespace CRUDWebAPI.Views.Forms
             };
         }
 
-    
-
-       
     }
 }

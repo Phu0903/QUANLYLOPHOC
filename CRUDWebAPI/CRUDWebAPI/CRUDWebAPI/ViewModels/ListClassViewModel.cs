@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using CRUDWebAPI.View.Teacher;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -69,7 +70,7 @@ namespace CRUDWebAPI.ViewModels
                 _selectedStudent = value;
                 if (value != null)
                 {
-                    Navigation.PushAsync(new MainPage(SelectedStudent));
+                    Navigation.PushAsync(new ListStudent(SelectedStudent));
                 }
                 OnPropertyChanged();
             }
