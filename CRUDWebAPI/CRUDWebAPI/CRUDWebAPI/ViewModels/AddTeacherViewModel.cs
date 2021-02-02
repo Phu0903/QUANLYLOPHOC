@@ -119,6 +119,14 @@ namespace CRUDWebAPI.ViewModels
             }
         }
 
+        
+        
+        public string TeacherTittle
+        {
+            get ;
+           
+        }
+
         TeacherInfor _teacherInfor;
         public AddTeacherViewModel(INavigation _navigation, TeacherInfor teacherInfor)
         {
@@ -135,8 +143,14 @@ namespace CRUDWebAPI.ViewModels
                 Email = _teacherInfor.Email;
                 Password = _teacherInfor.Password;
                 IsVisibleDeleteBtn = true;
+                TeacherTittle = "Sửa thông tin giáo viên";
+            }
+            else { 
+                TeacherTittle = "Thêm giáo viên";
             }
         }
+        
+
         public Command SaveStudent
         {
             get

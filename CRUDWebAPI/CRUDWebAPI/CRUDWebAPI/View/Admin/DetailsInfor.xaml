@@ -9,6 +9,7 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="bell.png" Clicked="ToolbarItem_Clicked" />
         <ToolbarItem Text="Đổi ảnh đại diện" Priority="2" Order="Secondary" Clicked="ToolbarItem_Clicked_1"/>
+        <ToolbarItem Text="Thay đổi thông tin cá nhân" Priority="2" Order="Secondary"  Command="{Binding EditInfor}"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <ScrollView>
@@ -26,7 +27,7 @@
                 </custom:CircleImage>
                 <StackLayout>
                     <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
-                        <syncfusion:SfListView ItemsSource="{Binding TeacherInfo}" ItemSpacing="5" AutoFitMode="Height"   >
+                        <syncfusion:SfListView ItemsSource="{Binding TeacherInfo}" SelectedItem="{Binding SelectedTeacher,Mode=TwoWay}" ItemSpacing="5" AutoFitMode="Height"   >
                             <syncfusion:SfListView.ItemTemplate>
                                 <DataTemplate>
                                     <StackLayout>

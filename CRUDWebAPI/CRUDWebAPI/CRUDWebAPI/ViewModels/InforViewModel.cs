@@ -9,6 +9,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using Xamarin.Forms;
 using Xamarin.Essentials;
+using CRUDWebAPI.View.Admin;
 
 namespace CRUDWebAPI
 {
@@ -25,8 +26,8 @@ namespace CRUDWebAPI
             //this.password = password;
         }
 
-      
-        
+
+
         public async void GetInforTeacher()
         {
             string email = Preferences.Get("my_key", "default_value");
@@ -54,20 +55,23 @@ namespace CRUDWebAPI
                 OnPropertyChanged();
             }
         }
-
-        /*private TeacherInfor _getID;
-       string ID_temp;
-        
-        public int EditTeacher
+        TeacherInfor _selectedTeacher;
+        public TeacherInfor SelectedTeacher
         {
             get
             {
-                ID_temp = _getID.ID_Teacher.ToString();
-                Preferences.Set("my_key4", ID_temp);
-                return _getID.ID_Teacher;
-
+                return _selectedTeacher;
             }
-        }*/
+            set
+            {
+                _selectedTeacher = value;
+                if (value != null)
+                {
+                    navigation.PushAsync(new AddTeacher(SelectedTeacher));
+                }
+                OnPropertyChanged();
+            }
+        }
         
         bool _isRefreshing;
         public bool IsRefreshing
