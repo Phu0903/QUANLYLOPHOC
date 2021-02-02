@@ -7,7 +7,7 @@
             NavigationPage.HasNavigationBar="False">
   <!--Pages can be added as references or inline-->
     <TabbedPage.Children>
-        <NavigationPage Title="DS lớp học" IconImageSource="presentation.png">
+        <NavigationPage Title="Lớp học" IconImageSource="presentation.png">
             <x:Arguments>
                 <tabbedbottom1:ListClassTeacher></tabbedbottom1:ListClassTeacher>
             </x:Arguments>
