@@ -24,7 +24,7 @@ namespace CRUDWebAPI
                 Phone = _student.PhoneNumber;
                 Address = _student.Address;
                 Birthday = _student.Birthday;
-                ID_Class = _student.ID_Class;
+                NameClass = _student.ID_Class;
                 RegisterDay = _student.RegisterDay;
                 Gender = _student.Gender;
                 StudentTittle = "Sửa thông tin sinh viên";
@@ -48,7 +48,7 @@ namespace CRUDWebAPI
                         _student.Address = Address;
                         _student.PhoneNumber = Phone;
                         _student.Birthday = Birthday;
-                        _student.ID_Class = ID_Class;
+                        _student.ID_Class = NameClass;
                         _student.RegisterDay = RegisterDay;
                         _student.Gender = Gender;
                     }
@@ -59,11 +59,12 @@ namespace CRUDWebAPI
                         _student.Address = Address;
                         _student.PhoneNumber = Phone;
                         _student.Birthday = Birthday;
-                        _student.ID_Class = ID_Class;
+                        _student.ID_Class = NameClass;
                         _student.RegisterDay = RegisterDay;
                         _student.Gender = Gender;
+                    
                     }                    
-                    string url = "http://quanlylophoc.somee.com/api/Masters/SaveStudent";
+                    string url = " https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/SaveStudent";
                     HttpClient client = new HttpClient();
                     string jsonData = JsonConvert.SerializeObject(_student);
                     StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
@@ -87,7 +88,7 @@ namespace CRUDWebAPI
             {
                 return new Command(async () =>
                 {
-                    string url = $"http://quanlylophoc.somee.com/api/Masters/DeleteStudent?StudentId={_student.Id}";
+                    string url = $"https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/DeleteStudent?StudentId={_student.Id}";
                     HttpClient client = new HttpClient();
                     string jsonData = JsonConvert.SerializeObject(_student);
                     StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
@@ -185,15 +186,16 @@ namespace CRUDWebAPI
                 }
             }
         }
-        string _IDClass;
-        public string ID_Class { get {
-                return _IDClass;
+        string _NameClass;
+        public string NameClass
+        { get {
+                return _NameClass;
             }
             set
             {
                 if(value!=null)
                 {
-                    _IDClass = value;
+                    _NameClass= value;
                     OnPropertyChanged();
                 }
             }

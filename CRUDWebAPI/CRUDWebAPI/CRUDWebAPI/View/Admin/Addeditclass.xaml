@@ -8,14 +8,11 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="1" Margin="10">
-                <Label Text="ID_CLass" TextColor="Black" FontSize="Small"/>
-                <Entry Text="{Binding ID_CLass}" HorizontalOptions="FillAndExpand" Placeholder="ID_CLass"/>
-
+               
                 <Label Text="Tên lớp" TextColor="Black" FontSize="Small"/>
                 <Entry Text="{Binding NameClass}" HorizontalOptions="FillAndExpand" Placeholder="Tên lớp"/>
-
                 <Label Text="ID giáo viên" TextColor="Black" FontSize="Small"/>
-                <Entry Text="{Binding ID_Teacher}" HorizontalOptions="FillAndExpand" Placeholder="Tên lớp"/>
+                <Entry Text="{Binding ID_Teacher}" HorizontalOptions="FillAndExpand" Placeholder="ID giáo viên"/>
                 <Label Text="Ngày bắt đầu" TextColor="Black" FontSize="Small"/>
                 <Entry Text="{Binding StartDay}" HorizontalOptions="FillAndExpand" Placeholder="Ngày bắt đầu"/>
                 <Label Text="Ngày kết thúc" TextColor="Black" FontSize="Small"/>

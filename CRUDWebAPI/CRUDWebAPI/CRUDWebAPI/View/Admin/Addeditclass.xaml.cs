@@ -13,27 +13,11 @@ namespace CRUDWebAPI.View.Admin
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Addeditclass : ContentPage
     {
-        public Addeditclass(ClassStudent classStudent)
+        public Addeditclass(ClassStudent classstudent)
         {
             InitializeComponent();
-            BindingContext = new AddClassViewModel(Navigation,classStudent);
+            BindingContext = new AddClassViewModel(Navigation, classstudent);
+
         }
-
-
-        public string ngaybatdau;
-
-        public string ngayketthuc;
-        private void DatePicker_DateSelected(object sender, DateChangedEventArgs e)
-        {
-            ngaybatdau = e.OldDate.ToString("dd-MM-yyyy");
-            Preferences.Set("my_key4", ngaybatdau);
-        }
-
-        private void DatePicker_DateSelected_1(object sender, DateChangedEventArgs e)
-        {
-            ngayketthuc = e.OldDate.ToString("dd-MM-yyyy");
-            Preferences.Set("my_key5", ngayketthuc);
-        }
-      
     }
 }

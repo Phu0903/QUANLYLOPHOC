@@ -30,7 +30,7 @@ namespace CRUDWebAPI.ViewModels
             using (var client = new HttpClient())
             {
                 // send a GET request  
-                var uri = "http://quanlylophoc.somee.com/api/Masters/getStudent?ID_Class=" + temp.ToString();
+                var uri = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/getStudent?IDClass=" + temp.ToString();
                 var result = await client.GetStringAsync(uri);
                 var StudentList = JsonConvert.DeserializeObject<List<Student>>(result);
                 Student = new ObservableCollection<Student>(StudentList);

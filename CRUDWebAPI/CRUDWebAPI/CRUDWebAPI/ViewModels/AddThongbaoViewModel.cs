@@ -22,9 +22,6 @@ namespace CRUDWebAPI
 
                 Tieude = _thongbao.Tieude;
                 NoiDung = _thongbao.NoiDung;
-               
-                
-
                 IsVisibleDeleteBtn = true;
             }
         }
@@ -46,7 +43,7 @@ namespace CRUDWebAPI
                         _thongbao.Tieude = Tieude;
                         _thongbao.NoiDung = NoiDung;
                     }
-                    string url = "http://quanlylophoc.somee.com/api/Masters/SaveThongbao";
+                    string url = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/SaveThongbao";
                     HttpClient client = new HttpClient();
                     string jsonData = JsonConvert.SerializeObject(_thongbao);
                     StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");

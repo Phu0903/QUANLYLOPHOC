@@ -55,10 +55,7 @@ namespace CRUDWebAPI.ViewModels
             _class = classStudent;
             if (_class != null)
             {
-
-               
                 NameClass = _class.NameClass;
-                ID_CLass = _class.ID_CLass;
                 ID_Teacher = _class.ID_Teacher;
                 StartDay = _class.StartDay;
                 LeavingDay = _class.LeavingDay;
@@ -80,7 +77,6 @@ namespace CRUDWebAPI.ViewModels
                     if (_class != null)
                     {
                         _class.NameClass = NameClass;
-                        _class.ID_CLass = ID_CLass;
                         _class.ID_Teacher = ID_Teacher;
                         _class.StartDay = StartDay;
                         _class.LeavingDay = LeavingDay;
@@ -89,7 +85,6 @@ namespace CRUDWebAPI.ViewModels
                     {
                         _class = new ClassStudent();
                         _class.NameClass = NameClass;
-                        _class.ID_CLass = ID_CLass;
                         _class.ID_Teacher = ID_Teacher;
                         _class.StartDay = StartDay;
                         _class.LeavingDay = LeavingDay;
@@ -182,32 +177,20 @@ namespace CRUDWebAPI.ViewModels
             }
         }
 
-        string _idclass;
-        public string ID_CLass
-        {
-            get
-            {
-                return _idclass;
-            }
-            set
-            {
-                if (value != null)
-                {
-                    _idclass = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
-
       string _idteacher;
         public string ID_Teacher
         {
             get
-            {
+            {  
                 return _idteacher;
             }
             set
             {
+               /* try
+                {
+                    _idteacher = int.Parse(value);
+                }
+                catch { _idteacher = null; }*/
                 if (value != null)
                 {
                     _idteacher = value;
@@ -215,72 +198,7 @@ namespace CRUDWebAPI.ViewModels
                 }
             }
         }
-        /* string _startday;
-        public string StartDay
-        {
-            get
-            {
-                return _startday;
-            }
-            set
-            {
-                if (value != null)
-                {
-                    _startday = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
-        string _leavingday;
-        public string LeavingDay
-        {
-            get
-            {
-                return _leavingday;
-            }
-            set
-            {
-                if (value != null)
-                {
-                    _leavingday = value;
-                    OnPropertyChanged();
-                }
-            }
-        }*/
-        /* string _RegisterDay;
-         public string RegisterDay
-         {
-             get
-             {
-                 return _RegisterDay;
-             }
-             set
-             {
-                 if (value != null)
-                 {
-                     _RegisterDay = value;
-                     OnPropertyChanged();
-                 }
-             }
-         }
-         //string _Gender;
-         //public string Gender
-         //{
-         //    get
-         //    {
-         //        return _Gender;
-         //    }
-         //    set
-         //    {
-         //        if (value != null)
-         //        {
-         //            _Gender = value;
-         //            OnPropertyChanged();
-         //        }
-         //    }
-
-         //}*/
-
+      
         public string ClassTittle { get; }
 
         public event PropertyChangedEventHandler PropertyChanged;

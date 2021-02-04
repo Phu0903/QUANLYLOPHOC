@@ -120,12 +120,15 @@ namespace CRUDWebAPI.ViewModels
         {
             get
             {
+              
                 return new Command(() =>
                 {
                     Navigation.PushAsync(new Addeditclass(null));
                 });
             }
         }
+      
+
 
 
         public event PropertyChangedEventHandler PropertyChanged;
