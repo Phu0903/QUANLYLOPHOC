@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+   x:Class="CRUDWebAPI.View.Admin.Addeditclass">
+    <NavigationPage.TitleView>
+        <Label Text="{Binding ClassTittle}" TextColor="White" FontAttributes="Bold" Margin="70,0,0,0" FontSize="20"/>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="1" Margin="10">
+                <Label Text="ID_CLass" TextColor="Black" FontSize="Small"/>
+                <Entry Text="{Binding ID_CLass}" HorizontalOptions="FillAndExpand" Placeholder="ID_CLass"/>
+
+                <Label Text="Tên lớp" TextColor="Black" FontSize="Small"/>
+                <Entry Text="{Binding NameClass}" HorizontalOptions="FillAndExpand" Placeholder="Tên lớp"/>
+
+                <Label Text="ID giáo viên" TextColor="Black" FontSize="Small"/>
+                <Entry Text="{Binding ID_Teacher}" HorizontalOptions="FillAndExpand" Placeholder="Tên lớp"/>
+                <Label Text="Ngày bắt đầu" TextColor="Black" FontSize="Small"/>
+                <Entry Text="{Binding StartDay}" HorizontalOptions="FillAndExpand" Placeholder="Ngày bắt đầu"/>
+                <Label Text="Ngày kết thúc" TextColor="Black" FontSize="Small"/>
+                <Entry Text="{Binding LeavingDay}" HorizontalOptions="FillAndExpand" Placeholder="Ngày kết thúc"/>
+              <!--<Label Text="Ngày bắt đầu" TextColor="Black" FontSize="Small"/>
+                <DatePicker DateSelected="DatePicker_DateSelected" />
+
+                 <Label Text="Ngày Kết Thúc" TextColor="Black" FontSize="Small"/>
+                <DatePicker DateSelected="DatePicker_DateSelected_1" />-->
+
+                <Button Text="Lưu lớp" Command="{Binding Saveclass}"/>
+                <Button Text="Xóa lớp" Command="{Binding Deleteclass}" BackgroundColor="Red" TextColor="White"
+                    IsVisible="{Binding IsVisibleDeleteBtn}"/>
+            </StackLayout>
+
+        </ScrollView>
+
+
+
+    </ContentPage.Content>
+</ContentPage>
+
+

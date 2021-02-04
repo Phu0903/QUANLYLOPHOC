@@ -1,4 +1,5 @@
 ﻿using CRUDWebAPI.View;
+using CRUDWebAPI.View.Admin;
 using CRUDWebAPI.View.Teacher;
 using CRUDWebAPI.Views.Forms;
 using System;
@@ -17,6 +18,7 @@ namespace CRUDWebAPI
             MainPage = new NavigationPage(new TeacherOrAdmin());
             //MainPage = new NavigationPage(new Infor());
             //MainPage = new NavigationPage(new TabbedPage1());
+            //MainPage = new NavigationPage(new Addeditclass(null));
 
 
         }

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" 
              x:Class="CRUDWebAPI.View.Admin.AddTeacher">
     <NavigationPage.TitleView>
         <Label Text="{Binding TeacherTittle}" 
@@ -37,8 +37,9 @@
                     <Label Text="Ngày sinh: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="3" Padding="0,12,0,0"/>
                     <Entry Text="{Binding BirthDay_Teacher}" HorizontalOptions="FillAndExpand" Placeholder="Ngày sinh" Grid.Column="1" Grid.Row="3"/>
 
-                    <Label Text="Chức vụ: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="4" Padding="0,12,0,0"/>
+                   <Label Text="Chức vụ: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="4" Padding="0,12,0,0"/>
                     <Entry Text="{Binding Chucvu}" HorizontalOptions="FillAndExpand" Placeholder="Chức vụ" Grid.Column="1" Grid.Row="4"/>
+                  
 
                     <Label Text="Email: " TextColor="Black" FontSize="18" Grid.Column="0" Grid.Row="5" Padding="0,12,0,0"/>
                     <Entry Text="{Binding Email}" HorizontalOptions="FillAndExpand" Placeholder="Email" Grid.Column="1" Grid.Row="5"/>
@@ -60,6 +61,7 @@
                     FontSize="20"
                     IsVisible="{Binding IsVisibleDeleteBtn}"/>
                 </Grid>
+                <Picker x:Name="MainPicker"></Picker>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

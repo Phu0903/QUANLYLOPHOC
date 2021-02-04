@@ -1,4 +1,5 @@
-﻿using CRUDWebAPI.View.Teacher;
+﻿using CRUDWebAPI.View.Admin;
+using CRUDWebAPI.View.Teacher;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -27,7 +28,7 @@ namespace CRUDWebAPI.ViewModels
             using (var client = new HttpClient())
             {
                 // send a GET request  
-                var uri = "http://quanlylophoc.somee.com/api/Masters/GetClass";
+                var uri = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/getClass";
                 var result = await client.GetStringAsync(uri);
                 var StudentList = JsonConvert.DeserializeObject<List<ClassStudent>>(result);
                 Student = new ObservableCollection<ClassStudent>(StudentList);
@@ -115,7 +116,16 @@ namespace CRUDWebAPI.ViewModels
                 OnPropertyChanged();
             }
         }
-
+        public Command AddClass
+        {
+            get
+            {
+                return new Command(() =>
+                {
+                    Navigation.PushAsync(new Addeditclass(null));
+                });
+            }
+        }
 
 
         public event PropertyChangedEventHandler PropertyChanged;

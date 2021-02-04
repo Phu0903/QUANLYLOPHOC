@@ -11,6 +11,7 @@ namespace CRUDWebAPI.ViewModels
 {
     class AddTeacherViewModel : INotifyPropertyChanged
     {
+
         public INavigation Navigation { get; set; }
         string _nameteacher;
         public string Name_Teacher { get {

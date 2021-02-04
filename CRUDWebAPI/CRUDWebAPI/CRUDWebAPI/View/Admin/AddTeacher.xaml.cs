@@ -17,7 +17,16 @@ namespace CRUDWebAPI.View.Admin
         {
             InitializeComponent();
             BindingContext = new AddTeacherViewModel(Navigation, teacherInfor);
+
+
+            MainPicker.Items.Add("Giáo viên");
+            MainPicker.Items.Add("Quản lý");
+
+
         }
+
+      
+    
         private void ToolbarItem_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new AnnouncePage());

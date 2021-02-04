@@ -1,4 +1,5 @@
 ﻿
+using CRUDWebAPI.View.Admin;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -57,7 +58,19 @@ namespace CRUDWebAPI.ViewModels
                 });
             }
         }
-      
+        public Command EditClass
+        {
+            get
+            {
+                return new Command(() =>
+                {
+                    Navigation.PushAsync(new Addeditclass(_classStudent));
+                }
+                );
+            }
+        }
+
+
 
         bool _isRefreshing;
         public bool IsRefreshing

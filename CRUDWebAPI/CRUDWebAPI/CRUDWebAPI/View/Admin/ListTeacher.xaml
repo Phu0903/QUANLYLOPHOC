@@ -33,6 +33,7 @@
                             <Label Text="{Binding PhoneNumber}" Grid.Row="1" Grid.Column="1"  TextColor="Teal" FontSize="15"/>
                             <Label Text="{Binding Chucvu}"  Grid.Row="2" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
                             
+                            
                     </Grid>
                 </Frame>
             </DataTemplate>

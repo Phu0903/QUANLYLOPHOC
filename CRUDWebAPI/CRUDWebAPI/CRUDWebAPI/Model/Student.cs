@@ -25,7 +25,7 @@ namespace CRUDWebAPI
     public string NameClass { get; set; }
     public string StartDay { get; set; }
     public string LeavingDay { get; set; }
-    public string Image { get; set; }
+    public string ID_Teacher { get; set; }
     }   
 
     public class Thongbao
