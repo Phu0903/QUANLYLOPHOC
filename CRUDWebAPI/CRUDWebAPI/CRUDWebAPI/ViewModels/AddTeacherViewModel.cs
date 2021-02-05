@@ -197,6 +197,52 @@ namespace CRUDWebAPI.ViewModels
                 });
             }
         }
+
+        public Command EditTeacher
+        {
+            get
+            {
+                return new Command(async () =>
+                {
+                    if (_teacherInfor != null)
+                    {
+                        _teacherInfor.Name_Teacher = Name_Teacher;
+                        _teacherInfor.Address = Address;
+                        _teacherInfor.PhoneNumber = PhoneNumber;
+                        _teacherInfor.BirthDay_Teacher = BirthDay_Teacher;
+                        //_teacherInfor.Chucvu = Chucvu;
+                        _teacherInfor.Email = Email;
+                        _teacherInfor.Password = Password;
+                    }
+                    else
+                    {
+                        _teacherInfor = new TeacherInfor();
+                        _teacherInfor.Name_Teacher = Name_Teacher;
+                        _teacherInfor.Address = Address;
+                        _teacherInfor.PhoneNumber = PhoneNumber;
+                        _teacherInfor.BirthDay_Teacher = BirthDay_Teacher;
+                        //_teacherInfor.Chucvu = Chucvu;
+                        _teacherInfor.Email = Email;
+                        _teacherInfor.Password = Password;
+                    }
+                    string url = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/EditTeacher";
+                    HttpClient client = new HttpClient();
+                    string jsonData = JsonConvert.SerializeObject(_teacherInfor);
+                    StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+                    HttpResponseMessage response = await client.PostAsync(url, content);
+                    string result = await response.Content.ReadAsStringAsync();
+                    Response responseData = JsonConvert.DeserializeObject<Response>(result);
+                    if (responseData.Status == 1)
+                    {
+                        await Navigation.PopAsync();
+                    }
+                    else
+                    {
+                        //
+                    }
+                });
+            }
+        }
         public Command DeleteStudent
         {
             get
