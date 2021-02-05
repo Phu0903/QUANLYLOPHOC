@@ -33,11 +33,11 @@
 
                                 <Image Source="group.png" Grid.Column="0" Grid.Row="0" Grid.RowSpan="4"/>
                              
-                                <Label Text="{Binding NameClass,StringFormat='Tên Lớp: {0:F0)}'}" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" FontSize="20" TextColor="Black" FontAttributes="Bold"/>
-                                <Label Text="{Binding StartDay,StringFormat='Ngày bắt đầu: {0:F0)}'}" Grid.Column="1" Grid.Row="1"/>
-                                <Label Text="{Binding LeavingDay,StringFormat='Ngày kết thúc: {0:F0)}'}" Grid.Column="1" Grid.Row="2"/>
-                                <Label Text="{Binding ID_Teacher, StringFormat='ID Giáo Viên: {0:F0)'}" Grid.Column="1" Grid.Row="3"/>
-                                <Label Text="{Binding Name_Teacher, StringFormat='Tên Giáo Viên: {0:F0)'}" Grid.Column="1" Grid.Row="4"/>
+                                <Label Text="{Binding NameClass,StringFormat='Tên Lớp: {0:F0}'}" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" FontSize="20" TextColor="Black" FontAttributes="Bold"/>
+                                <Label Text="{Binding StartDay,StringFormat='Ngày bắt đầu: {0:F0}'}" Grid.Column="1" Grid.Row="1" TextColor="Black"/>
+                                <Label Text="{Binding LeavingDay,StringFormat='Ngày kết thúc: {0:F0}'}" Grid.Column="1" Grid.Row="2" TextColor="Black"/>
+                                <Label Text="{Binding ID_Teacher, StringFormat='ID Giáo Viên: {0:F0}'}" Grid.Column="1" Grid.Row="3" TextColor="Black"/>
+                                <Label Text="{Binding Name_Teacher, StringFormat='Tên Giáo Viên: {0:F0}'}" Grid.Column="1" Grid.Row="4" TextColor="Black"/>
                             </Grid>
                         </Frame>
                         </ViewCell>

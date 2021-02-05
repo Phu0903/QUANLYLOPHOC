@@ -28,8 +28,8 @@
 
                                 <Image Source="group.png"  Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" />
                                 <Label Text="{Binding NameClass,StringFormat='Tên Lớp: {0:F0)}'}" Grid.Column="1" Grid.Row="0" FontSize="20" TextColor="Black" FontAttributes="Bold"/>
-                                <Label Text="{Binding StartDay,StringFormat='Ngày bắt đầu: {0:F0)}'}" Grid.Column="1" Grid.Row="1"/>
-                                <Label Text="{Binding LeavingDay,StringFormat='Ngày kết thúc: {0:F0)}'}" Grid.Column="1" Grid.Row="2"/>
+                                <Label Text="{Binding StartDay,StringFormat='Ngày bắt đầu: {0:F0)}'}" Grid.Column="1" Grid.Row="1" TextColor="Black"/>
+                                <Label Text="{Binding LeavingDay,StringFormat='Ngày kết thúc: {0:F0)}'}" Grid.Column="1" Grid.Row="2" TextColor="Black"/>
                             </Grid>
                         </Frame>
                     </ViewCell>

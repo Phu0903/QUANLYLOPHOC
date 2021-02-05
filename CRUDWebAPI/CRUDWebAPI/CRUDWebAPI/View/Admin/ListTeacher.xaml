@@ -27,7 +27,7 @@
                             <ColumnDefinition Width="2*"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <Image Source="phu.jpg" Grid.Column="0" Grid.RowSpan="3"/>
+                        <Image Source="user512.png" Grid.Column="0" Grid.RowSpan="3" Aspect="Fill"/>
                             
                             <Label Text="{Binding Name_Teacher}" FontAttributes="Bold" TextColor="Teal" FontSize="21" Grid.Column="1" Grid.Row="0"/>
                             <Label Text="{Binding PhoneNumber}" Grid.Row="1" Grid.Column="1"  TextColor="Teal" FontSize="15"/>

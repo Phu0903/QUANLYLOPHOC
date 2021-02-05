@@ -14707,43 +14707,55 @@ namespace CRUDWebAPI.Droid
 			public const int notify_panel_notification_icon_bg = 2131165557;
 			
 			// aapt resource value: 0x7F070176
-			public const int person = 2131165558;
+			public const int pen = 2131165558;
 			
 			// aapt resource value: 0x7F070177
-			public const int phone = 2131165559;
+			public const int person = 2131165559;
 			
 			// aapt resource value: 0x7F070178
-			public const int phu = 2131165560;
+			public const int phone = 2131165560;
 			
 			// aapt resource value: 0x7F070179
-			public const int plus16 = 2131165561;
+			public const int phu = 2131165561;
 			
 			// aapt resource value: 0x7F07017A
-			public const int presentation = 2131165562;
+			public const int plus16 = 2131165562;
 			
 			// aapt resource value: 0x7F07017B
-			public const int python = 2131165563;
+			public const int presentation = 2131165563;
 			
 			// aapt resource value: 0x7F07017C
-			public const int sfclosebutton = 2131165564;
+			public const int python = 2131165564;
 			
 			// aapt resource value: 0x7F07017D
-			public const int styleinfo = 2131165565;
+			public const int sfclosebutton = 2131165565;
 			
 			// aapt resource value: 0x7F07017E
-			public const int teacher = 2131165566;
+			public const int styleinfo = 2131165566;
 			
 			// aapt resource value: 0x7F07017F
-			public const int tooltip_frame_dark = 2131165567;
+			public const int teacher = 2131165567;
 			
 			// aapt resource value: 0x7F070180
-			public const int tooltip_frame_light = 2131165568;
+			public const int tooltip_frame_dark = 2131165568;
 			
 			// aapt resource value: 0x7F070181
-			public const int user = 2131165569;
+			public const int tooltip_frame_light = 2131165569;
 			
 			// aapt resource value: 0x7F070182
-			public const int usericon = 2131165570;
+			public const int user = 2131165570;
+			
+			// aapt resource value: 0x7F070183
+			public const int user16 = 2131165571;
+			
+			// aapt resource value: 0x7F070184
+			public const int user512 = 2131165572;
+			
+			// aapt resource value: 0x7F070185
+			public const int user64 = 2131165573;
+			
+			// aapt resource value: 0x7F070186
+			public const int usericon = 2131165574;
 			
 			static Drawable()
 			{
