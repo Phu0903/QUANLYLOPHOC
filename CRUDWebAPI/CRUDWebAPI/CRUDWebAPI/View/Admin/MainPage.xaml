@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:local="clr-namespace:CRUDWebAPI"
+             x:Class="CRUDWebAPI.MainPage">
+    <NavigationPage.TitleView>
+
+        <Label Text="Danh sách sinh viên"  TextColor="White" FontAttributes="Bold" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  FontSize="20"/>
+    </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="plus16.png" Command="{Binding AddStudent}"/>
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <syncfusion:SfListView ItemsSource="{Binding Student}" AutoFitMode="Height" Padding="10"
+                               SelectedItem="{Binding SelectedStudent ,Mode=TwoWay}">
+            <syncfusion:SfListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell Height="120">
+                        <Frame CornerRadius="2" HasShadow="True" Padding="2" Margin="2">
+                            <StackLayout Padding="10">
+                                
+                                <Label Text="{Binding Name,StringFormat='Tên: {0:F0)}'}" TextColor="Black"  
+                                   FontAttributes="Bold" FontSize="Medium"/>
+                                <Label Text="{Binding Address,StringFormat='Địa chỉ: {0:F0)}'}" TextColor="Blue"  FontSize="Medium"/>
+                                <Label Text="{Binding PhoneNumber,StringFormat='Điện Thoại: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+                                <Label Text="{Binding Birthday,StringFormat='Sinh Nhật: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+                                <Label Text="{Binding RegisterDay,StringFormat='Ngày Đăng ký: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+                                <Label Text="{Binding Gender,StringFormat='Giới tính: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+                                <Label Text="{Binding ID_Class,StringFormat='ID_Class: {0:F0)}'}" TextColor="Black"  FontSize="Medium"/>
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </syncfusion:SfListView.ItemTemplate>
+        </syncfusion:SfListView>
+        <Button Text="Sửa thông tin lớp" Command="{Binding EditClass}" 
+                Margin="10" CornerRadius="5" 
+                    TextColor="White"
+                    FontFamily="Arial"
+                    BackgroundColor="Red"
+                    BorderWidth="0" 
+                    FontSize="20"/>
+    </StackLayout>
+
+</ContentPage>

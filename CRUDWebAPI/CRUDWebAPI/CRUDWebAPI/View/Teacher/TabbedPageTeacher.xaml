@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:tabbedbottom1="clr-namespace:CRUDWebAPI.View.Teacher"
+            x:Class="CRUDWebAPI.View.Teacher.TabbedPageTeacher"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core" xmlns:tabbedbottom11="clr-namespace:CRUDWebAPI.View"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            NavigationPage.HasNavigationBar="False">
+  <!--Pages can be added as references or inline-->
+    <TabbedPage.Children>
+        <NavigationPage Title="Lớp học" IconImageSource="presentation.png">
+            <x:Arguments>
+                <tabbedbottom1:ListClassTeacher></tabbedbottom1:ListClassTeacher>
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Thông báo" IconImageSource="bell.png">
+            <x:Arguments>
+                <tabbedbottom11:AnnouncePageTeacher></tabbedbottom11:AnnouncePageTeacher>
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Thông tin cá nhân" IconImageSource="user.png">
+            <x:Arguments>
+                <tabbedbottom11:DetailsInfor></tabbedbottom11:DetailsInfor>
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+</TabbedPage>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUDWebAPI.View.Addannounce">
+    
+    <NavigationPage.TitleView>
+        <Label Text="{Binding Tieude}" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="20"/>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="1" Margin="10">
+                <Label Text="Tiêu đề" TextColor="Black" FontSize="Small"/>
+                <Entry Text="{Binding Tieude}" HorizontalOptions="FillAndExpand" Placeholder="Tiêu đề"/>
+
+                <Label Text="Nội Dung" TextColor="Black" FontSize="Small"/>
+                <Entry Text="{Binding NoiDung}" HorizontalOptions="FillAndExpand" Placeholder="Nội dung"/>
+
+                <Button Text="Lưu thông báo" Command="{Binding SaveAnnounce}"/>
+                <Button Text="Xóa thông báo" Command="{Binding DeleteAnnounce}" BackgroundColor="Red" TextColor="White"
+                    IsVisible="{Binding IsVisibleDeleteBtn}"/>
+            </StackLayout>
+
+        </ScrollView>
+
+
+
+    </ContentPage.Content>
+</ContentPage>

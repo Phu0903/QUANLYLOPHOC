@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUDWebAPI.View.AnnouncePageTeacher">
+    <NavigationPage.TitleView>
+        <Label Text="Thông báo" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="20"/>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White" Padding="10">
+
+            <ListView ItemsSource="{Binding Thongbao}" HasUnevenRows="True" IsPullToRefreshEnabled="True"
+                      IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding RefreshData}">
+                <ListView.ItemTemplate >
+                    <DataTemplate>
+                        <ViewCell Height="100">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                </Grid.ColumnDefinitions>
+
+
+                                <Label  Text="{Binding Tieude}" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
+                                <Label Text="{Binding NoiDung}" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2" FontSize="15" TextColor="Black" />
+                                <Label Text="{Binding Time}" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
