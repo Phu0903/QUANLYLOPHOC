@@ -10,6 +10,7 @@
     <StackLayout Margin="0,5,0,0">
        
                     <Frame CornerRadius="2" HasShadow="True" Padding="2" Margin="2">
+                        
                         <Grid Padding="10" HeightRequest="300">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="2*" />
