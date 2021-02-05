@@ -6,7 +6,9 @@
              x:Class="CRUDWebAPI.MainPage">
     <NavigationPage.TitleView>
 
+
         <Label Text="Danh sách sinh viên"  TextColor="White" FontAttributes="Bold" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  FontSize="20"/>
+
     </NavigationPage.TitleView>
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="plus16.png" Command="{Binding AddStudent}"/>

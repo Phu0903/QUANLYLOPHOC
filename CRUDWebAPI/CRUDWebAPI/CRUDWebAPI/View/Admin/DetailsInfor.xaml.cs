@@ -32,8 +32,9 @@ namespace CRUDWebAPI.View
 
         private void Button_Clicked(object sender, EventArgs e)
         {
+
              Navigation.PopModalAsync();
-           // Navigation.PushAsync(new LoginWithSocialIconPage());
+
 
         }
 

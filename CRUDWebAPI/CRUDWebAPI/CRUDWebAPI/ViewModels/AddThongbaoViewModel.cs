@@ -22,7 +22,12 @@ namespace CRUDWebAPI
 
                 Tieude = _thongbao.Tieude;
                 NoiDung = _thongbao.NoiDung;
+                ThongbaoTittle = "Sửa Thông báo";
                 IsVisibleDeleteBtn = true;
+            }
+            else
+            {
+                ThongbaoTittle = "Thêm Thông báo";
             }
         }
 
@@ -133,6 +138,7 @@ namespace CRUDWebAPI
             }
         }
 
+        public string ThongbaoTittle { get; }
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
