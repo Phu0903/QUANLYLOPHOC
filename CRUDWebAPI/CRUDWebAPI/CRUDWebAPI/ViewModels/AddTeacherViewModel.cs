@@ -175,11 +175,11 @@ namespace CRUDWebAPI.ViewModels
                         _teacherInfor.Address = Address;
                         _teacherInfor.PhoneNumber = PhoneNumber;
                         _teacherInfor.BirthDay_Teacher = BirthDay_Teacher;
-                        //_teacherInfor.Chucvu = Chucvu;
+                        _teacherInfor.Chucvu = Chucvu;
                         _teacherInfor.Email = Email;
                         _teacherInfor.Password = Password;
                     }
-                    string url = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/SaveTeacher";
+                    string url = "http://quanlylophoc.somee.com/api/Masters/SaveTeacher";
                     HttpClient client = new HttpClient();
                     string jsonData = JsonConvert.SerializeObject(_teacherInfor);
                     StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
@@ -225,7 +225,7 @@ namespace CRUDWebAPI.ViewModels
                         _teacherInfor.Email = Email;
                         _teacherInfor.Password = Password;
                     }
-                    string url = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/EditTeacher";
+                    string url = "http://quanlylophoc.somee.com/api/Masters/EditTeacher";
                     HttpClient client = new HttpClient();
                     string jsonData = JsonConvert.SerializeObject(_teacherInfor);
                     StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
@@ -249,7 +249,7 @@ namespace CRUDWebAPI.ViewModels
             {
                 return new Command(async () =>
                 {
-                    string url = $"https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/DeleteTeacher?TeacherID={_teacherInfor.ID_Teacher}";
+                    string url = $"http://quanlylophoc.somee.com/api/Masters/DeleteTeacher?TeacherID={_teacherInfor.ID_Teacher}";
                     HttpClient client = new HttpClient();
                     string jsonData = JsonConvert.SerializeObject(_teacherInfor);
                     StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");

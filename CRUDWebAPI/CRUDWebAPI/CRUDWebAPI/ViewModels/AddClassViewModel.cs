@@ -89,7 +89,7 @@ namespace CRUDWebAPI.ViewModels
                         _class.StartDay = StartDay;
                         _class.LeavingDay = LeavingDay;
                     }
-                    string url = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/SaveClass";
+                    string url = "http://quanlylophoc.somee.com/api/Masters/SaveClass";
                     HttpClient client = new HttpClient();
                     string jsonData = JsonConvert.SerializeObject(_class);
                     StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
@@ -123,7 +123,7 @@ namespace CRUDWebAPI.ViewModels
             {
                 return new Command(async () =>
                 {
-                    string url = $"https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/DeleteClass?ClassID={_class.ID_CLass}";
+                    string url = $"http://quanlylophoc.somee.com/api/Masters/DeleteClass?ClassID={_class.ID_CLass}";
                     HttpClient client = new HttpClient();
                     string jsonData = JsonConvert.SerializeObject(_class);
                     StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");

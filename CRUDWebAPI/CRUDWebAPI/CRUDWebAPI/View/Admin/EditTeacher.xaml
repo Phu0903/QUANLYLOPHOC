@@ -37,8 +37,6 @@
                     <Label Text="Ngày sinh: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="3" Padding="0,12,0,0"/>
                     <Entry Text="{Binding BirthDay_Teacher}" HorizontalOptions="FillAndExpand" Placeholder="Ngày sinh" Grid.Column="1" Grid.Row="3"/>
 
-                   
-
                     <Label Text="Password: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="4" Padding="0,12,0,0"/>
                     <Entry Text="{Binding Password}" HorizontalOptions="FillAndExpand" Placeholder="Password" Grid.Column="1" Grid.Row="4"/>
                 </Grid>

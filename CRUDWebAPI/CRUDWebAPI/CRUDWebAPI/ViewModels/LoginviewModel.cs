@@ -21,7 +21,7 @@ namespace CRUDWebAPI
 
             public async Task<bool> checkLogin(string username, string password, string Chucvu)
             {
-                string url = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/UserDetailsLogin/Login?email=" + username.ToString() + "&password=" + password.ToString() + "&chucvu="+Chucvu.ToString();
+                string url = "http://quanlylophoc.somee.com/api/Masters/GetLoginTeacher?email=" + username.ToString() + "&password=" + password.ToString() + "&chucvu="+Chucvu.ToString();
 
                 var httpClient = new HttpClient();
 
@@ -86,12 +86,12 @@ namespace CRUDWebAPI
             if (getLoginDetails)
             {
                
-               if(Chucvu == "Giáo Viên")
+               if(Chucvu == "GiaoVien")
                 {
 
                     await Navigation.PushModalAsync(new TabbedPageTeacher(Username, Password));
                 }   
-                else if (Chucvu == "Quản Lý")
+                else if (Chucvu == "QuanLy")
                 {
                     await Navigation.PushModalAsync(new TabbedPage1(Username,Password));
                 }

@@ -35,7 +35,7 @@ namespace CRUDWebAPI
             using (var client = new HttpClient())
             {
                 // send a GET request  
-                var uri = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/GetTeacherLogin?email=" + email.ToString();
+                var uri = "http://quanlylophoc.somee.com/api/Masters/GetTeacherLogin?email=" + email.ToString();
                 var result = await client.GetStringAsync(uri);
                 var TeacherInfor = JsonConvert.DeserializeObject<List<TeacherInfor>>(result);
                 TeacherInfo = new ObservableCollection<TeacherInfor>(TeacherInfor);

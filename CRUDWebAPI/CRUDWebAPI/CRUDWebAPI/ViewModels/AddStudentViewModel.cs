@@ -64,7 +64,7 @@ namespace CRUDWebAPI
                         _student.Gender = Gender;
 
                     }
-                    string url = " https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/SaveStudent";
+                    string url = "http://quanlylophoc.somee.com/api/Masters/SaveStudent";
                     HttpClient client = new HttpClient();
                     string jsonData = JsonConvert.SerializeObject(_student);
                     StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
@@ -88,7 +88,7 @@ namespace CRUDWebAPI
             {
                 return new Command(async () =>
                 {
-                    string url = $"https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/DeleteStudent?StudentId={_student.ID_Student}";
+                    string url = $"http://quanlylophoc.somee.com/api/Masters/DeleteStudent?StudentId={_student.ID_Student}";
                     HttpClient client = new HttpClient();
                     string jsonData = JsonConvert.SerializeObject(_student);
                     StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");

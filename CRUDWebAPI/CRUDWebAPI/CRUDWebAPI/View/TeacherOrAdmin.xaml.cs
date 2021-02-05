@@ -23,12 +23,12 @@ namespace CRUDWebAPI.View
         private void Button_Clicked_1(object sender, EventArgs e)
         {
             
-            Navigation.PushAsync(new LoginWithSocialIconPage("Giáo Viên"));
+            Navigation.PushAsync(new LoginWithSocialIconPage("GiaoVien"));
         }
         private void Button_Clicked(object sender, EventArgs e)
         {
             
-            Navigation.PushAsync(new LoginWithSocialIconPage("Quản Lý"));
+            Navigation.PushAsync(new LoginWithSocialIconPage("QuanLy"));
         }
         /*private void Button_Clicked(object sender, EventArgs e)
         {
