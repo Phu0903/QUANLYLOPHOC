@@ -138,6 +138,7 @@ namespace CRUDWebAPI
             }
         }
 
+        public string ThongbaoTittle { get; }
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
