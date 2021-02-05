@@ -22,7 +22,12 @@ namespace CRUDWebAPI
 
                 Tieude = _thongbao.Tieude;
                 NoiDung = _thongbao.NoiDung;
+                ThongbaoTittle = "Sửa Thông báo";
                 IsVisibleDeleteBtn = true;
+            }
+            else
+            {
+                ThongbaoTittle = "Thêm Thông báo";
             }
         }
 

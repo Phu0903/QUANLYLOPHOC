@@ -3,11 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
    x:Class="CRUDWebAPI.View.Admin.Addeditclass">
     <NavigationPage.TitleView>
-<<<<<<< HEAD
+
         <Label Text="{Binding ClassTittle}" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="20"/>
-=======
-        <Label Text="{Binding ClassTittle}" TextColor="White" FontAttributes="Bold" Margin="70,0,0,0" FontSize="20"/>
->>>>>>> remotes/origin/master
+
     </NavigationPage.TitleView>
     <ContentPage.Content>
         <ScrollView>

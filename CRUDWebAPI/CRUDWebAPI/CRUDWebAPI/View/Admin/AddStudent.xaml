@@ -4,11 +4,9 @@
              xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
              x:Class="CRUDWebAPI.AddStudent">
     <NavigationPage.TitleView>
-<<<<<<< HEAD
+
         <Label Text="{Binding StudentTittle}" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  FontSize="20"/>
-=======
-        <Label Text="{Binding StudentTittle}" TextColor="White" FontAttributes="Bold" Margin="100,0,0,0"  FontSize="20"/>
->>>>>>> remotes/origin/master
+
     </NavigationPage.TitleView>
     
     <ContentPage.Content>

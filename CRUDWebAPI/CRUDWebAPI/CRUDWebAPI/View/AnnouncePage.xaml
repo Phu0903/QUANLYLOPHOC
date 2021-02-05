@@ -3,11 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CRUDWebAPI.View.AnnouncePage">
     <NavigationPage.TitleView>
-<<<<<<< HEAD
         <Label Text="Thông báo" TextColor="White" FontAttributes="Bold" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="20"/>
-=======
-        <Label Text="Thông báo" TextColor="White" FontAttributes="Bold" Margin="90,0,0,0" FontSize="20"/>
->>>>>>> remotes/origin/master
     </NavigationPage.TitleView>
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="addbell512.png" Command="{Binding AddAnnounce}" />

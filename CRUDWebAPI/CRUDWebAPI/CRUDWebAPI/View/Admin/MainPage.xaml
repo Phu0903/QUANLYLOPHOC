@@ -5,12 +5,10 @@
              xmlns:local="clr-namespace:CRUDWebAPI"
              x:Class="CRUDWebAPI.MainPage">
     <NavigationPage.TitleView>
-<<<<<<< HEAD
+
 
         <Label Text="Danh sách sinh viên"  TextColor="White" FontAttributes="Bold" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  FontSize="20"/>
-=======
-        <Label Text="Danh sách sinh viên"  TextColor="White" FontAttributes="Bold" Margin="40,0,0,0"  FontSize="20"/>
->>>>>>> remotes/origin/master
+
     </NavigationPage.TitleView>
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="plus16.png" Command="{Binding AddStudent}"/>

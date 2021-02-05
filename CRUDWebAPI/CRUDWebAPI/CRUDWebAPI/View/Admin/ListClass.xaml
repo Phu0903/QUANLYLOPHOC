@@ -4,11 +4,7 @@
              xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
              x:Class="CRUDWebAPI.View.ListClass">
     <NavigationPage.TitleView>
-<<<<<<< HEAD
         <Label Text="Danh sách lớp" TextColor="White" FontAttributes="Bold" FontFamily="Montserrat-SemiBold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="20"/>
-=======
-        <Label Text="Danh sách lớp" TextColor="White" FontAttributes="Bold" FontFamily="Montserrat-SemiBold" Margin="120,0,0,0" FontSize="20"/>
->>>>>>> remotes/origin/master
     </NavigationPage.TitleView>
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="plus16.png" Command="{Binding AddClass}"/>
@@ -18,8 +14,8 @@
                                ItemSpacing="5" AutoFitMode="Height"         
                    ItemSize="100">
             <syncfusion:SfListView.ItemTemplate >
-                    <DataTemplate>
-                        <ViewCell Height="120">
+                <DataTemplate>
+                    <ViewCell Height="120">
                         <Frame CornerRadius="2" HasShadow="True" Padding="2" Margin="2">
                             <Grid>
                                 <Grid.RowDefinitions>
@@ -28,11 +24,7 @@
                                     <RowDefinition Height="*"/>
                                     <RowDefinition Height="*"/>
                                     <RowDefinition Height="*"/>
-<<<<<<< HEAD
-                 
-=======
-                                    <RowDefinition Height="*"/>
->>>>>>> remotes/origin/master
+
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
@@ -40,7 +32,7 @@
                                 </Grid.ColumnDefinitions>
 
                                 <Image Source="group.png" Grid.Column="0" Grid.Row="0" Grid.RowSpan="4"/>
-                             
+
                                 <Label Text="{Binding NameClass,StringFormat='Tên Lớp: {0:F0)}'}" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" FontSize="20" TextColor="Black" FontAttributes="Bold"/>
                                 <Label Text="{Binding StartDay,StringFormat='Ngày bắt đầu: {0:F0)}'}" Grid.Column="1" Grid.Row="1"/>
                                 <Label Text="{Binding LeavingDay,StringFormat='Ngày kết thúc: {0:F0)}'}" Grid.Column="1" Grid.Row="2"/>
@@ -48,18 +40,18 @@
                                 <Label Text="{Binding Name_Teacher, StringFormat='Tên Giáo Viên: {0:F0)'}" Grid.Column="1" Grid.Row="4"/>
                             </Grid>
                         </Frame>
-                        </ViewCell>
-                    </DataTemplate>
-                </syncfusion:SfListView.ItemTemplate>
-            </syncfusion:SfListView>
+                    </ViewCell>
+                </DataTemplate>
+            </syncfusion:SfListView.ItemTemplate>
+        </syncfusion:SfListView>
         <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
         </Grid>
     </StackLayout>
-    
+
 
 </ContentPage>
