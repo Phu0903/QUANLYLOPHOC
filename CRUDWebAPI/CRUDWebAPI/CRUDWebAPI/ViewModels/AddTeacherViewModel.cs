@@ -140,7 +140,7 @@ namespace CRUDWebAPI.ViewModels
                 Address = _teacherInfor.Address;
                 PhoneNumber = _teacherInfor.PhoneNumber;
                 BirthDay_Teacher = _teacherInfor.BirthDay_Teacher;
-                Chucvu = _teacherInfor.Chucvu;
+                //Chucvu = _teacherInfor.Chucvu;
                 Email = _teacherInfor.Email;
                 Password = _teacherInfor.Password;
                 IsVisibleDeleteBtn = true;
@@ -164,7 +164,7 @@ namespace CRUDWebAPI.ViewModels
                         _teacherInfor.Address = Address;
                         _teacherInfor.PhoneNumber = PhoneNumber;
                         _teacherInfor.BirthDay_Teacher = BirthDay_Teacher;
-                        _teacherInfor.Chucvu = Chucvu;
+                        //_teacherInfor.Chucvu = Chucvu;
                         _teacherInfor.Email = Email;
                         _teacherInfor.Password = Password;
                     }
@@ -175,7 +175,7 @@ namespace CRUDWebAPI.ViewModels
                         _teacherInfor.Address = Address;
                         _teacherInfor.PhoneNumber = PhoneNumber;
                         _teacherInfor.BirthDay_Teacher = BirthDay_Teacher;
-                        _teacherInfor.Chucvu = Chucvu;
+                        //_teacherInfor.Chucvu = Chucvu;
                         _teacherInfor.Email = Email;
                         _teacherInfor.Password = Password;
                     }

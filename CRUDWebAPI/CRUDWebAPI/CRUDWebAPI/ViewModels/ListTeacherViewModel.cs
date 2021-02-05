@@ -9,6 +9,7 @@ using System.ComponentModel;
 using System.Net.Http;
 using System.Runtime.CompilerServices;
 using System.Text;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace CRUDWebAPI.ViewModels
@@ -22,8 +23,22 @@ namespace CRUDWebAPI.ViewModels
             Navigation = _navigation;
             
         }
-
         public async void GetListTeacher()
+        {
+            string email = Preferences.Get("my_key", "default_value");
+            string password = Preferences.Get("my_key2", "default_value");
+            using (var client = new HttpClient())
+            {
+                // send a GET request  
+                var uri = "https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/GetTeacher?email=" + email.ToString() + "&password=" + password.ToString();
+                var result = await client.GetStringAsync(uri);
+                var TeacherList = JsonConvert.DeserializeObject<List<TeacherInfor>>(result);
+                Listteacher = new ObservableCollection<TeacherInfor>(TeacherList);
+                IsRefreshing = false;
+            }
+        }
+
+        /*public async void GetListTeacher()
         {
             
             using (var client = new HttpClient())
@@ -36,7 +51,7 @@ namespace CRUDWebAPI.ViewModels
                 
                 IsRefreshing = false;
             }
-        }
+        }*/
         bool _isRefreshing;
         public bool IsRefreshing
         {

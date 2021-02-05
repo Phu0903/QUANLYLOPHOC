@@ -19,8 +19,6 @@ namespace CRUDWebAPI.View.Admin
             BindingContext = new AddTeacherViewModel(Navigation, teacherInfor);
 
 
-            MainPicker.Items.Add("Giáo viên");
-            MainPicker.Items.Add("Quản lý");
 
 
         }
