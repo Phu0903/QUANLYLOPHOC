@@ -4,7 +4,7 @@
              x:Class="CRUDWebAPI.View.Admin.EditTeacher">
     <NavigationPage.TitleView>
         <Label Text="{Binding TeacherTittle}" 
-               TextColor="White" FontAttributes="Bold" Margin="90,0,0,0"  FontSize="20"/>
+             TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="20"/>
     </NavigationPage.TitleView>
 
     <ContentPage.Content>
@@ -18,7 +18,7 @@
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
+                      
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
@@ -37,11 +37,10 @@
                     <Label Text="Ngày sinh: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="3" Padding="0,12,0,0"/>
                     <Entry Text="{Binding BirthDay_Teacher}" HorizontalOptions="FillAndExpand" Placeholder="Ngày sinh" Grid.Column="1" Grid.Row="3"/>
 
-                    <Label Text="Chức vụ: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="4" Padding="0,12,0,0"/>
-                    <Entry Text="Quản Lý" HorizontalOptions="FillAndExpand" Placeholder="Chức vụ" Grid.Column="1" Grid.Row="4"/>
+                   
 
-                    <Label Text="Password: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="5" Padding="0,12,0,0"/>
-                    <Entry Text="{Binding Password}" HorizontalOptions="FillAndExpand" Placeholder="Password" Grid.Column="1" Grid.Row="5"/>
+                    <Label Text="Password: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="4" Padding="0,12,0,0"/>
+                    <Entry Text="{Binding Password}" HorizontalOptions="FillAndExpand" Placeholder="Password" Grid.Column="1" Grid.Row="4"/>
                 </Grid>
                 <Grid>
                     <Grid.ColumnDefinitions>

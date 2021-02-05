@@ -5,7 +5,7 @@
              x:Class="CRUDWebAPI.View.Admin.DetaiinforTeacher">
 
     <NavigationPage.TitleView>
-        <Label Text="Thông tin giáo viên" TextColor="White" FontAttributes="Bold" Margin="90,0,0,0" FontSize="20"/>
+        <Label Text="Thông tin giáo viên" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="20"/>
     </NavigationPage.TitleView>
     <StackLayout Margin="0,5,0,0">
 
@@ -22,7 +22,7 @@
                     <RowDefinition Height="*"/>
 
                 </Grid.RowDefinitions>
-<<<<<<< HEAD
+
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="2*"/>
@@ -39,24 +39,7 @@
                 <Button ImageSource="pen.png" Command="{Binding EditTeacher}" FontSize="20" Grid.Column="2" Grid.Row="0" Padding="5,5,5,5"
                         TextColor="White" BackgroundColor="White"
                         />
-=======
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="2*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-                <Image Source="phu.jpg" Grid.Column="0" Grid.RowSpan="3" Grid.Row="0"/>
-                <Label Text="{Binding Name_Teacher}" FontAttributes="Bold" TextColor="Teal" FontSize="21" Grid.Column="1" Grid.Row="0"/>
-                <Label Text="{Binding PhoneNumber}" Grid.Row="1" Grid.Column="1"  TextColor="Teal" FontSize="15"/>
-                <Label Text="{Binding Chucvu}"  Grid.Row="2" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
-                <Label Text="{Binding Email}" Grid.Row="3" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
-                <Label Text="{Binding Password}" Grid.Row="4" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
-                <Label Text="{Binding BirthDay_Teacher}" Grid.Row="5" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
-                <Label Text="{Binding Address}" Grid.Row="6" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
-                <Button Text="Edit" Command="{Binding EditTeacher}" FontSize="20" Grid.Column="2" Grid.Row="0" Padding="5,5,5,5"
-                        TextColor="White" 
-                        BackgroundColor="Green"/>
->>>>>>> d93fd0a63be1d4f7185bb8779d13170cc24372c1
+
 
 
             </Grid>

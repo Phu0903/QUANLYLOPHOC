@@ -5,7 +5,7 @@
              x:Class="CRUDWebAPI.View.Teacher.ListStudent">
     <NavigationPage.TitleView>
 
-        <Label Text="Danh sách sinh viên" TextColor="White" FontAttributes="Bold" Margin="100,0,0,0"  FontSize="20"/>
+        <Label Text="Danh sách sinh viên" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="20"/>
 
     </NavigationPage.TitleView>
     <StackLayout>
