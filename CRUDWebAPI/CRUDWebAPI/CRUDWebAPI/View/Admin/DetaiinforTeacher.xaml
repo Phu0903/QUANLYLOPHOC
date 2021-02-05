@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms" xmlns:autocomplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
              x:Class="CRUDWebAPI.View.Admin.DetaiinforTeacher">
+<<<<<<< HEAD
 
     <NavigationPage.TitleView>
         <Label Text="Thông tin giáo viên" TextColor="White" FontAttributes="Bold" Margin="90,0,0,0" FontSize="20"/>
@@ -15,19 +16,38 @@
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="2*" />
                                 <RowDefinition Height="*" />
+=======
+   
+    
+    <StackLayout Margin="0,5,0,0">
+       
+                    <Frame CornerRadius="2" HasShadow="True" Padding="2" Margin="2">
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*"/>
+>>>>>>> remotes/origin/master
                                 <RowDefinition Height="*"/>
                                 <RowDefinition Height="*"/>
                                 <RowDefinition Height="*"/>
                                 <RowDefinition Height="*"/>
                                 <RowDefinition Height="*"/>
+<<<<<<< HEAD
                     
+=======
+>>>>>>> remotes/origin/master
                 </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="2*"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
+<<<<<<< HEAD
                             <Image Source="phu.jpg" Grid.Column="0" Grid.RowSpan="3" Grid.Row="0"/>
+=======
+                            <Image Source="phu.jpg" Grid.Column="0" Grid.RowSpan="3"/>
+>>>>>>> remotes/origin/master
                             <Label Text="{Binding Name_Teacher}" FontAttributes="Bold" TextColor="Teal" FontSize="21" Grid.Column="1" Grid.Row="0"/>
                             <Label Text="{Binding PhoneNumber}" Grid.Row="1" Grid.Column="1"  TextColor="Teal" FontSize="15"/>
                             <Label Text="{Binding Chucvu}"  Grid.Row="2" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
@@ -35,7 +55,11 @@
                             <Label Text="{Binding Password}" Grid.Row="4" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
                             <Label Text="{Binding BirthDay_Teacher}" Grid.Row="5" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
                             <Label Text="{Binding Address}" Grid.Row="6" Grid.Column="1" TextColor="Teal" FontSize="15"></Label>
+<<<<<<< HEAD
                 <Button Text="Edit" Command="{Binding EditTeacher}" FontSize="20" Grid.Column="2" Grid.Row="0" Padding="5,5,5,5"
+=======
+                <Button Text="Edit" Command="{Binding EditTeacher}" FontSize="20" Grid.Column="2" 
+>>>>>>> remotes/origin/master
                         TextColor="White" 
                         BackgroundColor="Green"/>
 

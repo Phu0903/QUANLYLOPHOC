@@ -4,7 +4,11 @@
              xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
              x:Class="CRUDWebAPI.View.ListClass">
     <NavigationPage.TitleView>
+<<<<<<< HEAD
         <Label Text="Danh sách lớp" TextColor="White" FontAttributes="Bold" FontFamily="Montserrat-SemiBold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="20"/>
+=======
+        <Label Text="Danh sách lớp" TextColor="White" FontAttributes="Bold" FontFamily="Montserrat-SemiBold" Margin="120,0,0,0" FontSize="20"/>
+>>>>>>> remotes/origin/master
     </NavigationPage.TitleView>
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="plus16.png" Command="{Binding AddClass}"/>
@@ -24,7 +28,11 @@
                                     <RowDefinition Height="*"/>
                                     <RowDefinition Height="*"/>
                                     <RowDefinition Height="*"/>
+<<<<<<< HEAD
                  
+=======
+                                    <RowDefinition Height="*"/>
+>>>>>>> remotes/origin/master
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>

@@ -7,7 +7,11 @@
         <ToolbarItem IconImageSource="plus16.png" Command="{Binding AddTeacher}"/>
     </ContentPage.ToolbarItems>
     <NavigationPage.TitleView>
+<<<<<<< HEAD
         <Label Text="Danh giáo viên" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="20"/>
+=======
+        <Label Text="Danh giáo viên" TextColor="White" FontAttributes="Bold" Margin="170,0,0,0" FontSize="20"/>
+>>>>>>> remotes/origin/master
     </NavigationPage.TitleView>
     <StackLayout Margin="0,5,0,0">
         <syncfusion:SfListView ItemsSource="{Binding Listteacher}" ItemSpacing="5,0,5,0" AutoFitMode="Height"         
