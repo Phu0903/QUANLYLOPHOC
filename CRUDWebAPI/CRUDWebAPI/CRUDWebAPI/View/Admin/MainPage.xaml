@@ -18,8 +18,7 @@
                     <ViewCell Height="120">
                         <Frame CornerRadius="2" HasShadow="True" Padding="2" Margin="2">
                             <StackLayout Padding="10">
-                                <Label Text="{Binding ID_Student,StringFormat='ID: {0:F0)}'}" TextColor="Black"  
-                                   FontAttributes="Bold" FontSize="Medium"/>
+                                
                                 <Label Text="{Binding Name,StringFormat='Tên: {0:F0)}'}" TextColor="Black"  
                                    FontAttributes="Bold" FontSize="Medium"/>
                                 <Label Text="{Binding Address,StringFormat='Địa chỉ: {0:F0)}'}" TextColor="Blue"  FontSize="Medium"/>
