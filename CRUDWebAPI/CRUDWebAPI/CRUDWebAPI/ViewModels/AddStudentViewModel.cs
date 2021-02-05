@@ -11,15 +11,15 @@ namespace CRUDWebAPI
 {
     class AddStudentViewModel : INotifyPropertyChanged
     {
-        public INavigation Navigation { get; set;}
+        public INavigation Navigation { get; set; }
         Student _student;
-        public AddStudentViewModel(INavigation _navigation,Student student)
+        public AddStudentViewModel(INavigation _navigation, Student student)
         {
             Navigation = _navigation;
             _student = student;
             if (_student != null)
             {
-               
+
                 Name = _student.Name;
                 Phone = _student.PhoneNumber;
                 Address = _student.Address;
@@ -42,7 +42,7 @@ namespace CRUDWebAPI
             {
                 return new Command(async () =>
                 {
-                    if(_student != null)
+                    if (_student != null)
                     {
                         _student.Name = Name;
                         _student.Address = Address;
@@ -62,8 +62,8 @@ namespace CRUDWebAPI
                         _student.ID_Class = NameClass;
                         _student.RegisterDay = RegisterDay;
                         _student.Gender = Gender;
-                    
-                    }                    
+
+                    }
                     string url = " https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/SaveStudent";
                     HttpClient client = new HttpClient();
                     string jsonData = JsonConvert.SerializeObject(_student);
@@ -88,7 +88,7 @@ namespace CRUDWebAPI
             {
                 return new Command(async () =>
                 {
-                    string url = $"https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/DeleteStudent?StudentId={_student.Id}";
+                    string url = $"https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/DeleteStudent?StudentId={_student.ID_Student}";
                     HttpClient client = new HttpClient();
                     string jsonData = JsonConvert.SerializeObject(_student);
                     StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
@@ -163,7 +163,7 @@ namespace CRUDWebAPI
             }
             set
             {
-                if(value!=null)
+                if (value != null)
                 {
                     _phone = value;
                     OnPropertyChanged();
@@ -188,26 +188,30 @@ namespace CRUDWebAPI
         }
         string _NameClass;
         public string NameClass
-        { get {
+        {
+            get
+            {
                 return _NameClass;
             }
             set
             {
-                if(value!=null)
+                if (value != null)
                 {
-                    _NameClass= value;
+                    _NameClass = value;
                     OnPropertyChanged();
                 }
             }
-         }
+        }
         string _RegisterDay;
-        public string RegisterDay { get
+        public string RegisterDay
+        {
+            get
             {
                 return _RegisterDay;
             }
             set
             {
-                if(value!=null)
+                if (value != null)
                 {
                     _RegisterDay = value;
                     OnPropertyChanged();
@@ -215,23 +219,27 @@ namespace CRUDWebAPI
             }
         }
         string _Gender;
-        public string Gender { get {
+        public string Gender
+        {
+            get
+            {
                 return _Gender;
             }
             set
             {
-                if(value != null){
+                if (value != null)
+                {
                     _Gender = value;
                     OnPropertyChanged();
                 }
             }
-        
+
         }
 
         public string StudentTittle { get; }
 
         public event PropertyChangedEventHandler PropertyChanged;
-        protected virtual void OnPropertyChanged([CallerMemberName]string propertyName = null)
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }

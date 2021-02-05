@@ -35,11 +35,8 @@
                     <Entry Text="{Binding Phone}" HorizontalOptions="FillAndExpand" Placeholder="Điện thoại" Grid.Column="1" Grid.Row="2"/>
 
                     <Label Text="Mã lớp: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="3" Padding="0,12,0,0"/>
-                    <Entry Text="{Binding ID_Class}" HorizontalOptions="FillAndExpand" Placeholder="Mã lớp" Grid.Column="1" Grid.Row="3"/>
+                    <Entry Text="{Binding NameClass}" HorizontalOptions="FillAndExpand" Placeholder="Mã lớp" Grid.Column="1" Grid.Row="3"/>
 
-                    <!--<Label Text="Ngày sinh: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="4" Padding="0,12,0,0"/>
-                    <DatePicker ="{Binding Birthday}"  Grid.Column="1" Grid.Row="4" />-->
-                    
                     <Label Text="Ngày sinh: " TextColor="Black" FontSize="20" Grid.Column="0" Grid.Row="4" Padding="0,12,0,0"/>
                     <Entry Text="{Binding Birthday}" HorizontalOptions="FillAndExpand" Placeholder="Sinh nhật" Grid.Column="1" Grid.Row="4"/>
 

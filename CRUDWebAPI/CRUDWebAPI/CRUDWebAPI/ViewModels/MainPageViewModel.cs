@@ -8,6 +8,7 @@ using System.ComponentModel;
 using System.Net.Http;
 using System.Runtime.CompilerServices;
 using System.Text;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace CRUDWebAPI.ViewModels
@@ -27,6 +28,7 @@ namespace CRUDWebAPI.ViewModels
         public async void GetStudents()
         {
             var temp = _classStudent.ID_CLass;
+            //Preferences.Set("my_key9", temp);
             using (var client = new HttpClient())
             {
                 // send a GET request  
