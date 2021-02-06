@@ -72,7 +72,7 @@ namespace CRUDWebAPI
             {
                 return new Command(async () =>
                 {
-                    string url = $"https://xamarinwebapi-gj0.conveyor.cloud/api/Masters/DeleteThongbao?ThongbaoId={_thongbao.Id_thongbao}";
+                    string url = $"http://quanlylophoc.somee.com/api/Masters/DeleteThongbao?ThongbaoId={_thongbao.Id_thongbao}";
                     HttpClient client = new HttpClient();
                     string jsonData = JsonConvert.SerializeObject(_thongbao);
                     StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
