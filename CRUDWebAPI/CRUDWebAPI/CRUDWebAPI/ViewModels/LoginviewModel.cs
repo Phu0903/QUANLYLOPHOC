@@ -26,8 +26,17 @@ namespace CRUDWebAPI
                 var httpClient = new HttpClient();
 
                 var response = await httpClient.GetAsync(url);
-
-                return response.IsSuccessStatusCode;
+                string htmltext = await response.Content.ReadAsStringAsync();
+                if(htmltext.Length < 10)
+                {
+                    return false;
+                }
+                else
+                {
+                    // return response.IsSuccessStatusCode;
+                    return true;
+                }    
+                
             }
         }
         public class LoginService
@@ -83,7 +92,7 @@ namespace CRUDWebAPI
             LoginService services = new LoginService();
             var getLoginDetails = await services.CheckLoginIfExists(Username, Password, Chucvu);
 
-            if (getLoginDetails)
+            if (getLoginDetails == true)
             {
                
                if(Chucvu == "GiaoVien")
